@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<title>The FreeSpace Oracle</title>
+</head>
+<body alink="LIMEGREEN" bgcolor="LIGHTSTEELBLUE" link="DARKBLUE"
+vlink="DARKRED">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td><img src="FAQ-Images/Oracle.gif"></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr valign="top">
+<td>
+<table width="200">
+<tbody>
+<tr>
+<td>
+<ul>
+<li><a href="intro.html">Home</a></li>
+<li><a href="general.html">General Questions</a></li>
+<li><a href="fred.html">FRED Questions</a></li>
+<ul><font size="-1">
+<li><a href="fredretail.html">Retail
+Help</a></li>
+<li><a href="fredretailtech.html">Retail Tech Help</a></li>
+<li><a href="fredopen.html">FRED_Open Help</a></li>
+<li><a href="fredopentech.html">FRED_Open Tech Help</a></li>
+<li><a href="fredcommonmistakes.html">Common Mistakes</a></li>
+<li><a href="fredcookbook.html">FRED Cookbook</a></li>
+</font></ul>
+</li>
+<li><a href="gameplay.html">Gameplay Questions</a></li>
+<li><a href="installing.html">Installing FreeSpace</a></li>
+<ul><font size="-1">
+<li><a href="installingfs2.html">Installing
+FS2</a></li>
+<li><a href="installingfs2_open.html">Installing
+FS2_Open</a></li>
+<li><a href="installingmods.html">Installing Mods</a></li>
+</font></ul>
+</li>
+<li><a href="technical.html">Technical Problems</a></li>
+<ul><font size="-1">
+<li><a href="fs1-technical.html">FreeSpace
+1</a></li>
+<li><a href="fs2-technical.html">FreeSpace 2</a></li>
+<li><a href="fs2_open-technical.html">SCP</a></li>
+<li><a href="movies.html">Cutscenes</a></li>
+</font></ul>
+</li>
+<li><a href="storyline.html">Storyline Questions</a></li>
+<li><a href="modding.html">Modding Questions</a></li>
+<li><a href="shipmods.html">Turreting Tutorial</a></li>
+<li><a href="glossary.html">Glossary</a></li>
+<li><a href="downloads.html">Downloads</a></li>
+<li><a href="tools.html">FreeSpace Tools</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+
+      <a name="Top"></a>
+<H1>Installing mods on FS2_Open</H1> 
+
+  
+<p></p><A HREF="#clean">I've just installed FS2_Open and I want to install a mod.</A><BR>	 
+<A HREF="#upgrade">I've got mods on my FS2_Open install and I want to install another mod.</A><BR>	 
+<A HREF="#multimod">I want to install a mod that uses components of another mods.</A><BR>	  
+						
+						   									  
+<P><A Name="clean"></A>
+<H2>I've just installed FS2_Open and I want to install a mod.</H2>	  
+
+Be very wary of what the readmes that come with mods tell you to do. Many mods were written for FS2, before FS2_Open had its new mod managing features or by people only vaguely aware of what they do. For this reason I'll give you a golden rule.<br>
+<p><div style="text-align: center"><i><b>NEVER install anything to Freespace2\Data regardless of what the instructions say.</b></i></div>
+<p>If you are following this guide there is no reason to install there. Installing to that folder means that FS2 retail and multiplayer will load the mod and probably break. The only exception is if you <i>want</i> the mod to work on multiplayer or retail. For instance if you have downloaded the validated multiplayer missions then there is no harm in placing them there as you want retail multiplayer to be able to access them. However you must take great care when doing this. Any problems you experience later could very easily be due to you installing a retail mod and then forgetting you did it. Since FS2_Open will run the vast majority of retail mods you're probably better off simply installing the mod for FS2_Open.<br>
+					 
+<P>Okay. Now that the warnings are over lets get on with the actual install. 
+<ol>
+	<li><b>Check you actually need to listen to me</b> - Have a look in the mod for a file called <i>mod.ini</i>. If you find this simply follow the instructions in the mod. Any mod shipping with this file is newer than this guide and installation will probably consist of nothing more than putting the mods folder inside your Freespace2 folder. You can follow the instructions in the mod and skip straight to the running the mod section of this guide.</li>
+	<li><b>Create a folder for the install</b> - Make a folder within your <i>main Freespace2 folder</i>. Make sure that this folder has no spaces and no hyphens. Apart from that you can call the folder anything. The mod's name is generally the best thing to use.</li>
+	<li><b>Install any VP files</b> - If the mod has any VP files stick them straight into the new folder you created.</li>
+	<li><b>Install any data files</b> - If the mod has any other files then make a new folder called data inside the mod folder you just created. Follow the instructions using this new Data folder as if it were <i>Freespace2\Data</i> (i.e if told to stick a file in <i>Freespace2\Data\Tables</i> you stick it in F<i>reespace2\ModName\Data\Tables</i>). </li>
+  	<li><b>Add a mod.ini if required</b> - The last step is only required if you want the mod to be able to access the media VP files. For most FS2 based mods this will be true as you will want them to use the high-poly ships and better textures in the media VPs. Download <a href="Downloads/modini.rar">this</a> file and unpack it in the mods folder. This file tells FS2 to look for a folder called mediavps in the main Freespace2 folder. If you recall this is exactly where we put the media VPs. </li>
+</ol>
+	 
+<H3>Running the mod</H3>	
+
+Run the launcher, click on mod, select the new folder and you're ready to play. 
+
+
+<P><A Name="upgrade"></A>
+<H2>I've got mods on my FS2_Open install and I want to install another mod.</H2>	
+
+If you followed my guide previously and you're just installing another mod simply follow the instructions I gave above again with a different folder name. If you do things that way there is no limit to the number of mods you can have installed at one time.<br>
+If on the other hand you've followed advice from elsewhere or just "used the force" when installing it's probably best that you get everything in the right place before trying to install anything else. <br>	 
+<ol>   
+	<li><b>Check the path to your FreeSpace 2 folder</b> - The path to your folder can not contain a space. <i>C:\Program Files\FreeSpace2\</i> won't work. Move your entire Freespace2 folder to <i>C:Games\Freespace2</i> or something (note that you will have to move the folder back if you every try to uninstall the game). 
+	<li><b>Check the media VPs</b> - If you don't already have a folder called <i>mediavps</i> in your main Freespace2 folder then create it now. Place all the media VP files you have in it (they'll be in your main FS folder and start with "<i>mv_</i>")</li>  
+	<li><b>Check your data folder</b> - Only your <i>Freespace2\Data\Players</i> and <i>Freespace2\Data\freddocs</i> folders should contain anything. The data folder itself shouldn't contain anything except files ending in .log and\or .cfg. Anything else should be deleted or moved outside your Freespace2 folder.</li>
+	<li><b>Check your main FreeSpace 2 folder</b> - You shouldn't have anything in that folder now that ends in .vp or .tbl. except for the VPs you can see in this picture. 
+</ol>
+<P><div style="text-align: center"><img src="FAQ-Images/Installing/CleanInstall.jpg" border="0" align="middle"></div><br clear="all"> 
+
+You can now follow the instructions <A HREF="#clean">here</A> to install your mod. 	 
+
+			  
+<P><A Name="multimod"></A>
+<H2>I want to install a mod that uses components of another mods.</H2>	 
+
+Some mods will tell you that they need the FS1 port or Inferno or some other mod installed for them to work. The first thing to check is if the mod includes a mod.ini file. If it does it makes things much easier. 
+
+<H3>With a mod.ini</H3>
+
+Installing the mod itself if it has a mod.ini should be no more difficult than extracting its folder to your Freespace2 folder. You'll then need to make sure the name you've given to the folder of the other mod it needs is the same as it is expecting it to be. <br>
+Suppose the mod I'd downloaded need to use files from Inferno and The FS1 Port. The readme with the mod should simply tell me to rename the folder I've installed Inferno in to inferno and to rename the ports folder to fs1port. If the readme fails to tell you the names of the folders you need you can simply open up the mod.ini file in notepad and look for this line. <br> 
+						 
+<P>[multimod] <br>
+secondarylist = fs1port,inferno,mediavps; <br>		 
+
+<p>The names of the folders you need are quite clear. 
+
+<H3>Without a mod.ini</H3>
+
+If the mod doesn't come with a mod.ini file you'll need to get one. This means that you need to install the mod and the mod.ini file following the instructions given <A HREF="#clean">here</A>.<br>
+Next open up the mod.ini file in notepad and look for this line. <br>
+
+<P>[multimod] <br>
+secondarylist = mediavps; <br>
+
+<P> You then have to change it to this <br>	  
+						
+<P>[multimod] <br>
+secondarylist = moddir,mediavps; <br>	
+
+<P>where moddir is the name of the folder where you've installed the other mod the one you're installing uses. For instance if I have a campaign that uses the Inferno mod (which I've installed to a folder called inferno) the entry would look like this 
+
+<P>[multimod] <br>
+secondarylist = inferno,mediavps; <br>	
+
+<p>If the campaign uses several other mods that can be done too like this 
+
+<P>[multimod] <br>
+secondarylist = fs1port,inferno,bwo,mediavps; <br>	
+
+<P>As soon as you have more than one folder named in the mod.ini you create an order of precedence running left to right. In this case any file in the FS1 port will override a file with the same name in Inferno which in turn will override any file with the same name in BWO etc. 
+
+				   						
+		   
+<div style="text-align: center"><P><font size="+1"><a href="installingfs2_open.html">Previous:FS2_Open</a></font>
+<font size="+2"><a href="installing.html">Home</a></font> </div>
+   
+		
+</TD></TR>
+
+</TABLE>
+</body>
+</html>
+
+

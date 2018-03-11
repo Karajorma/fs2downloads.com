@@ -1,0 +1,552 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<!-- Mirrored from fs2downloads.com/freddocs/toolbar.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:47:45 GMT -->
+<head>
+<title>Using FRED2: The Toolbar</title>
+<map name="menu">
+	<area shape="RECT" coords="5,12,106,24" href="index.html">
+	<area shape="RECT" coords="5,24,106,36" href="quickstart.html">
+	<area shape="RECT" coords="5,36,106,48" href="concepts.html">
+	<area shape="RECT" coords="5,48,106,60" href="toolbar.html">
+	<area shape="RECT" coords="5,60,106,72" href="menus.html">
+	<area shape="RECT" coords="5,72,106,84" href="walkthrough.html">
+	<area shape="RECT" coords="5,84,106,96" href="editors.html">
+	<area shape="RECT" coords="5,96,106,108" href="sexp.html">
+	<area shape="RECT" coords="5,108,106,120" href="internet.html">
+	<area shape="RECT" coords="5,120,106,132" href="index-no-really.html">
+</map>	
+<link href="fred2.css" rel="STYLESHEET" type="text/css">
+</head>
+
+<body bgcolor=white background="nacbkg1.gif">
+<table width="672" cellpadding=0 cellspacing=0>
+	<tr>
+		<td width="80">&nbsp;</td>
+		<td width="580"><img src="nactitle1.jpg" width=580 height=95 alt="" border="0"><br></td>
+	</tr>
+</table>
+<table width="672" cellpadding=0 cellspacing=0>	
+	<tr>
+		<td width="111" valign="top"><img src="nacmenu1.gif" width=111 height=142 alt="" border="0" usemap="#menu"></td>
+		<td width="561" valign="top">
+		
+<!--- START DRAKE STUFF --->
+					<table width = 100% cellpadding=10>
+					  <tr>
+					    <td colspan=2>
+					    <h1>The Toolbar</h1>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    This file explains the row of controls near the top of the
+					    screen.  There are over a dozen, but don't worry about
+					    memorizing them;  holding the mouse pointer over any control for a
+					    second or so will show the name and hotkey for that control.
+					    <p>
+					    The sections of this file are:
+					    <ul>
+					      <li> <a href=#drag>Mouse Drag Mode</a>
+					      <li> <a href=#rotate-locally>Rotate Locally</a>
+					      <li> <a href=#axis-constraints>Axis Constraints</a>
+					      <li> <a href=#select-list>Select List</a>
+					      <li> <a href=#selection-lock>Selection Lock</a>
+					      <li> <a href=#form-disband-wing>Form / Dispand Wing</a>
+					      <li> <a href=#zoom>Zoom</a>
+					      <li> <a href=#show-distances>Show Distances</a>
+					      <li> <a href=#rotate-around-object>Rotate Around Object</a>
+					      <li> <a href=#selection-box>Selection Box</a>
+					    </ul>
+						</div>
+					</td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=drag></a>
+					  <h2>Mouse Drag Mode</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <img src=mouse-drag-mode.gif><p>
+					  <div class="copy">
+					  These three buttons determine what happens when you drag an object
+					  with the mouse.  Only one of them can be pressed at a time.
+					  <p>
+					  If the first button (<b>Select</b>) is pressed, dragging the mouse
+					  has no effect.  This is a good choice when you've got all of your
+					  ships right where you want them, and don't want to accidentally move
+					  something.
+					  <p>
+					  The second button (<b>Select and Move</b>) is pressed by default.
+					  This lets you move objects by dragging them with the mouse.
+					  <p>
+					  The third button (<b>Select and Rotate</b>) lets you rotate objects
+					  without changing their position.  The direction of rotation depends
+					  on the <a href=#axis-constraints>Axis Constraints</a>.
+					  <p>
+					  The speed of movement and rotation is controlled by the <a
+					  href=menus.html#speed>Speed Menu</a>.
+					  </div>
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=rotate-locally></a>
+					  <h2>Rotate Locally</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <img src=rotate-locally.gif><p>
+					  <div class="copy">
+					  This button determines what happens if you rotate several marked
+					  objects.  When it is not pressed, the entire group rotates, as if
+					  they were connected to each other by invisible sticks.  When it is
+					  pressed, each object rotates without changing its position, sort of
+					  like a marching band turning a corner.
+					  <p>
+					  The picture below shows three groups of GTC Fenrises.  The group on
+					  the left has been rotated non-locally, while the group on the
+					  right has been rotated locally.
+					  <p>
+					  <img src=rotate-locally-example.gif>
+					  <br clear=all>
+					  </div>
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=axis-constraints></a>
+					  <h2>Axis Constraints</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  <img src=axis-constraints.gif><p>
+					  FreeSpace 2 missions take place in three-dimensional space, but the
+					  mouse can only control two dimensions at a time.  These buttons
+					  determine which dimensions objects move along when you drag them with
+					  the mouse.  For example, if <b>X</b> is pressed, you can drag a ship
+					  along the <b>X</b> axis, but its <b>Y</b> and <b>Z</b> positions
+					  will not change.
+					  <p>
+					  If you have the <a href=#mouse-drag-mode>Mouse Drag Mode</a> set to
+					  <b>Select and Rotate</b>, the axis constraints refer to the axes
+					  <i>relative to the object in 
+					  question</i>, not the normal location axes.  Rotating around the <b>X</b>
+					  axis is pitching up and down, rotating around the <b>Y</b> axis is yawing
+					  left and right, and rotating around the <b>Z</b> axis is rolling
+					  left and right.
+					  </div>
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=select-list></a>
+					  <h2>Select List</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <img src=select-list.gif><p>
+					  <div class="copy">
+					  This button lets
+					  you change which objects are marked.  When you have dozens of
+					  objects in your mission, this can be easier than marking things
+					  with the mouse.
+					  <br clear=all>
+					  <p>
+					  When pressed, this button pops up a dialog box.  All objects in the
+					  mission are listed in the upper left.  Click on an object's name to
+					  highlight it, and ctrl click to highlight additional objects.
+					  <p>
+					  <img src=ship-selection-dialog.gif><p>
+					  You can filter out various 
+					  kinds of objects by unchecking the boxes in the upper right.
+					  (<b>Player Starting Points</b> are ships flown by players.)
+					  <p>
+					  The <b>All</b> button highlights everying.  <b>Clear</b> removes all
+					  highlighting.  <b>Invert</b> highlights all of the unhighlighted
+					  objects, and vice versa.
+					  <p>
+					  The box in the lower left lists wings and waypoint paths.  Click on one to
+					  highlight all of the objects in that group.
+					  <p>
+					  Close the dialog box with <b>Okay</b> to mark the highlighted
+					  objects (and unmark everything else), or <b>Cancel</b> to discard
+					  your changes.
+					  <br clear=all>
+					  </div>
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=selection-lock></a>
+					  <h2>Selection Lock</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <img src=selection-lock.gif><p>
+					  <div class="copy">
+					  When this button is pressed, clicking with the mouse does not change
+					  what is marked.  Instead, it acts as if you dragged the currently marked
+					  objects to the spot where you clicked.
+					  <br clear=all>
+					  </div>
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=form-disband-wing></a>
+					  <h2>Form / Disband Wing</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <img src=form-disband-wing.gif align=right hspace=10>
+					  <p>
+					  <div class="copy">
+					  These buttons let you group ships (usually fighters) into wings, or
+					  break up those wings.
+					  <p>
+					  The <b>Form Wing</b> button puts all of the marked ships into a
+					  wing.  It pops up a dialog box asking for the name of the new wing.
+					  If some of the
+					  marked ships are already in a wing, you will be given the
+					  opportunity to reform that wing, that is, redefine it to consist of the
+					  currently marked ships.  When ships are grouped into a wing, their
+					  names are changed to reflect this.
+					  <p>
+					  <b>Disband Wing</b> breaks up the marked wing.  The ships remain
+					  where they are.
+					  <p>
+					  You can put as many as six ships in a wing.  If a fighter or bomber
+					  wing is going to show up in the player's HUD, it can have at most
+					  four ships.
+					  <p>
+					  The HUD wingmen status guage only supports Alpha, Beta, Gamma,
+					  Delta, and Epsilon wings.  For a single-player mission, the player
+					  must be Alpha 1.  You can't have a Gamma wing without a Beta wing,
+					  and none of the first three can be reinforcements.
+					  <p>
+					  For cooperative multiplayer missions, the players
+					  must be in Alpha, Beta, and Gamma wings.  For team vs. team
+					  multiplayer missions, the players must be in Alpha and Zeta wings.
+					  <p>
+					  Ships in a wing want to stay together, and want to be in particular
+					  positions within the wing.  If you place them differently, they may
+					  crash into each other while maneuvering into place at the beginning
+					  of the mission.  The picture
+					  below shows the standard positions of the ships within a wing.
+					  <p>
+					  <img src=wing-positions.gif>
+					  <br clear=all>
+					  <p>
+					  Standard wing names are:
+					  <p>
+					  </div>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left colspan=2>Friendly</th>
+					      <th align=left>Enemy</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>
+					      Alpha<br>
+					      Beta<br>
+					      Gamma<br>
+					      Delta<br>
+					      Epsilon<br>
+					      Zeta<br>
+					      Eta<br>
+					      Theta<br>
+					      Iota<br>
+					      Kappa<br>
+					      Lambda<br>
+					      Mu<br>
+					      </td>
+					      <td valign=top>
+					      Nu<br>
+					      Xi<br>
+					      Omicron<br>
+					      Pi<br>
+					      Rho<br>
+					      Sigma<br>
+					      Tau<br>
+					      Upsilon<br>
+					      Phi<br>
+					      Chi<br>
+					      Psi<br>
+					      Omega
+					      </td>
+					      <td valign=top>
+					      Cancer<br>
+					      Leo<br>
+					      Virgo<br>
+					      Libra<br>
+					      Scorpio<br>
+					      Sagittarius<br>
+					      Capricorn<br>
+					      Aquarius<br>
+					      Pisces<br>
+					      Aries<br>
+					      Taurus<br>
+					      Gemini
+					      </td>
+					    </tr>
+					</table>
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=zoom></a>
+					  <h2>Zoom</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <img src=zoom.gif><p>
+					  <div class="copy">
+					  These buttons let you zoom in or out to see just the things you
+					  want.  Of course, you can also move the camera manually.
+					  <p>
+					  <b>Zoom Selected</b> moves the camera forward or back so that the
+					  marked objects are all visible.
+					  <p>
+					  <b>Zoom Extents</b> moves the camera forward or back so that all
+					  objects in the mission are visible.
+					  <br clear=all>
+					  </div>
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=show-distances></a>
+					  <h2>Show Distances</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <img src=show-distances.gif><p>
+					  <div class="copy">
+					  When this button is pressed, you will see the distances between
+					  marked objects, as in the picture below.
+					  <p>
+					  <img src=distances-example.gif>
+					  <br clear=all>
+					  </div>
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=rotate-around-object></a>
+					  <h2>Rotate Around Object</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <img src=rotate-around-object.gif><p>
+					  <div class="copy">
+					  When this button is pressed, the currently selected object is
+					  centered.  The <a href=concepts.html#movement>Camera Movement
+					  Keys</a> now act differently:  keypad 4 
+					  and 6 move left and right in a circle around the object, keypad 2
+					  and 8 move up and down in a circle around the object, and A and Z
+					  move toward and away from the object.  The other camera movement
+					  keys don't do anything in this mode.
+					  <p>
+					  If nothing is selected, this button has no effect.
+					  </div>
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=selection-box></a>
+					  <h2>Selection Box</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  <img src=selection-box.gif>
+					  The last control on the <a href=toolbar.html>Toolbar</a>, and probably the most
+					  useful, is the <b>Selection Box</b>.  Clicking on the triangle at
+					  the right side pops up a menu from which you can select any of the
+					  ship types in FreeSpace 2, as well as waypoints, jump nodes, and lone
+					  asteroids.  (If you want an asteroid field, use the <a
+					  href=editors.html#asteroid-field>Asteroid 
+					  Field Editor</a>.)  The selected object type will be created when
+					  you ctrl click with the mouse in the main area of the FRED2 window.
+					  <p>
+					  If you have a waypoint selected when you place a new waypoint, the new
+					  one will be added to the same path (right after the selected one).
+					  Otherwise, the new waypoint will be in a new path.
+					  <p>
+					  Lone asteroids aren't terribly useful;  ships and weapons fly right
+					  through them.
+					  <p>
+					  The prefixes for the different ship classes generally indicate the government
+					  that originally produced that class and the ship type.
+					  For example, something with the prefix GTSG is a Galactic
+					  Terran Sentry Gun.
+					  <div class="copy">
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Abbr.</th>
+					      <th align=left>Government</th>
+					    </tr>
+					    <tr>
+					      <td>GT</td>
+					      <td>Galactic Terran</td>
+					    </tr>
+					    <tr>
+					      <td>GTV</td>
+					      <td>Galactic Terran-Vasudan</td>
+					    </tr>
+					    <tr>
+					      <td>GV</td>
+					      <td>Galactic Vasudan</td>
+					    </tr>
+					    <tr>
+					      <td>NT</td>
+					      <td>Neo-Terran</td>
+					    </tr>
+					    <tr>
+					      <td>PV</td>
+					      <td>Parliamentary Vasudan</td>
+					    </tr>
+					    <tr>
+					      <td>S</td>
+					      <td>Shivan</td>
+					    </tr>
+					    <tr>
+					      <td>T</td>
+					      <td>Terran</td>
+					    </tr>
+					    <tr>
+					      <td>V</td>
+					      <td>Vasudan</td>
+					    </tr>
+					</table>
+					<p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Abbr.</th>
+					      <th align=left>Class</th>
+					    </tr>
+					    <tr>
+					      <td>F</td>
+					      <td>Fighter</td>
+					    </tr>
+					    <tr>
+					      <td>B</td>
+					      <td>Bomber</td>
+					    </tr>
+					    <tr>
+					      <td>C</td>
+					      <td>Cruiser or Container</td>
+					    </tr>
+					    <tr>
+					      <td>Cv</td>
+					      <td>Corvette</td>
+					    </tr>
+					    <tr>
+					      <td>D</td>
+					      <td>Destroyer</td>
+					    </tr>
+					    <tr>
+					      <td>J</td>
+					      <td>Juggernaut</td>
+					    </tr>
+					    <tr>
+					      <td>A</td>
+					      <td>AWACS (Advanced Warning And Control System)</td>
+					    </tr>
+					    <tr>
+					      <td>AC</td>
+					      <td>Armored Container</td>
+					    </tr>
+					    <tr>
+					      <td>DR</td>
+					      <td>Drone</td>
+					    </tr>
+					    <tr>
+					      <td>EP</td>
+					      <td>Escape Pod</td>
+					    </tr>
+					    <tr>
+					      <td>Fr</td>
+					      <td>Freighter</td>
+					    </tr>
+					    <tr>
+					      <td>G</td>
+					      <td>Gas miner</td>
+					    </tr>
+					    <tr>
+					      <td>I</td>
+					      <td>Installation</td>
+					    </tr>
+					    <tr>
+					      <td>M</td>
+					      <td>Medical ship</td>
+					    </tr>
+					    <tr>
+					      <td>NB</td>
+					      <td>Nav Bouy</td>
+					    </tr>
+					    <tr>
+					      <td>S</td>
+					      <td>Support ship</td>
+					    </tr>
+					    <tr>
+					      <td>SC</td>
+					      <td>Science Cruiser or Standard Container</td>
+					    </tr>
+					    <tr>
+					      <td>SG</td>
+					      <td>Sentry Gun</td>
+					    </tr>
+					    <tr>
+					      <td>T</td>
+					      <td>Transport</td>
+					    </tr>
+					    <tr>
+					      <td>TC</td>
+					      <td>Tech Container</td>
+					    </tr>
+					</table>
+					<p>
+					<div class="copy">
+					You can learn more about the different ship classes in the <b>Tech Room</b>
+					within FreeSpace 2.
+					</div>
+					  </td>
+					</tr>
+					</table>
+
+
+<!--- END DRAKE STUFF --->
+		</td>
+	</tr>
+</table>
+
+</body> 
+<!-- Mirrored from fs2downloads.com/freddocs/toolbar.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:47:49 GMT -->
+</html>
+

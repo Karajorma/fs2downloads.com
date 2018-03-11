@@ -1,0 +1,1230 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<!-- Mirrored from fs2downloads.com/freddocs/editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:47:56 GMT -->
+<head>
+<title>Using FRED2: Editors</title>
+<map name="menu">
+	<area shape="RECT" coords="5,12,106,24" href="index.html">
+	<area shape="RECT" coords="5,24,106,36" href="quickstart.html">
+	<area shape="RECT" coords="5,36,106,48" href="concepts.html">
+	<area shape="RECT" coords="5,48,106,60" href="toolbar.html">
+	<area shape="RECT" coords="5,60,106,72" href="menus.html">
+	<area shape="RECT" coords="5,72,106,84" href="walkthrough.html">
+	<area shape="RECT" coords="5,84,106,96" href="editors.html">
+	<area shape="RECT" coords="5,96,106,108" href="sexp.html">
+	<area shape="RECT" coords="5,108,106,120" href="internet.html">
+	<area shape="RECT" coords="5,120,106,132" href="index-no-really.html">
+</map>	
+<link href="fred2.css" rel="STYLESHEET" type="text/css">
+</head>
+
+<body bgcolor=white background="nacbkg1.gif">
+<table width="672" cellpadding=0 cellspacing=0>
+	<tr>
+		<td width="80">&nbsp;</td>
+		<td width="580"><img src="nactitle1.jpg" width=580 height=95 alt="" border="0"><br></td>
+	</tr>
+</table>
+<table width="672" cellpadding=0 cellspacing=0>	
+	<tr>
+		<td width="111" valign="top"><img src="nacmenu1.gif" width=111 height=142 alt="" border="0" usemap="#menu"></td>
+		<td width="561" valign="top">
+		
+<!--- START DRAKE STUFF --->
+					<table width = 100% cellpadding=10>
+					  <tr>
+					    <td colspan=2>
+					    <h1>Editors</h1>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    This file describes the various editors in FRED2.  These are
+					    accessed from the <b>Editors</b> menu.  It is these editors that
+					    give FreeSpace 2 missions their variety and depth.
+					    <p>
+					    The dialog boxes opened by some of these editors may too big to
+					    fit on your screen.  If this is a problem, try turning your
+					    desktop resolution up to 1024x768.
+					    <p>
+					    The sections of this file are:
+					    <ul>
+					      <li> <a href=#ships>Ships Editor</a>
+					      <li> <a href=#wings>Wings Editor</a>
+					      <li> <a href=#object>Objects Editor</a>
+					      <li> <a href=#waypoint-paths>Waypoint Paths Editor</a>
+					      <li> <a href=#mission-objectives>Mission Objectives Editor</a>
+					      <li> <a href=#events>Events Editor</a>
+					      <li> <a href=#team-loadout>Team Loadout Editor</a>
+					      <li> <a href=#background>Background Editor</a>
+					      <li> <a href=#reinforcements>Reinforcements Editor</a>
+					      <li> <a href=#asteroid-field>Asteroid Field Editor</a>
+					      <li> <a href=#mission-specs>Mission Specs Editor</a>
+					      <li> <a href=#briefing>Briefing Editor</a>
+					      <li> <a href=#debriefing>Debriefing Editor</a>
+					      <li> <a href=#shield-system>Shield System Editor</a>
+					      <li> <a href=#command-briefing>Command Briefing Editor</a>
+					      <li> <a href=#campaign>Campaign Editor</a>
+					    </ul>
+						</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=ships></a>
+					    <h2>Ships Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="Copy">
+					    This editor lets you change the characteristics of an individual
+					    ship.  By marking several ships, you can edit them all at once (for
+					    example, turn them all hostile).
+					    <p>
+					    Many of the things that can be done with the <b>Ships Editor</b>
+					    can also be done with the <a href=#wings>Wings Editor</a>.  When dealing with
+					    wings, use the <a href=#wings>Wings Editor</a> whenever you have a choice.
+					    <p>
+					    At the upper left of this editor is a pull-down menu to let you
+					    select a ship.  When you first open it, the <b>Ships Editor</b>
+					    has all currently marked ships selected.  Any fields (such as
+					    <b>Name</b>) which are not the same for all ships will be blank.
+					    <p>
+					    In the upper right are <b>Prev</b> and <b>Next</b> buttons, which
+					    let you cycle through the ships in your mission.  <b>Delete</b>
+					    deletes the currently marked ships, and <b>Reset</b> resets
+					    everything in the <b>Ships Editor</b> to default values.
+					    <br clear=all>
+					    <h3>Main Area</h3>
+					    <center><img src=ships-editor-main-area.gif></center><br>
+					    You can change the <b>Name</b> and <b>Class</b> of a ship here.
+					    <p>
+					    You can also set skill the of AI (<i>A</i>rtificial
+					    <i>I</i>ntelligence) controlling this ship.  Skill levels range
+					    from Lieutentant to General.  Coward will attempt to evade.
+					    None will react little and take no initiative.
+					    <p>
+					    There are four teams to which a ship can belong: Hostile,
+					    Friendly, Neutral, and Unknown.  In a single-player mission, the
+					    player is always Friendly.  By default, Hostile ships will attack
+					    Friendly and Neutral ships.  Friendly ships will attack Hostile
+					    and Neutral ships.  Neutral ships will attack Friendly ships.  (In
+					    FreeSpace 1, the Hammer of Light was Neutral.)  Unknown ships will
+					    neither attack nor be attacked by anyone (unless ordered to do
+					    so).
+					    <p>
+					    <b>Cargo</b> indicates what, if anything, this ship is carrying.
+					    This is used mostly for transports, of course.  The button at the
+					    right side of this field lets you select from a list of cargoes on
+					    other ships in this mission.
+					<p>
+					If you specify something in the <b>Alt Name</b> field, this will be
+					shown as the ship's class in the player's HUD.  This way, the player
+					can't tell what something is just by targeting it.
+					    <p>
+					    If this ship is part of a <b>Wing</b>, this is indicated.
+					    <p>
+					    <b>Hotkey</b> lets you assign a default hotkey for pilots to
+					target this ship.  More than one ship can have the same hotkey;
+					pressing it in flight will target all such ships.
+					<p>
+					F5 through F8 are generally reserved for Alpha, Beta, Gamma, and Delta
+					wings.  You should use F9 through F12 for the ships the player is most
+					likely to target:  freighters being escorted, stations being guarded,
+					capital ships being attacked.
+					<p>
+					The player can alter their hotkey setup during the game.  (The default
+					key for doing this is F4.)  If a ship's arrival is supposed to be a
+					surprise, you don't want the player to see it when they do this.  In this
+					situation, give the ship the hotkey Hidden.
+					<p>
+					<b>Persona</b> is used for fighters and bombers.  It determines which
+					video and sound 
+					clips are played for chatter from this ship.  There's really not too
+					much difference between them, but note which are male and which are
+					female;
+					if you're going to have fighters send radio messages, they
+					should match the automatic messages at least in gender.
+					<p>
+					<b>Score</b> is the number of points (toward promotion) the player
+					earns for destroying this ship.  <b>Player Ship</b> is checked for
+					ships flown by a player.
+					    <br clear=all>
+					    <h3>Weapons</h3>
+					<center><img src=weapons-editor.gif vspace=10></center>
+					<br clear=all>
+					Pressing the <b>Weapons</b> button opens the <b>Weapons Editor</b>.
+					Here, you can change the weapons mounted on the ship, as well as the
+					AI class of each gunner.  (These are just the default settings.
+					Players can be given some choice as to their weaponry with the <b>Team
+					Loadout Editor</b>.)
+					<p>
+					Pilot is not a weapon mounting point;  this is just another way to set
+					the pilot's AI class, equivalent to setting it in the main <b>Ships
+					Editor</b>.
+					<p>
+					Some weapons cannot be mounted in some positions;  you can't put a
+					capital ship beam weapon on a fighter.
+					    <br clear=all>
+					    <h3>Player Orders</h3>
+					<img src=player-orders.gif align=right hspace=10>
+					This dialog box lets you choose which orders a ship will accept from a
+					player.  The example at right is for a fighter;  there will be fewer
+					options for a capital ship, which does not have such a sophisticated
+					AI.
+					<br clear=all>
+					    <h3>Special Explosion</h3>
+					<center><img src=special-explosion.gif></center><p>
+					This lets you provide an unusual explosion when and if this ship is
+					destroyed.  <b>Damage</b> is the amount of damage taken by ships
+					caught within the <b>Inner Damage Radius</b> of this ship when it
+					blows.  The amount of damage decreases steadily out to the  <b>Outer
+					Damage Radius</b>, where no damage is taken.  <b>Blast</b> determines
+					how hard anyone caught in the explosion is pushed away from it.  The
+					<b>Shockwave</b> is the blue visual effect seen on some large
+					explosions.
+					<br clear=all>
+					    <h3>Additional Ship Properties (Misc)</h3>
+					<img src=additional-ship-properties.gif align=right hspace=10>
+					Pressing the <b>Misc</b> button brings up a dialog box.
+					<p>
+					You can
+					have a ship destroyed a certain number of seconds before a mission
+					(leaving debris).
+					<p>
+					If a ship is marked <b>Scannable</b>, the player can scan it the same
+					way they would inspect a cargo vessel.  These are different things:
+					scanning just changes the ship's status from Not Scanned to
+					Scanned, but inspecting reveals the ship's cargo.  Any ship which
+					does not have <B>Cargo Known</b> can be inspected.
+					<p>
+					If a ship is a <b>Reinforcement Unit</b>, it can be called into the mission by the
+					player.
+					<p>
+					If you check <b>Protect Ship</b>, no AI-controlled ship will attack
+					this one.  <b>Beam Protect
+					Ship</b> merely prevents capital ship beams from targeting this ship.
+					(These can 
+					both be overriden by explicit beam firing orders, given with the
+					<code>fire-beam</code> <a href=SEXP-2.html>SEXP</a> operator.)
+					<p>
+					<b>Ignore For Counting Goals</b> takes this ship out of consideration
+					in <a href=SEXP-2.html>SEXP</a> operators like <code>percent-ships-destroyed</code>.
+					<p>
+					Any ship marked as an <b>Escort Ship</b> will show up in the <b>Monitor
+					Display</b> on the right side of the player's HUD.  There is only room for
+					three ships here, so FreeSpace 2 will pick the three escort ships with
+					the highest priority values.  Any <a
+					href=editors.html#asteroid-field>Asteroid</a> on a collision course
+					with an escorted ship will be bracketed in white when the mission is played.
+					<p>
+					<b>No Arrival Music</B> disables the dynamic fanfare when this ship
+					arrives.
+					<p>
+					A ship which is <b>Invulnerable</b> takes no damage, even from
+					collisions.  This is useful for ships which have to survive for plot
+					reasons, such as the SC Lucifer in FreeSpace 1.  It is also extremely
+					useful in testing:  by making Alpha 1 invulnerable, you can fly around
+					and watch the action without fear of being destroyed.  Don't forget to
+					uncheck this when you're done with the mission!
+					<p>
+					A ship which is <b>Hidden From Sensors</b> will not show up clearly on
+					radar and cannot be targeted.  It is still visible to the naked eye.
+					<p>
+					A <b>Kamikaze</b> ship will ram its target, destroying itself and
+					doing the indicated amount of damage.
+					<p>
+					If <b>No Dynamic Goals</b> is checked, the ship will stick to its
+					assigned orders.  Otherwise, it will stop to defend itself if it feels
+					sufficiently threatened.
+					<p>
+					In a campaign, a mission can be designated as a Red Alert mission.
+					(This is done in the <a href=#mission-specs>Mission Specs Editor</a>.)
+					In
+					this kind of mission, the player has not had the chance to return to
+					their base ship for repairs.  Other ships in the previous mission with
+					<b>Red Alert Carry Status</b> will be brought along into Red Alert
+					mission.
+					<p>
+					When a player ship is destroyed in a multiplayer mission, the player
+					will respawn near the ship with the highest <b>Respawn Priority</b>.
+					<br clear=all>
+					    <h3>Initial Status Editor</h3>
+					<img src=initial-status-editor.gif align=right hspace=10>
+					This dialog box lets you control various aspects of the ship's initial
+					status.
+					<p>
+					<b>Velocity</b> is the ship's initial speed.  Note that ships may
+					quickly change velocity to carry our orders or position themselves
+					within wings.  Also, ships emerging from hyperspace have a high
+					initial velocity regardless of how this is set.
+					<p>
+					If a ship is supposed to be damaged at the beginning of a mission,
+					reduce its <b>Hull Integrity</b> below 100.  You can also adjust the
+					integrity of individual subsystems, such as engines and turrets.  If
+					you don't want to do all this by hand, consider using the
+					<code>subsys-set-random</code> <a href=SEXP-2.html>SEXP</a> operator.
+					<p>
+					Unchecking <b>Has Shield System</b> will render a fighter or bomber
+					shieldless.  This box has no effect on larger ships.
+					<p>
+					If <b>Locked</b> is checked, the player cannot change the class or
+					weapon loadout of the ship before launching the mission.
+					<p>
+					A ship can begin <b>Docked With</b> another ship, if they share
+					appropriate docking point.  In some situations, you will have a choice
+					as to where a ship will dock.  A ship can only be docked with one
+					other ship at a time.  To see where the docking points are located,
+					turn on <b>Show Model Dock Points</b> in the <a
+					href=menus.html#view>View Menu</a>.
+					<p>
+					The field labeled <b>Cargo</b> here doesn't do anything.
+					<br clear=all>
+					    <h3>Initial Orders</h3>
+					<center><img src=initial-orders.gif vspace=10></center>
+					<br clear=all>
+					Here you can specify what the ship is trying to do at the beginning of
+					the mission.  New orders can be given later using the <a
+					href=editors.html#events>Events Editor</a>.
+					<p>
+					The orders that can be
+					given here are equivalent to those that can be given later with
+					<a href=SEXP-2.html>SEXPs</a>, so we'll skip the detailed explanation for now.  We will
+					note that the word Attack is used here where <code>chase</code> is
+					used in the <a href=SEXP-2.html>SEXP</a> operators.
+					<p>
+					Although there appears to be room for them, you can't give a ship more
+					than 5 initial orders.  You can give additional orders using the <a
+					href=editors.html#events>Events Editor</a>.
+					<br clear=all>
+					    <h3>Arrival and Departure Cues</h3>
+					<center><img src=arrival-and-departure-cues.gif></center><p>
+					Here you can control when the ship enters and leaves the mission.  By
+					default, the ship is present when the mission starts, and never
+					leaves.  If you want the <b>Ship Editor</b> window to be smaller,
+					clicking on <b>Hide Cues</b> will toggle this part of it on or off.
+					<p>
+					Choices for <b>Location</b> are <code>Hyperspace</code>, <code>Near
+					Ship</code>, <code>In Front Of Ship</code>, and <code>Docking
+					Bay</code>.  If you choose anything but hyperspace, you must also
+					select a <b>Target</b> ship to be near and a distance.
+					<p>
+					The <b>Cue</b> itself is a <a href=SEXP-2.html>SEXP</a>.  The ship will arrive or
+					depart after this becomes true and then the number of seconds given in
+					<b>Delay</b> has passed.
+					<p>
+					Check <b>No Warp Effect</b> if this would be inappropriate, such as
+					when a fighter is launching from a destroyer or when a ship is
+					appearing in the distance in a nebula.
+					<p>
+					The area at the bottom (which may extend below the edge of your
+					screen) is the <a href=SEXP-2.html>SEXP</a> help, explaining the currently highlighted
+					<a href=SEXP-2.html>SEXP</a>.  In the unlikely event that you want to turn this off,
+					you can do so in the <a href=menus.html#help>Help Menu</a>.
+					</div>
+					</td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=wings></a>
+					    <h2>Wings Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    <center><img src=wings-editor.gif></center><p>
+					    This is very similar to the <a href=#ships>Ships Editor</a>,
+					    but it allows you to edit properties of a wing.  If a control
+					    appears in both editors, you should use the <b>Wings Editor</b>
+					    for features which will be the same for all ships in a wing (such
+					    as initial orders).
+					    <p>
+					    By turning <b># Of Waves</b> above 1, you can have more ships come
+					    in whenever the wing gets down to the number of ships specified in
+					    <b>Wing Threshold</b>.
+					    <p>
+					    You can also set the minimum and maximum
+					    <b>Delay Between Waves</b> (in seconds) in the <b>Arrival</b>
+					    panel.
+					    Make the minimum high enough that it's not obvious that
+					    these guys were just waiting in hyperspace for their last comrade
+					    to die.  This is also a good way to give the player time to
+					    reload between frenzied dogfights.  At the other extreme, don't
+					    make the maximum delay so high that the player is flying around for
+					    minutes waiting for something to happen.
+					    <p>
+					    By checking <b>No Arrival Message</b>, you can turn off the
+					    message (such as "Beta wing here" or "New bandits incoming") that is normally sent when a new
+					    wing arrives.
+					    <p>
+					    <b>Delete Wing</b> deletes all of the ships in the wing, and
+					    <b>Disband Wing</b> deletes the wing but leaves the ships in place.
+						</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=objects></a>
+					    <h2>Objects Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    <img src=objects-editor.gif><p>
+					    This allows you to place objects much more precisely than you can with
+					    the mouse.  This is useful for lining up neat rows of cargo
+					    containers, for example.  You can also make an object <b>Point To</b>
+					    another object or at a particular location in space.
+						</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=waypoint-paths></a>
+					    <h2>Waypoint Paths Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    <center><img src=waypoint-paths-editor.gif></center><p>
+					    This allows you to rename a waypoint path.  This could be useful
+					    if you have so many paths that it's hard to keep track of the
+					    numbers.
+					    <p>
+					    You can also rename jump nodes with this editor.
+						</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=mission-objectives></a>
+					    <h2>Mission Objectives Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+					    <center><img src=mission-objectives-editor.gif></center><p>
+						<div class="copy">
+					    Here you can specify the player's goals for the mission.  There
+					    are three kinds of goals:  Primary, Secondary, and Bonus.  Success
+					    in the mission requires completing all Primary goals.  Bonus goals
+					    are not listed in the mission briefing, and will not appear on the
+					    in-flight objectives list (F4 by default) until completed.
+					    <p>
+					    The <b>Name</b> of the objective is used in-flight, while the
+					    longer text line below it is used in the briefing.  <B>Score</b>
+					    is the number of points toward promotion awarded for completing
+					    this objective.  (This is in addition to any points for destroyed
+					    ships.)  In a multiplayer mission, you must also specify which
+					    <b>Team</b> is trying to complete this goal.
+					    <p>
+					    If <B>Objective Invalid</b> is checked, this objective will not
+					    show up in any lists or be required for victory.  This is used for
+					    objectives which should not be obvious at the beginning of the
+					    mission, such as stopping a surprise attack.  To make the
+					    objective valid later in the mission, create an <a
+					    href=#events>Event</a> with the <code>validate-goal</code> <a
+					    href=SEXP-3.html>SEXP</a> operator.
+					    <p>
+					    If <b>Don't Play Completion Sound</b> is checked, there will be no
+					    musical fanfare for completing this goal.  This might be
+					    appropriate for not-so-heroic goals like "scan all cargo
+					    containers".
+					    <p>
+					    The large area at the bottom of this editor is for <a href=SEXP-2.html>SEXP</a>
+					    help.
+						</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=events></a>
+					    <h2>Events Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    The <B>Events Editor</b> is the heart of FRED2.  This is where you
+					    "script" your mission, setting up radio messages, HUD directives,
+					    and other things that occur over the course of the mission.
+					    <p>
+					    There are really two areas of the <b>Events Editor</b>:  the
+					    <b>Event Panel</b> on the left, dealing with events, and the
+					    <b>Message Panel</b> on the right, dealing with messages.  (The
+					    word "panel" is being used loosely here, as the two areas overlap
+					    to some degree.)
+					    <br clear=all>
+					    <h3>Event Panel</h3>
+						<center>
+					    <img src=events-editor-events.gif><p>
+						</center>
+					    The large white area in the upper left is for the various event
+					    <a href=SEXP-2.html>SEXPs</a>.  <a href=SEXP-2.html>SEXP</a> help is given in the box at the bottom
+					    of the <b>Events Editor</b> (not shown here).
+					    <p>
+					    <b>New Event</b> adds a new event to the end of the list.
+					    <b>Insert Event</b> adds a new event just before the currently
+					    highlighted one.  <b>Delete Event</b> deletes the highlighted
+					    event.
+					    <br clear=all>
+					    <p>
+					    An event can be made to occur several times by specifying a
+					    <b>Repeat Count</b> (how many times it will happen) and an
+					    <b>Interval Time</b> (number of seconds between repetitions).
+					    For example, consider this event:
+					    <br clear=all>
+					    <img src=too-close.gif vspace=10>
+					    <br clear=all>
+					    Suppose this event has a <b>Repeat Count</b> of 5 and an <b>Interval
+					    Time</b> of 10.  It will send a message from Command as soon as
+					    Alpha 1 gets within 100 meters of the container, and again every
+					    time Alpha 1 spends 10 seconds within 100 meters of the container.
+					    (The message will be sent at most 5 times.)
+					    <p>
+					    The player can <b>Score</b> some points when this event occurs.
+					    In a multiplayer mission, you must also specify which team scores
+					    when this event occurs.
+					    <p>
+					    If an event is <b>Chained</b>, it will not occur until and unless
+					    the one listed immediately before it has occurred.  If a <b>Chain
+					    Delay</b> is specified, that many seconds must have passed since
+					    the previous event.
+					    <p>
+					    <b>Directive Text</b> is given at the left side of the player's
+					    HUD.  FreeSpace 2 is quite clever about this.  If
+					    you set an event to occur when Kali wing has been destroyed, and
+					    give <b>Directive Text</b> "Destroy Kali", the HUD will show the
+					    number of ships left in Kali wing.
+					    <p>
+					Directives first appear in the HUD when it becomes possible for the
+					player to bring about the event.  For example, if the event requires
+					the destruction of some ship, the directive won't show up in the HUD
+					until that ship arrives.  Also, if the event is chained, the directive
+					won't show up until the previous event occurs.
+					<p>
+					If an event has <b>Directive Text</b>, the dot (or chain link) to the
+					left of its name will be red instead of blue.
+					<p>
+					You can also specify the default key the player should press to bring
+					about this event;  this is useful mostly in training missions.  In a
+					training mission (see the <a href=#mission-specs>Mission Specs
+					Editor</a>),
+					if you
+					surround the name of the key with dollar signs ("Press $spacebar$"),
+					FreeSpace 2 will 
+					automatically adjust if the player has remapped their keys.
+					    <br clear=all>
+					    <h3>Message Panel</h3>
+					<img src=events-editor-messages.gif align=right hspace=10>
+					A list of all of the <b>Messages</b> in the mission is shown in the
+					upper right.  Use <b>New Msg</b> to create a new one, and <b>Delete
+					Msg</b> to delete the highlighted message.
+					<p>
+					For a
+					message to actually be sent, you have to create a
+					<code>send-message</code> event.  The source of the message can be a
+					particular ship, or <code>#Command</code>.
+					<p>
+					The <b>Name</B> of a message is strictly for use within FRED2.
+					<b>Message Text</b> is what appears at the top of the player's HUD.
+					<p>
+					<B>ANI File</b> is the animated "talking head" that appears at the
+					upper left side of the player's HUD when this message is sent.
+					<code>CM</code> stands for command, <code>TP</code> are Terran pilots,
+					<code>VC</code> is Vasudan command, and <code>VP</code> is a Vasudan
+					pilot.
+					
+					<p>
+					Since you can't create your own <code>.ani</code> file, <b>Browse</b>
+					isn't useful.
+					<p>
+					<B>Wave file</b> is the <code>.wav</code> file played with this
+					message.  You can choose from the many built-in wave files, or select
+					one of your own (which should be 
+					placed in the <code>data\voice\special</code> subdirectory of your
+					main FreeSpace 2 directory).  The button with the little triangle
+					plays the selected wave file, but unfortunately it does not work for
+					the built-in ones.
+					<p>
+					Several useful files are included in the
+					<code>data\voice\special</code> directory:
+					<p>
+					    <table border=1 cellspacing=0 cellpadding=5>
+					      <tr>
+						<th align=left>File</th>
+						<th align=left>Description</th>
+					      </tr>
+					      <tr>
+						<td><code>emptymsg.wav</code></td>
+						<td>Empty message</td>
+					      </tr>
+					      <tr>
+						<td><code>msgstart.wav</code></td>
+						<td>Beep for beginning of message</td>
+					      </tr>
+					      <tr>
+						<td><code>msgend.wav</code></td>
+						<td>Static burst for end of message</td>
+					      </tr>
+					      <tr>
+						<td><code>vasudantalk.wav</code></td>
+						<td>Long sample of Vasudan speech</td>
+					      </tr>
+					</table>
+					<p>
+					If you send a message with a wave file and FreeSpace 2 can't find the file,
+					the message will just be run silently.
+					<p>
+					<b>Persona</b> indicates which "character" is speaking.  It
+					corresponds to the the personas set in the <a
+					href=editors.html#ships>Ships Editor</a>, and also allows choices like
+					<code>Support Ship</code>.  Pick whichever one is appropriate.
+					When you pick a new built-in wave file or click on
+					<b>Update Stuff</b>, the <b>ANI File</b> and <b>Persona</b> are both
+					updated to the correct values for that wave file.  If a fighter or
+					bomber is going to send such a message, set the persona in the <a
+					href=editors.html#ships>Ships Editor</a> to match so that chatter
+					messages will have the same face and voice.
+					</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=team-loadout></a>
+					    <h2>Team Loadout Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    <center><img src=team-loadout-editor.gif><p></center>						
+					    Here, you can select what additional ships and weapons are
+					    available for each team.  To toggle an item's availability, click
+					    on the box to the left of its name.
+					    <p>
+					    <b>Amount Used In Wings</b> and <b>Player Entry Delay</b> don't do
+					    anything.
+						
+					    <br clear=all>
+						</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=background></a>
+					    <h2>Background Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+						The background editor lets you add stars, planets,
+					    and nebulae to your mission.  (There is a separate editor for
+					    <a href=editors.html#asteroid-field">Asteroid Fields</a>.)
+					    <h3>Bitmaps</h3>
+					    <img src="background-editor-bitmaps.gif"><p>
+					    The <b>Bitmaps</b> panel lets you place planets, nebulae, and other
+					    background images.
+					    <p>
+					    Click on <b>Add</b> to add a new image and <b>Delete</b> to delete
+					    the currently highlighted image.  The field in the upper
+					    right lets you choose from several dozen built-in images.
+					    <code>dneb</code> stands for dark nebula, <code>neb</code> is nebula, and
+					    of course <code>planet</code> is planet.
+					    <p>
+					    The next three fields determine the position and orientation of
+					    the currently highlighted image.  <b>P</b> stands for pitch (degrees above the
+					    horizon), <b>B</b> is bank (degrees of clockwise rotation), and <b>H</b> is
+					    heading (degrees left along the horizon).  The default position (0,
+					    0, 0) is straight ahead when you open FRED2.  These numbers all
+					    range from 0 through 359.
+					    <p>
+					    The <b>Scale</b> fields let you make the image larger (for example, to
+					    make a planet appear closer).  These range from 0.001 (one
+					    thousandth normal size) to 18.  With a planet, these should be
+					    equal;  otherwise, you'll get a goofy-looking elliptical planet.
+					    <p>
+					    The <b># divisions</b> fields determine how many sections the
+					    bitmap is divided into for mapping onto the sphere of the sky.
+					    These values range from 1 to 5, but you don't normally have to
+					    mess with them.
+					    Very large bitmaps (taking up half the sky) will not be rendered
+					    properly unless the <b># divisions</b> fields are turned up to 2
+					    or 3.  (Turning them any higher doesn't have any noticeable
+					    effect.)
+					    <p>
+					    You can use your own bitmap images.  They should be
+					    <code>.pcx</code> files, no larger than 256x256, and should be
+					    placed in the <code>data\effects</code> subdirectory of your main
+					FreeSpace 2 directory.
+					    <br clear=all>
+					    <h3>Suns</h3>
+					    <img src="background-editor-suns.gif"><p>
+					    The <b>Suns</b> panel lets you place bright, nearby stars.  It works
+					    basically like the Bitmaps panel, but the <b>Scale</b> goes
+					    from 0.1 to 50 here.
+					    <p>
+					If you don't put in any suns, you will get a default sun.  You can't
+					get rid of it, but you can come fairly close by putting in one sun of
+					scale 0.1.
+					    <br clear=all>
+					    <h3>Nebula</h3>
+					    <img src="background-editor-nebula.gif"><p>
+					    The <b>Nebula</b> panel is for missions that take place inside a
+					nebula.  Check <b>Full Nebula</b> for such missions.
+					<p>
+					<b>Range</b> determines how far (in meters) radar can detect
+					enemy ships.  Ships more than half this distance away will
+						appear as faded blips on radar and cannot be targeted.
+						<p>
+						<b>Pattern</b> is a big background image, overriding any
+						bitmaps.  <b>Poofs</b> are clouds swirling in front of the
+						player.
+						<p>
+						<b>Lightning Storm</b> determines the strength of
+					electromagnetic discharges within the nebula.
+					<p>
+					      <b>Pattern</b> and the other fields below the line in the Nebula panel
+					don't do anything.
+					<br clear=all>
+					<h3>Misc</h3>
+						<img src="background-editor-misc.gif"><p>
+						The <b>Misc</b> panel lets you specify the number of stars (100 to
+						2000) or set a mission in hyperspace.
+						</div>
+					    </td>
+					</tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=reinforcements></a>
+					    <h2>Reinforcements Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    <img src=reinforcements-editor.gif><p>
+					    This small editor lets you specify which ships and wings can be
+					    called in as reinforcements.  (You can also do this in the <a
+					    href=#ships>Ships Editor</a> and the <a href=#wings>Wings
+					    Editor</a>.)
+					    <p>
+					    To make a ship or wing available more than once, raise <b>Uses</b>
+					    above 1.  <b>Delay After Arrival</b> is the minimum number of
+					    seconds between uses.
+						</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=asteroid-field></a>
+					    <h2>Asteroid Field Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    This editor is used to install a field of floating rocks or debris
+					    in the mission.
+					    <img src=asteroid-field-editor.gif vspace=10>
+					    <br clear=all>
+					    Checking <b>Enabled</b> turns the asteroid field on.  In the main
+					    FRED2 window, a wire-frame box will show the boundaries of the
+					    field.
+					    <p>
+					    An <b>Active Field</b> actually throws asteroids at large ships in
+					    or near the field, making it more dangerous.  A <b>Passive
+					    Field</b> does not.
+					    <p>
+					    You can choose from three different colors of asteroids.  In a
+					    <b>Passive Field</b>, you can also choose different kinds of
+					    <b>Ship</b> debris.
+					    <p>
+					    The <b>Number</b> of asteroids in the field can range from 1 to
+					    256.  When one drifts out of the specified area, it will disappear
+					    and a new one will be generated.  FreeSpace 2 tries to do this
+					    behind the player, so it isn't obvious.
+					    <p>
+					    The <b>Avg. Speed</b> of the asteroids is given in meters per
+					    second.
+					    <p>
+					    FreeSpace 2 does not check for collisions between asteroids, so
+					    they pass right through each other.  Don't make your field too
+					    dense, or this will be noticeable.
+					    <p>
+					    The <b>Outer Box</b> settings give the boundaries of the field.
+					    In an <b>Active Field</b>, you can also specify an <b>Inner
+					    Box</b>.  No asteroids will appear here, and asteroids will not be
+					    hurled at ships inside the inner box.  This is useful for hiding
+					    an installation inside an asteroid field.
+						</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=mission-specs>
+					    <h2>Mission Specs Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+					    <center><img src=mission-specs-editor.gif></center><p>
+						<div class="copy">
+					    This editor allows you to edit various properties of the mission
+					    as a whole.  You can also set in-flight music and make designer's
+					    notes here.
+					    <p>
+					    <b>Title</b> is the name of the mission, and the <b>Designer</b>
+					    is you.
+					    <p>
+					    A mission can be <b>Single Player</b>, <b>Multi Player</b>, or
+					    <b>Training</b>.  A <b>Multi Player</b> mission can be
+					    <b>Cooperative</b> (all players working together), <b>Team
+					    Vs. Team</b>, or <b>Dogfight</B> (every pilot for themself).
+					    <p>
+					    You can't have a single mission work both for <b>Single Player</b>
+					    and <B>Multi Player</b>, but you can have two different mission
+					    files that differ only in this detail.
+					    <p>
+					    If you check <b>All Teams At War</B>, the rules described in the <a
+					    href=#ships>Ships Editor</a> change:  now Neutrals and Unknowns
+					    will also attack Hostiles.
+					    <p>
+					    A <b>Red Alert Mission</b> takes place right on the heels of
+					    another one;  there is no return to base for repairs.  This is
+					    mainly important in a campaign.
+					    <p>
+					    In a <b>Scramble Mission</b>, there is no opportunity for the
+					    player to change their ship or weapon loadout.
+					    <p>
+					    If you <b>Disallow Support Ships</b>, the player cannot reload
+					    their secondary weapons after the mission begins.  It would be a
+					    very bad idea to check this option in a mission where the player
+					    had to shoot down Shivan Dragon fighters.
+					    <P>
+					    If you <b>Disallow Promotions/Badges</b>, they player cannot earn
+					    any such awards as a result of this mission.
+					    <p>
+					    <b>Max Respawns</b> is the number of "lives" each player gets in a
+					    multiplayer mission.
+					    <p>
+					    <b>Music</b> indicates what music is played during the mission.
+					<p>
+					You can use <b>Squadron Reassign</b> panel to put the player in a particular
+					squadron for the duration of this mission.  (This contrasts with their
+					regular multiplay squadron.)  You can give the squadron a <b>Name</b>
+					and specify what <b>Logo</b> will be painted on the side of the
+					player's ship.
+					<p>
+					The <b>Mission Description</B> shows up when players highlight a mission
+					from the list in the <b>Tech Room Mission Simulator</b> or when
+					choosing a multiplayer mission.  <b>Designer's Notes</b> are for the
+					sake of other FRED2 users.
+					</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=briefing></a>
+					    <h2>Briefing Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    This editor lets you set up the story at the beginning of the
+					    mission, describing the situation to the player and telling them
+					    what to do.  Of course, there can always be surprises...
+					    <p>
+					    When you open the <b>Briefing Editor</b>, two things happen:  a very large dialog
+					    box appears, and the main view shrinks to about a quarter of its
+					    size.  The shrinkage is to remind you that, while the <b>Briefing
+					    Editor</b> is open, the main view is used to place briefing icons.
+					    That's explained below in the discussion of icons.
+					    <P>
+					    <img src=briefing-editor.gif align=right hspace=10>
+					    In a multiplayer mission, first use the <b>Select Team</b> menu
+					    to determine who gets this briefing.  (You'll need a briefing for
+					    each team.)
+					    <p>
+					    A briefing consists of a series of stages, each of which has a
+					    picture of the mission area and a paragraph of text.  <b>Add
+					    Stage</b> adds a new stage at the end, <b>Insert Stage</b> adds a
+					    stage right after the current one, and <b>Delete Stage</b> deletes
+					    the current stage.  <b>Prev</b> and <b>Next</b> cycle through the
+					    stages.
+					    <p>
+					    The large <b>Text</b> area is the text displayed at the bottom of
+					    the player's screen as they watch the briefing.
+					    <p>
+					    The importance of good spelling and grammar here cannot be
+					    overstated.  If you're weak in this area, find someone to
+					    "proofread" your mission.
+					    <br clear="all"><p>
+					    A word can be colored by preceding it with one of the following
+					    "tags":
+					    <p>
+						<center>
+					    <table border=1 cellspacing=0 cellpadding=5>
+					      <tr>
+						<th align=left>Tag</th>
+						<th align=left>Color</th>
+					      </tr>
+					      <tr>
+						<td>$h</td>
+						<td>Hostile radar color</td>
+					      </tr>
+					      <tr>
+						<td>$f</td>
+						<td>Friendly radar color</td>
+					      </tr>
+					      <tr>
+						<td>$n</td>
+						<td>Neutral radar color</td>
+					      </tr>
+					      <tr>
+						<td>$r</td>
+						<td>Red</td>
+					      </tr>
+					      <tr>
+						<td>$g</td>
+						<td>Green</td>
+					      </tr>
+					      <tr>
+						<td>$b</td>
+						<td>Blue</td>
+					      </tr>
+					</table>
+					</center>
+					<p>
+					    If you want to
+					    produce a
+					    <b>Voice Wave File</b>, put it in the
+					    <code>data\voice\briefing</code> subdirectory of your main
+					    FreeSpace 2 directory.  You can either type in the name or
+					    <b>Browse</b> for it, and the little triangle will play it.
+					    <p>
+					    You can choose from a number of different <b>Briefing Music</b>
+					    tracks.
+					    <p>
+					    The <b>Usage
+					    Formula</b> is a <a href=SEXP-2.html>SEXP</a> determining whether
+					    this briefing stage will be used or not.  This will simply be
+					    <code>true</code> in a single mission, but you may want to do
+					    something more interesting in a campaign, perhaps involving <a
+					    href=SEXP-2.html#operators>SEXP operators</a> like
+					<code>is-previous-goal-true</code>.
+					<p>
+					Everything else has to do with the picture the player sees during the
+					briefing.  This is set up in the main view.  The first thing you'll
+					want to do is double-click on this (not on an object) to make it
+					bigger.  (It still won't be full-sized, but it will be as big as it
+					will be during the actual briefing.)
+					<br clear=all>
+					<img src=briefing-icons.gif vspace=10>
+					<br clear=all>
+					You can use the <a href=concepts.html#movement>camera movement
+					controls</a> and many other standard FRED2 controls.  However, the
+					player will only see those things for which you've created icons.
+					<p>
+					Having the icons and the actual objects visible at the same time can
+					get pretty messy.  There are two ways around this:
+					<ul>
+					  <li>Turn off most of the features in the <a
+					      href=menus.html#view>View Menu</a> such as <b>Show Ship
+					      Models</b> and <b>Show Ship Info</b>.
+					  <li>Move the camera to point at an empty area of space and create
+					      your icons there, ignoring the actual mission objects.
+					</ul>
+					To make an icon, select a ship and then press <b>Make Icon</b>.  (If
+					you're working out in empty space, you'll have to create an object,
+					make an icon, and then delete the object.)  You can move an icon around
+					just as you would an object.  You cannot rotate it, though, and it
+					will not appear smaller if you move it farther away.
+					<p>
+					During the briefing, the player only sees icons and the grid.  If you
+					don't make any icons, they'll just see a blank grid.
+					<p>
+					<b>Label</b> controls the text that appears right under the icon;
+					this can be blank.  <b>Icon Image</b> determines which picture you
+					get.  <b>Ship Type</b> controls what the player sees if they click on
+					the icon during the briefing.  (If you didn't know about that feature,
+					go start up a mission in FreeSpace 2 and click on an icon.  Neat,
+					huh?)  <b>Team</b> determines the color of the icon (it will not
+					change color here, just in the actual briefing).
+					<p>
+					The <b>Text</b> box at the bottom doesn't do anything.  This is a good
+					thing, because it spills off the bottom of your screen anyway.
+					<p>
+					If you check <b>Highlight</b>, the current icon will be surrounded by
+					a ring of rotating triangles during the briefing.
+					<p>
+					<b>ID</b> is just a number identifying the current icon.  There's no
+					reason to mess with this.
+					<p>
+					If <b>Change Locally</b> is checked when you make a change (for
+					exampe, to the <b>Icon Image</b> of an icon), that change will not
+					affect other stages of the briefing.
+					<p>
+					You can delete the selected icon with <b>Delete Icon</b>.
+					<p>
+					Pressing <b>Propagate</b> causes all icons to appear, in their
+					current positions, in all following briefing stages.  If you make a
+					mistake in a stage, you can go back to the previous stage and press
+					<b>Propagate</b> to reset the icons.
+					<p>
+					Shockingly, checking <b>Draw Lines Between Marked Icons</b> draws
+					lines between the marked icons.
+					<p>
+					Returning to the top of the editor, <b>Save View</b> "takes the
+					picture" for this briefing stage.  If you move the camera around and
+					don't press <b>Save View</b>, the picture will not be from the angle
+					you so carefully set up.  Don't forget to do this!
+					<p>
+					<b>Goto View</b> resets the camera to wherever it was the last time
+					you pressed <b>Save View</b>.  You can use <b>Copy View</b> and
+					<b>Paste View</b> to copy a camera angle from one briefing stage to
+					another.
+					<p>
+					<b>Camera Transition Time</b> is the time in <i>milli</i>seconds that
+					it takes the camera (during the actual briefing) to move from its
+					current position to its position in the next briefing stage.
+					<p>
+					If you check <B>Cut To Next Stage</b>, you will get static rather than
+					a camera pan between this stage and the next.  <b>Cut To Previous
+					Stage</b> is similar, but would only come up if the player hit the
+					<b>Back</b> button during the briefing.
+					</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=debriefing></a>
+					    <h2>Debriefing Editor</h2>
+					    </td>
+					    </ul>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    <img src=debriefing-editor.gif><p>
+					    This editor lets you set up the text that appears after a mission
+					    telling the player how they did.
+					    It is very similar to the <a href=#briefing>Briefing
+					    Editor</a>.  The differences are:
+					    <ul>
+					      <li>Since there are no pictures in the debriefing, you don't
+						  have to mess with icons and camera angles.
+					      <li>You will want to use more interesting <a
+						  href=SEXP-2.html>SEXPs</a> in the <b>Usage Formula</b> area.
+						  (Do not use the <code>is-event-incomplete</code> or
+						  <code>is-goal-incomplete</code> <a href=SEXP-3.html>SEXP</a>
+						  operators here.  Events and goals are ever incomplete at the
+						  end of a mission; they are either true or false.)
+					      <li>For a stage corresponding to something the player failed to
+						  do, you can include <b>Recommendation Text</b> telling them
+						  how to get it right the next time.
+					      <li><code>.wav</code> files should be kept in <code>data\voice\debriefing</code>.
+						  </div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=shield-system></a>
+					    <h2>Shield System Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    <img src=shield-system-editor.gif align=right hspace=10>
+					    You can specify here that ships of a particular class or on a
+					    particular side don't get shields.  While FRED2 will let you set
+					    capital ships to have shields, it has no effect.
+						</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=command-briefing>
+					    <h2>Command Briefing Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+					    <center><img src=command-briefing-editor.gif><p></center>
+						<div class="copy">
+					    The command briefing is the higher-level "strategic" briefing that
+					    appears every few missions in a campaign.
+					    <p>
+					    This editor is similar to the <a href=#debriefing>Debriefing
+					    Editor</a>, except that:
+					    <ul>
+					      <li>There is no <b>Usage Formula</b>;  in a command briefing,
+						  all stages are played automatically.
+					      <li>You can choose one of the built-in <code>.ani</code>
+						  animation files to go with each stage.  You can't make your
+						  own, so <b>Browse</b> isn't useful.
+					      <li><code>.wav</code> files should be kept in
+						  <code>data\voice\command briefing</code>.
+					    </ul>
+						</div>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td colspan=2>
+					    <a name=campaign></a>
+					    <h2>Campaign Editor</h2>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    You can create entire campaigns with FRED2.  To do this, build
+					    the individual missions and then link them together with the
+					    <b>Campaign Editor</b>.  Be sure to test your missions
+					    individually before linking them together;  campaign missions
+					    cannot be played individually unless the campaign has been completed.
+					    <p>
+					    Once you have created a campaign, you can switch to it in the
+					    <b>Campaign Room</b> within FreeSpace 2.  <em>Doing this will
+					    erase any progress your pilot has made in another campaign!</em>
+					    If you're in the middle of another campaign, you may wish to
+					    <b>Clone</b> your pilot first, then switch the clone to the new
+					    campaign.
+					    <p>
+					    Be aware that building a campaign is a <em>lot</em> of work.
+					    There are several ongoing campaign projects being coordinated over
+					    the <a href=internet.html>Internet</a>;  consider volunteering to
+					    help with one of them rather than building an entire campaign by
+					    yourself.
+					    <p>
+					    The <b>Campaign Editor</b> consists of three parts:  a
+					    <b>Menubar</b>, a <b>Campaign Diagram</b> on the right, and the
+					    <b>Main Controls</b> on the left.
+					    
+					    <h3>Menubar</h3>
+					    The <b>File</b> menu has the usual options.
+					    <p>
+					    The <b>Other</b> menu just contains an <b>Error Checker</b>.  This
+					    is run automatically when you save a campaign.
+					    <p>
+					    The <b>Initial Status</B> menu lets you decide which ships and
+					    weapons are available at the beginning of the campaign.  If a ship
+					    or weapon is not checked (and most aren't by default), it will be
+					    replaced with something else in any campaign missions that use it.
+					    To make a ship or weapon available later in the campaign, create
+					    <a href=#events>Events</a> using the <code>allow-ship</code> or
+					    <code>allow-weapon</code> <a href=SEXP-2.html#operators>SEXP
+					    operators</a>.
+					
+					    <h3>Campaign Diagram</h3>
+					    <img src=campaign-diagram.gif align=right hspace=10>
+					    On the right side of the <b>Campaign Editor</b> is a diagram of
+					the current campaign.  To add a mission, first highlight it in the
+					list of <b>Available Missions</b> on the left side of the editor;
+					then Ctrl click in a gray box in the <b>Campaign Diagram</b>.
+					Missions can be moved around by dragging them.
+					<p>
+					The order of missions in the campaign is determined by the links
+					(lines) between them.  To create a link from one mission to the one
+					that should follow it, drag it onto the following mission.  It must be
+					placed <em>exactly</em> on top of the followimg mission;  you may have
+					to drag the following mission left or right for this to be possible.
+					<p>
+					A mission can have more than one following mission, with the progress
+					of the campaign determined by the player's actions.  This is explained
+					in more detail in the subsection below on the <b>Main Controls</b>.
+					<p>
+					If you right click on a mission in the <b>Campaign Diagram</b>, a
+					small menu will pop up.  <b>Remove Mission</b> removes the current
+					mission from the campaign.  <b>Add A Repeat Link</b> makes it possible
+					that the player will have to repeat this mission;  such links are not
+					visible in the <b>Campaign Diagram</b>.  You should select <b>End Of
+					Campaign</b> for any mission that does not have a following mission.
+					<br clear=all>
+					
+					<h3>Main Controls</h3>
+					<img src=campaign-editor-controls.gif align=right hspace=10>
+					<b>Available Missions</b> lists those missions that are not already in
+					a campaign.
+					<p>
+					You can specify a <b>Campaign Name</b> and the <b>Type</b> of the
+					campaign (<code>single</code>, <code>multi coop</code>, or <code>multi
+					teams</code>).
+					<p>
+					The <b>Campaign Description</b> is shown when this campaign is
+					highlighted in the <b>Campaign Room</b> within FreeSpace 2.
+					<p>
+					The remaining options affect the currently highlighted mission in the
+					<b>Campaign Diagram</b>.
+					<p>
+					<b>Briefing Cutscene</b> is really only for use by Volition's mission
+					designers;  FRED2 doesn't provide a way to create your own cutscenes.
+					<p>
+					There are two choices for the appearance of the <b>Main Hall</b>
+					within FreeSpace 2:  <b>Galatea</b> and <b>Bastion</b>.  (These were
+					destroyers in FreeSpace 1.)  
+					<p>
+					<b>Branches</b> are a series of <a href=SEXP-2.html>SEXPs</a> that
+					determine which mission will follow this one.  When a mission is
+					completed, FreeSpace 2 goes through these and takes the first branch
+					for which the <a href=SEXP-2.html>SEXP</a> returns <code>true</code>.
+					The last branch (and no other branch) must have simply
+					<code>true</code> for its <a href=SEXP-2.html>SEXP</a>.
+					<p>
+					When a branch is highlighted, you can move it around with <b>Move
+					Up</b> or <b>Move Down</b>.  These are slightly flaky;  you may have
+					to press them more than once.
+					<p>
+					Loops are optional branches in a campaign;  the player can decide
+					whether to take the loop branch or continue with the main campaign.
+					A branch may be designated as a loop by pressing <b>Toggle Loop</b>.  
+					<p>
+					<b>Realign Tree</b> tries to straighten up the <b>Campaign Diagram</b>
+					so that it looks nicer;  it doesn't always help.
+					<P>
+					<b>Load Mission</b> loads the highlighted mission (in the <b>Campaign
+					Diagram</b>) into FRED2.
+					<p>
+					<b>Close</b> closes the campaign editor.
+					<p>
+					There are two more areas, not shown in the picture here.  The first is
+					for <a href=SEXP-2.html>SEXP</a> help.  The second, <b>Mission Loop
+					Description</b>, is the text displayed when the player is given the
+					option to take a loop branch.
+					</div>
+					    </td>
+					  </tr>
+					</table>
+<!--- END DRAKE STUFF --->
+		</td>
+	</tr>
+</table>
+
+</body> 
+<!-- Mirrored from fs2downloads.com/freddocs/editors.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:48:03 GMT -->
+</html>

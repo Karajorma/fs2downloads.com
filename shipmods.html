@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<title>The FreeSpace Oracle</title>
+</head>
+<body alink="LIMEGREEN" bgcolor="LIGHTSTEELBLUE" link="DARKBLUE"
+vlink="DARKRED">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td><img src="FAQ-Images/Oracle.gif"></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr valign="top">
+<td>
+<table width="200">
+<tbody>
+<tr>
+<td>
+<ul>
+<li><a href="intro.html">Home</a></li>
+<li><a href="general.html">General Questions</a></li>
+<li><a href="fred.html">FRED Questions</a></li>
+<ul><font size="-1">
+<li><a href="fredretail.html">Retail
+Help</a></li>
+<li><a href="fredretailtech.html">Retail Tech Help</a></li>
+<li><a href="fredopen.html">FRED_Open Help</a></li>
+<li><a href="fredopentech.html">FRED_Open Tech Help</a></li>
+<li><a href="fredcommonmistakes.html">Common Mistakes</a></li>
+<li><a href="fredcookbook.html">FRED Cookbook</a></li>
+</font></ul>
+</li>
+<li><a href="gameplay.html">Gameplay Questions</a></li>
+<li><a href="installing.html">Installing FreeSpace</a></li>
+<ul><font size="-1">
+<li><a href="installingfs2.html">Installing
+FS2</a></li>
+<li><a href="installingfs2_open.html">Installing
+FS2_Open</a></li>
+<li><a href="installingmods.html">Installing Mods</a></li>
+</font></ul>
+</li>
+<li><a href="technical.html">Technical Problems</a></li>
+<ul><font size="-1">
+<li><a href="fs1-technical.html">FreeSpace
+1</a></li>
+<li><a href="fs2-technical.html">FreeSpace 2</a></li>
+<li><a href="fs2_open-technical.html">SCP</a></li>
+<li><a href="movies.html">Cutscenes</a></li>
+</font></ul>
+</li>
+<li><a href="storyline.html">Storyline Questions</a></li>
+<li><a href="modding.html">Modding Questions</a></li>
+<li><a href="shipmods.html">Turreting Tutorial</a></li>
+<li><a href="glossary.html">Glossary</a></li>
+<li><a href="downloads.html">Downloads</a></li>
+<li><a href="tools.html">FreeSpace Tools</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+
+<a name="Top"></a>
+<P><b><H1>Karajorma's Turreting Tutorial </H1></b>
+
+<P><b> WHAT DOES THIS TUTORIAL COVER? </b>
+
+<P>For years people have been writing tutorials on how to make ships for FS2. Despite this many people regard making ships as an arcane art beyond the ken of normal people. It isn't. This tutorial will show you how to get a ship up and running in FS2. It might not show you the best or even the easiest way to do it. I've gone for simplicity of understanding here. Once you know what you're doing you'll probably find easier and quicker ways to do things. There are several tutorials on the modding page to help you with that. What I've decided to do is instead make a tutorial that anyone can use. Here's a picture of what you'll be building. The GTC Great Big Cube.<BR>
+ <IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic1.jpg" ALIGN=LEFT><BR CLEAR=ALL>Yes I know it isn't very impressive looking but it will teach you the basics. <BR CLEAR=ALL>
+
+<P><b> WHAT WILL I NEED? </b>
+
+<P>You'll need a copy of <A HREF="http://download.cnet.com/TrueSpace/3000-6677_4-10187286.html" TARGET="_blank">True space 3</A> or greater (If you need to register your free copy go <A HREF="http://forms.caligari.com/forms/tS32_free.html" TARGET="_blank">here</A>). you'll also need <A HREF="http://ferrium.org/misc/PCS_1.3.6_b73_20060408.zip" TARGET="_blank">PCS (pof constructor suite)</A> and <A HREF="http://www.fsoinstaller.com/files/downloads/dmtools.zip" TARGET="-blank">Model View</A> I've included a copy of the .pof file and the cob/scn files it's made from and you can download it by clicking <A HREF="Downloads/NotABorgCube.zip">here</A>.
+
+<P><b> BUILDING THE HULL</b>
+
+<P>Before you get started a word of warning. True space has a habit of hiding icons under the ones you can see. e.g. the icons that make cylinders and spheres are hidden under the cube icon and can only be popped up by clicking and holding the left mouse button. If at any point you can't see an icon I mention try looking at some of the pop up menus. With that in mind lets get started.<BR>
+I am going to assume that you've spent a few minutes playing with True space first and know how to make cubes and move them. If not play around with the controls until you can do that. It's worth noting that many of the icons have a different functions depending on if you use the right or left mouse button when you click on them.<BR>
+Click on the cube button. Right click on the object tool button (it's the one that looks like a mouse pointer arrow) and change the numbers for the location to 0,0,0. If you're using TS3.2 two of those will already be zero but the third (Z) will be 1. Just to make things more interesting you might want to texture it but if you don't know how to do that it won't matter. Your screen should look something like the picture below now. (I'm using TS6.0 so it will look slightly different.) <BR CLEAR=ALL>
+
+<P><IMG SRC="FAQ-Images/Modding-Tutorial/Tutorial-Modelling-1.jpg" ALIGN=LEFT> Next we'll change the size of the cube a little. A 2x2x2 cube in True space will still be quite small in FS2 so make the ship bigger by changing the size settings to 6x6x4. Right, that's the hull completed (I told you this was a simple ship!). When building your own ships you should spend a little longer on it than we've done sweeping (AKA extruding), beveling and moving points around until you have something that looks like a ship. However for this example it isn't important. We're going straight on to putting some guns on our cube!  <BR CLEAR=ALL>
+
+<P><b> SINGLE PART TURRETS</b>
+
+<P><IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic2.jpg" ALIGN=LEFT WIDTH=195 HEIGHT=186> This is a single part turret. You may be surprised at how often these things have some people tearing out their hair. In fact they are incredibly easy to do. Make another cube. Change the size to make it smaller. I've made mine 1x1x1. What you now do is make a light (click on the light bulb icon). Move the new light to the front of the small cube. If you were making a real turret you would want to place the light at exactly the point your gun will fire from. I've just stuck the light in the middle of the smaller cub on this ship. <P>
+Now here is the bit where it gets tricky. You have to glue the light to the turret then the turret to the ship. Most people try to do this using the Glue as Sibling and Glue as Child options and the usual result is glue everywhere, things stuck in the wrong places and PCs being flung out of the window. However versions of True space after version 3 come with a little extension called TrueView. With this you can glue stuff without ever having to go near the nasty sticky glue icons.<BR> 
+ You run TrueView by clicking on the extensions icon, locating trueview.tsx (it usually lives in the True space\TSX\TrueView folder) and then clicking on the new TrueView icon that will appear in True space. Once you've done that you'll be presented with a menu that looks something like the one on the left below.<BR>
+<I>If you are using TS4.3 or above you might prefer to use a program called <A HREF="http://www.lunadude.com/rsrc_trueSpace.htm" TARGET="_blank">PI-SceneTool</A></I><BR>
+<I>If for some reason you don't have a copy of TrueView you can get it <A HREF="Downloads/TruView.rar">here</A> </I><BR CLEAR=ALL>
+
+<P><IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic3.jpg" ALIGN=LEFT>                               <IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic4.jpg" ALIGN=RIGHT>
+ You then pick up the newly created light in TrueView and drag it on top of the turret object (it will probably be called Cube,1 but if you don't have that simply select the turret in the main window and see what gets selected in TrueView). A new group called Noname,1 has been created. If you click on the plus sign to open it up and have a look you'll see that it contains the turret object you created and the light. The picture in TrueView will then look like the one on the right. Rename the whole group Turret01 and rename the light Turret01-fp_01. What you then do is position the turret in the correct position in relation to your ship. I've stuck it on the front. You then drag and drop the turret on top of it. You should end up with a scene that looks like the one below. <BR CLEAR=ALL>
+
+<P><IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic5.jpg" ALIGN=LEFT><BR CLEAR=ALL>
+
+<P> If you were making a proper ship you'd probably want to copy this turret several times and stick them all to the hull. You would then name each turret in order e.g. turret02, turret03 etc. However for this simple tutorial one of these turrets should be enough to teach you how to make these things.<BR CLEAR=ALL>
+
+<P><b> MULTI PART TURRETS</b>
+
+<P>If single part turrets tempt you to throw the computer out of the window, multi parts will probably tempt you to follow it. However they aren't actually that tricky.<BR>
+ These turrets are made out of two main parts. The base is the simplest part. Basically you make another cube. Then click on the Move Axes to Centre of Object button. You must then move the axis to the point on your model which the turret will turn on (this is usually the centre of the object which is exactly where the axes are by default).<BR> 
+ Now we have to make the barrel. We'll make a turret that has two barrels but you can have up to 3 barrels on a turret. If you want to have more than one simply make more barrels like this first one. The problem with the barrel is that it rotates around the axis. When you make the barrel however that axis will be in the middle of the primitive shape you started with. If you're not careful you can end up with a barrel that rotates out of the base in the game and hangs in mid air when firing at enemy ships that are on the same plane as the ship.<BR>
+ Okay. With that cautionary tale out of the way lets make a barrel. Make a cube and stretch it upwards to make it rectangular. Position it where you want to in relation to the base. What you do next depends on the number of barrels you are making. If you are making a single barrel turret simply glue a light to barrel using TrueView and call this group Turret02-arm. If you are making multiple barrels you make sure all the barrels (each with it's own light) are glued together in the Turret02-arm group.<BR>
+ The firing points are named in order. The first light is called Turret02-fp-01 while the second is called Turret02-fp-02 and the third (if you had one) would be Turret02-fp-03. Move the lights to the end of the barrels (where you want the gun to fire from).
+Select the Turret02-arm group and click on the Move Axes to Centre of Object button. That's put the axes in the wrong place. You'll want to move them downwards so that they are close to the bottom of your barrels).
+ Then use TrueView to glue the Turret02-arm to the turret base. Call this group Turret02 (or whatever number you're up to after sticking on the single part turrets). <BR CLEAR=ALL>
+
+<p><IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic6.jpg" ALIGN=LEFT> You should have ended up with a similar hierarchy to the one you can see in the pic on the left. If you've made a single part turret it should have the same hierarchy as Turret02. <BR> 
+ You can now use TrueView to glue the turret onto the ship. Due to the way FS2 turretting code works you can only add multi part turrets to the top or bottom of the ship so don't glue them to the sides or they won't work. Now save the model (you should also save the scene too but for the moment we are interested in the model itself). <BR CLEAR=ALL>
+
+
+<P><b> CONVERTING THE SHIP</b>
+<P>There are a whole set of tools you can use for converting the ship. Cob2pof, Cob2fs2, PCS and now even Model View has now stepped into the fray. My advice is to try as many as you can and see what works for you. We'll be using PCS version 1.3.42 for this conversion. <BR>
+Open up PCS and choose COB to POF from the conversion menu. Open up the .cob (model) file you saved earlier. If all goes well you should get a window opening up displaying a few statistics about the conversion. Okay it and then save the pof. <BR> 
+
+<P><b> EDITING THE POF</b>
+
+<P>Unfortunately at the moment I haven't found a tool that will do everything at the moment so I tend to swap between PCS and Model View when it comes to editing pofs. I find Model View has a much better renderer than PCS but it won't do dock points or paths so you'll need PCS towards the end at the very least. I've also had trouble with high poly models in ModelView that don't show up in ModelView. As with many other things in this guide as you grow more experienced you'll find that you prefer a tool for certain tasks and stick to that.
+There are a few terms used in the next part of editing a pof that require a little explanation. Don't worry to much about the jargon, if you don't understand it at the moment re-read this section once we have completed the model and it should seem much clearer.<BR> 
+Firing points are the easiest to understand. A firing point is the point at which the beam/flak/laser bolt appears. <BR>
+The Normal is a little harder to explain so I'm going to use one of Volition's models rather than the one we are working on to show you.  <BR>
+
+<IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic10.jpg" ALIGN=LEFT><BR CLEAR=ALL>
+
+<P> The white lines on this picture represent the normals of each of the Rakshasa's turrets. They extend out from the turrets firing point. The normal is closely connected to another value we may have to edit later, the field of view or FOV. The FOV limits what the turret can shoot at. A turret with a FOV of 180 degrees can shoot at any enemy ship in front of it, directly above or below it or directly to the left or right. A turret with a field of view of 90 degrees is more limited and can only hit things up to 45 degrees above, below or to the right or left of the centre of the FOV. This brings us to the normal. The normal is a line extending from the firing point that shows where the centre of the field of view is. Therefore if you know the normal and the FOV you can predict what the turret will be able to hit. <BR>
+The reason for all this bother is because you are supposed to use the two values to make sure the ship can't shoot itself. Look at the picture of the Rakshasa again. If the normals on the turrets at the front had the opposite values their shots would travel through the Rakshasa and emerge from the other side.<BR> 
+ I used the Rakshasa because one of its normals is not particularly well done. All the normals point away from the ship apart from the one on turret 9 (the one at the bottom of the ship in the middle of the picture). As you can see turret 9 actually points towards the ship. Due to this the field of view of turret 9 is limited to 90 degrees. However if the normal pointed down and to the left rather than simply to the left and up a bit the field of view could be increased without the ship risking hitting itself. Normals are also used in several other areas of pof editing so you will need to get the hang of them.<BR>
+
+<P> The last two new terms you'll need to know are given different names in PCS and Model View just to make things more confusing. The first term Associated submodel (Parent Object in PCS) is the object that is the base of the turret (i.e. Turret01 or Turret02). The second term Rotational Subobject (Physical SOBJ Object in PCS) is the name of the barrel if the turret has one (i.e. Turret02-arm) or simply the same as the Associated submodel if it doesn't (i.e. Turret01 again). <BR>
+<P>Okay, I hope that all that wasn't too confusing. If it was don't worry about 5 minutes of altering the values in ModelView or PCS should be enough for you to figure out what this was all about. Since both work differently I'll talk you through how to use both. If you have any major problems simply go back the .cob reconvert and try the other program. Once you've finished and saved the model load it up in the program you were having problems with and you should be able to see what you should have done. <BR>
+
+
+<P><b> EDITING THE POF IN PCS</b>
+ <P><IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic7.jpg" ALIGN=LEFT> For this tutorial we will be using PCS for most of the grunt work. Click on the turrets tab. The current version of PCS is clever enough to do almost all the work of building a turret for you so all the boxes will have values in them. However there is one area where PCS falls over. It doesn't automatically set up multi-part turrets correctly. <BR>
+In the select turret box select Turret001 (You'll only have two choices anyway). PCS uses zeroth ordering so this is in fact turret02 (Whenever selecting a turret simply subtract 1 from the number you gave it in True space to find the number PCS gave it). Once you've selected the turret you'll notice that both the parent object and the physical SOBJ object are both set to Turret02. This is incorrect. Set the physical SOBJ object to Turret02-arm <BR CLEAR=All>
+
+<!--  <P><IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic8.jpg" ALIGN=RIGHT> --> Now click on the subobjects tab. This is where you allow the turret to rotate etc. <BR CLEAR=All>
+
+<P><b> EDITING THE POF IN MODELVIEW</b> 
+  <P>ModelView to edit the pof since ModelView's better renderer will make it easier to see what you're doing. For certain parts of a .pof you have to swap back to PCS (or use both programs at the same time).<BR>
+Open the pof in Model View and click on the pof-Editor button and then Turrets. You'll see panel like the one below.<BR CLEAR=All>
+ <P><IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic7a.jpg" ALIGN=LEFT>  Due to the way we named our Turret objects in True space, PCS has figured out what they were meant to be. However since we didn't tell it everything it needed to know there are still some changes that need to be made. As you can see Model View has already got the correct values for the Associated submodel and the Rotational Submodel (both are Turret01) however it doesn't have a value for the normal or for the firing point. It is much easier to add a normal if you add a firing point first because then the normal will be displayed as soon as you enter it. Just click on the new firing point button (it's the raised one in the picture). We'll leave the firing point as 0,0,0 for the time being. Now change the third normal from 0 to 1. Instantly you'll notice a line jutting out from the turret and pointing forwards, like in the picture below. <BR CLEAR=ALL>
+
+<P><IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic8.jpg" ALIGN=Right>If you switch to wireframe mode (CTRL-1) you'll notice that the start of the normal is halfway in the turret. We want it to be on the surface so we are going to have to move the firing point. Change the Z of the firing position to 10 and you'll notice that the cross showing the end of the normal moves onto the surface of the turret, exactly where we want it. Turret 1 is now complete. Just for the sake of good habit click accept and then select turret 2 (click on the 0x in Turret02). <BR>
+Again in this case both the Associated submodel and the Rotational Submodel are the same. This time however this is wrong. Turret02 is multi part turret and therefore the Rotational Submodel should be the Turret barrel NOT the turret base. Change it to Turret02-arm. The rest of the turretting process is pretty much the same as before. Add the firing point. Change the normal (this time change Y not Z to 1) and then alter the firing point to put it on the top of the barrel. (NB When dealing with multipart turrets the Normal must always be 1 or -1 or the turret won't work properly in the game. <BR CLEAR=ALL>
+
+<!--  <P><IMG SRC="FAQ-Images/Modding-Tutorial/Modding-Pic9.jpg" ALIGN=LEFT> The only thing left to do is to alter the submodels so that the turrets rotate. Click on the submodels tab then click on Turret01. The panel at the side now displays these three values <BR>
+ 
+
+<p>$special=subsystem <BR>
+$fov=180 <BR>
+$name=GunTurret <BR>
+
+<P>The first and last are pretty much unimportant but the middle one stands for Field of View which I explained earlier. You don’t need to alter this for this ship but when you do something more complicated you may need to alter the FOV to stop a ship shooting through parts of itself.  <BR>
+Turret01 is fine as it is but turret02 needs to be told how it will rotate. Click on Turret02 and tick the Rotates checkbox and then choose around X axis from the dropdown box. Click apply and then move on to Turret02-arm. Tick the Rotates checkbox and then choose around Z-axis from the dropdown box. You must then remove the three fields that have mistakenly been put in the properties box by PCS. Once the box is blank click accept and then click on the pof-editor button again. A pop up will ask you if you want to save your changes. Click yes and your pof has been saved. <BR CLEAR=ALL> -->
+
+<P><b> ADDING SUBSYSTEMS </b>
+
+<P>After turrets probably the most important addition are subsystems. Lots of things are currently hard coded into the game. For instance you won't get your ship to move unless you add an engine subsystem. One thing to remember about subsystems is that FS2 will treat engine, engines, engine01 or engineering as engine subsystems (meaning that they'll all have to be destroyed before the ship will be disabled - Of course you may want to have your ship disabled when engineering goes down.). The same definitely goes for subsystems containing the word weapon and you should probably avoid using sensor or communication although I don't think there are any hard coded events for those subsystems. Apart from that rule you can call your subsystems anything you like, you aren't limited by the systems in FS2. If you want a reactor, armoury or Wine Bar subsystem you can have one. They just won't do anything unless you set them to in FRED. <BR> 
+ Creating the actual subsystem is pretty easy. Click on the pof-editor button again and then the subsystems button. Click on the new button. You can fill in the fields in any order you like but I recommend filling in the radius button first. Until you do your subsystem won't be visible in Model View making it hard to figure out where to put it. The radius is the size (in meters) of the subsystem. If something within the area of a subsystem radius is hit the subsystem is damaged as well as the ship itself so you should make the radius appropriate to the size of your ship. Big engines should have a big engine subsystem, small fighters shouldn't have a comms system 10o meters in size etc. For the ship we're making a radius of 10 should be fine. Once you've set the radius you probably won't see any change unless you're in wireframe mode so change to that now. You'll see a little yellow cube inside the ship. What you now do is move the cube so that it is halfway inside and halfway outside of your model. Then change the name to engines and click apply. You now have an engine subsystem. You can then repeat this step to make all the other subsystems you wanted.  <BR>
+
+<P><b> THE END? </b>
+
+<P>Okay all that remains is to make a new table entry for your ship and to move the pof file to your data\models dir. Once you've done that you can enjoy being shot at by ship that looks like a really bad 60's special effect. I intend to add to this FAQ details on how to add engine glows, paths and even fighter bays and docking point to the GTC Great Big Cube but for now that's all. 
+
+</TD></TR>
+
+</TABLE>
+</body>
+</html>

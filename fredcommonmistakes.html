@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<title>The FreeSpace Oracle</title>
+</head>
+<body alink="LIMEGREEN" bgcolor="LIGHTSTEELBLUE" link="DARKBLUE"
+vlink="DARKRED">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td><img src="FAQ-Images/Oracle.gif"></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr valign="top">
+<td>
+<table width="200">
+<tbody>
+<tr>
+<td>
+<ul>
+<li><a href="intro.html">Home</a></li>
+<li><a href="general.html">General Questions</a></li>
+<li><a href="fred.html">FRED Questions</a></li>
+<ul><font size="-1">
+<li><a href="fredretail.html">Retail
+Help</a></li>
+<li><a href="fredretailtech.html">Retail Tech Help</a></li>
+<li><a href="fredopen.html">FRED_Open Help</a></li>
+<li><a href="fredopentech.html">FRED_Open Tech Help</a></li>
+<li><a href="fredcommonmistakes.html">Common Mistakes</a></li>
+<li><a href="fredcookbook.html">FRED Cookbook</a></li>
+</font></ul>
+</li>
+<li><a href="gameplay.html">Gameplay Questions</a></li>
+<li><a href="installing.html">Installing FreeSpace</a></li>
+<ul><font size="-1">
+<li><a href="installingfs2.html">Installing
+FS2</a></li>
+<li><a href="installingfs2_open.html">Installing
+FS2_Open</a></li>
+<li><a href="installingmods.html">Installing Mods</a></li>
+</font></ul>
+</li>
+<li><a href="technical.html">Technical Problems</a></li>
+<ul><font size="-1">
+<li><a href="fs1-technical.html">FreeSpace
+1</a></li>
+<li><a href="fs2-technical.html">FreeSpace 2</a></li>
+<li><a href="fs2_open-technical.html">SCP</a></li>
+<li><a href="movies.html">Cutscenes</a></li>
+</font></ul>
+</li>
+<li><a href="storyline.html">Storyline Questions</a></li>
+<li><a href="modding.html">Modding Questions</a></li>
+<li><a href="shipmods.html">Turreting Tutorial</a></li>
+<li><a href="glossary.html">Glossary</a></li>
+<li><a href="downloads.html">Downloads</a></li>
+<li><a href="tools.html">FreeSpace Tools</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+		
+<A NAME="top"></A>
+<H1>Top 14 Mistakes made by new FREDders </H1>	  
+
+
+<P>Since I set up the FRED Academy I've tested a whole load of missions by very new FREDders and I've noticed that often it's the same mistakes that come up time and time again. This article states some of the more common ones and explains what you can do to avoid them.<BR>
+
+<BR>14) <B>Poor spelling and grammar</B> <BR>
+I'm usually not that hard on this one while playtesting because <BR>
+<BR>a) I'm not that observant and 
+<BR>b) Spell checking is something I feel should be done last of all <BR> 	
+
+<BR>When a mission is complete this leaps from being a low grade annoyance to a very big one. Completed missions should never ship with obvious spelling errors in them. If English isn't your first language ask for some help. <BR>	  
+
+<BR>13) <B>Poor backgrounds</B> <BR> 
+Very common this one. The way the background editor works can be difficult for some people to grasp which means that you'll quite often see missions with only a few randomly placed nebulae in. Backgrounds add a lot of feeling to a mission and as much care should be taken over them as is taken about getting the right tone in the briefings and messages. 
+ One very common mistake is to see mis-rotated planets where the sun is shining from the left but yet it is the right side of the planet that is illuminated. Be warned that there are people in the community who are observant enough to notice this even when flying at 5% hull with a wing of Maras chasing them.<BR>
+
+<BR>12) <B>No use of the Y-axis</B><BR>
+
+Ever seen Star Trek II : Wrath of Khan? Ever got the feeling that the captains of all the ships in a mission haven't? They're all arranged on the XZ plane. No ships diving in from above or nipping in from below. While it's believable that a small convoy of ships might arrange themselves this way so as to spread their flak above and below them effectively it's harder to believe that enemy ships jumping in would somehow know what plane they were on and leap in on it. <BR>
+
+<BR>11) <B>Poorly chained directives</B> <BR>
+
+This is quite a common one. If you forget to chain your Return to Base Objective it will appear at the start of the mission. FreeSpace is clever enough to avoid putting up a directive to kill Cancer wing if they aren't present yet but it doesn't do that for every directive. Unless you sure you don't need to you'll have to chain the directive to the event which triggers it.<BR>
+
+<BR>10) <B>Magically completed mission objectives</B> <BR>
+
+A close relative of the above error. Quite often a FREDder will put in a mission objective but forget to actually put in the trigger because he means to go back and put it in later. Nothing screams out "I haven't tested this mission" quite as loud as this cause unlike the above one this one even has music to draw the player to the fact that you've screwed up. <BR>
+
+<BR>9) <B>No use of the escort list</B><BR>
+
+All major capships and anything which is mission critical should appear on the escort list. Making a ship appear there is very simple. Just go to the ships editor&gt;&gt;misc. Tick the escort ship box and assign a priority. All caps should be given a priority. Don't make the mistake of only giving them to the 3 most important ships in the game. If one of them is blown up the next most important ship should then appear on the list. <BR>
+
+<BR>8) <B>Poorly chosen event and message names</B><BR>
+
+This one won't affect people playing the mission but it's just plain common sense. While you might think you'll remember the arcane naming system you've chosen to use you almost certainly won't if something makes you come back to the mission in a years time to fix a bug. In addition to making your life easier it makes life easier for play testers as they can give you the name of a faulty event/message for you to fix. Finally when you look over your mission and see an is-event-true-delay SEXP how on Earth can you tell what other event it refers to if all of them are called "event name". <BR>
+
+<BR>7) <B>Only one RTB directive</B><BR>
+
+Some missions only need to use one Return to Base Directive. What some FREDders like to do is have an event that gathers up all the possible events that can end the mission and chain the RTB to that. However amongst new FREDders only one RTB is generally more indicative of a poorly thought out mission. Basically the designer thinks "Hmmm, alpha will fight this cruiser, kill the fighters and then escape with the convoy". No thought is given to what happens if something goes wrong. When this happens the mission basically continues forever because no thought was given to this possibility. <BR>
+
+<BR>6) <B>The Everlasting mission</B><BR>
+
+A more insidious relative of the mission with only one RTB is the everlasting mission. Unlike the previous one there are RTBs in the mission but the player can do something that causes it to never appear. Unlike the above error this isn't just a newbie mistake as quite often even the professionals have failed to think of something the player might try (for instance disabling the wrong ship in the final FS2 mission can prevent Capella from going nova). It is seen fairly commonly in newbie missions though so I mentioned it here. As a mission designer you must actively think of ways that a player could screw up your mission and prevent them. For instance if an enemy ship must survive the mission you must have a plan for what to do should the player disable it. <BR>
+
+<BR>5) <B>Only one debriefing</B><BR>
+
+A close relative of the only 1 RTB error is the only one debriefing error. Basically the same logic is at work here and the mission only has a debriefing for a successfully completed mission. If anything else happens you'll only see "No debriefing for mission xxxx". <BR>
+
+<BR>4) <B>Odd naming conventions</B> <BR>
+
+FreeSpace has certain naming conventions that should be used in any mission set in the FS2 universe unless you have a damn good reason for changing it. GTVA wings are always named after letters of the Greek alphabet. Enemy fighter wings are named after signs of the zodiac. Although there is more leeway in the names of capships expecting anyone to take the GTD Suck My Balls seriously is frowned upon. <BR>
+Worse than poorly thought out names though is the appearance of GTC Fenris 37 as this shows that you've put no thought at all into the names of your ships. All capships must have a unique name. You might be able to get away with giving a Poseidon or Isis a number but that is less forgivable in a Triton or Argo. <BR>
+
+<BR>3) <B>No delay between waves</B> <BR>
+
+Even in the most intense of battles there should be a few seconds delay between the death of the last ship in one wave and the next wave arriving. Otherwise it looks like the ships were lurking in subspace waiting for the death of their team mates. If you really have to avoid giving the player a breather for some reason you should still use a delay but increase the threshold for the wave so that the player is still busy with the current wave when the next one arrives. <BR>
+
+<BR>2) <B>Poorly thought out team loadouts</B><BR>This one is a biggie. The biggest mistake is the use of the D variant weapons in singleplayer. These weapons are for use in multiplayer and thus are completely useless in the singleplayer game. <BR>The other big mistake is having too few or too many weapons available. What's the point in 700 Helios bombs available if there are no bombers in the mission? Hell what's the point in having 700 Helios bombs available period? Similarly there's no point in making tempests available if you only give out 10 of them. <BR>
+
+<BR>1) And the biggest/most common mistake of all is.....<BR>
+
+<BR><B>No AWOL Debriefing</B><BR>
+
+This is the debriefing that appears if you leave the battle when you weren't told to do so. A lot of newbies think that this one is added automatically (probably because the traitor one is) so they don't put it in. But if you think about it, how does FS2 know whether you were supposed to leave them mission or not? <br>
+A good AWOL debriefing should check if any of the conditions allowing you to leave have come true. In addition the other debriefing sections should check and <I>not</I> be played if the AWOL one was (Why would Command applaud you for protecting a ship if they are about to take you out and shoot you!) Basically this is an offshoot of the only one debriefing error but it's so common even in people who've got several debriefing stages that it was worthy of special mention.<br>
+An AWOL debriefing doesn't have to be a "take him out and shoot him" style chewing out. In many cases you can make it read exactly like a failed mission debrief would except that the conditions that trigger it are different.<br>
+
+<P><A HREF="#top">Back To The Top</A> 
+</TD></TR>
+
+</TABLE>
+
+
+</body>
+</html>

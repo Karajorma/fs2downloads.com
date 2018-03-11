@@ -1,0 +1,601 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<!-- Mirrored from fs2downloads.com/freddocs/SEXP.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:48:03 GMT -->
+<head>
+<title>Using FRED2: Working With SEXPs</title>
+<map name="menu">
+	<area shape="RECT" coords="5,12,106,24" href="index.html">
+	<area shape="RECT" coords="5,24,106,36" href="quickstart.html">
+	<area shape="RECT" coords="5,36,106,48" href="concepts.html">
+	<area shape="RECT" coords="5,48,106,60" href="toolbar.html">
+	<area shape="RECT" coords="5,60,106,72" href="menus.html">
+	<area shape="RECT" coords="5,72,106,84" href="walkthrough.html">
+	<area shape="RECT" coords="5,84,106,96" href="editors.html">
+	<area shape="RECT" coords="5,96,106,108" href="sexp.html">
+	<area shape="RECT" coords="5,108,106,120" href="internet.html">
+	<area shape="RECT" coords="5,120,106,132" href="index-no-really.html">
+</map>	
+<link href="fred2.css" rel="STYLESHEET" type="text/css">
+</head>
+
+<body bgcolor=white background="nacbkg1.gif">
+<table width="672" cellpadding=0 cellspacing=0>
+	<tr>
+		<td width="80">&nbsp;</td>
+		<td width="580"><img src="nactitle1.jpg" width=580 height=95 alt="" border="0"><br></td>
+	</tr>
+</table>
+<table width="672" cellpadding=0 cellspacing=0>	
+	<tr>
+		<td width="111" valign="top"><img src="nacmenu1.gif" width=111 height=142 alt="" border="0" usemap="#menu"></td>
+		<td width="561" valign="top">
+		
+<!--- START DRAKE STUFF --->
+					<table width = 100% cellpadding=10>
+					  <tr>
+					    <td colspan=2>
+					    <h1>Working With SEXPs</h1>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    This file explains how to use SEXPs, or <i>s</i>ymbolic
+					    <i>exp</i>ressions, to program complex behavior into your
+					    missions.  (It's pronounced "sex pee".  Stop snickering!)
+					    <p>
+					    While FRED2's SEXPs are easy to use, they
+					    are enormously powerful.  These help files only begin to touch on
+					    the possibilities;  the <a href=internet.html>on-line FreeSpace 2
+					    community</a> will no doubt use SEXPs to do things the designers of
+					    FreeSpace 2 never imagined.
+					    <p>
+					    The sections of this file are:
+					    <ul>
+					      <li> <a href=#intro>Introduction to SEXPs</a>
+					      <li> <a href=#operators>SEXP Operators</a>
+					    </ul>
+						</div>
+					</td>
+					</tr>
+					  <tr>
+					  <td colspan=2>
+					  <a name=intro></a>
+					  <h2>Introduction to SEXPs</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  SEXPs are used to control the events that occur within a FreeSpace 2
+					  mission.
+					    They are used in the <a
+					    href=editors.html#ships>Ships</a>,
+					    <a href=editors.html#wings>Wings</a>,
+					    <a href=editors.html#mission-objectives>Mission Objectives</a>,
+					    <a href=editors.html#events>Events</a>,
+					    <a href=editors.html#briefing>Briefing</a>,
+					  <a href=editors.html#debriefing>Debriefing</a>, and
+					  <a href=editors.html#campaign>Campaign</a> editors.
+					  <p>
+					  A SEXP examines the state of the mission (which ships have
+					  been destroyed, how much time has passed, what cargo has been
+					  inspected, and so forth).  Based on this information, the SEXP
+					  either does something (like turning a friendly ship hostile) or returns
+					  (computes) some value.  Most SEXPs return a "boolean" true-or-false value, but
+					  some return a number or a text string.  You can use this returned value to
+					  trigger events, such as radio messages and ship arrivals.
+					  <p>
+					  For example, you can tell a ship to warp in 15 seconds after the GTT
+					  Patterson departs by putting putting the SEXP below in the
+					  <b>Arrival Cue</b> section of the <a href=editors.html>Ships</a>
+					  editor.
+					    <br clear=all>
+					    <img src=sexp-example.gif vspace=10>
+					    <br clear=all>
+					    This SEXP is composed of an
+					    operator (<code>has-departed-delay</code>) and two arguments
+					    (<code>15</code> and <code>GTT Patterson</code>).  The number of
+					    arguments can vary.
+					    <p>
+					    You can
+					    recognize the operator by the red <font color=red>op</font> next
+					    to it.  The little sheets of paper next to the other lines
+					    indicate that they are plain data.
+					    <p>
+					    Here's a more complicated one:
+					    <br clear=all>
+					    <img src=sexp-example-2.gif vspace=10>
+					    <br clear=all>
+					    This SEXP becomes true when 75% of
+					    Beta wing has been destroyed and the SC Hastur has been disabled
+					    (for at least 0 seconds).  The main operator of this SEXP is
+					    <code>and</code>;  its arguments are themselves SEXPs, sometimes
+					    called sub-SEXPs.
+					<p>
+					    If you click on the little minus sign to the left of an operator,
+					    its arguments are hidden and the minus sign turns into a plus.
+					    <br clear=all>
+					    <img src=sexp-compressed.gif vspace=10>
+					    <br clear=all>
+					    Click on it again to show the arguments.
+					    <p>
+					    Whenever you highlight an operator (by clicking on it), help
+					    appears at the bottom of the editor explaining how that operator
+					    works.  Here is the help for <code>has-departed-delay</code>:<p>
+					    <br clear=all>
+						<table width=100% border=0 bgcolor=#B0B0B0>
+							<tr>
+								<td>
+									<div class="copy">
+										Has departed delay (Boolean operator)<br>
+										Becomes true &lt;delay&gt; seconds after the specified ship(s) or wing(s) have departed from the mission by warping out.  If any ship was destroyed, this operator will never be true.
+										<br>
+										<br>
+										Returns a boolean value; Takes 2 or more arguments:<br>
+										&nbsp;&nbsp;&nbsp;1:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time delay in seconds (see above).<br>
+										&nbsp;&nbsp;&nbsp;Rest:&nbsp;&nbsp;Name of ship (or wing) we want to check has departed.
+									</div>
+								</td>
+							</tr>
+						</table>
+					   
+					<br clear=all>
+					    You can turn SEXP help off by unchecking <b>Show SEXP Help</b> in
+					the <a href=menus.html#help>Help Menu</a>.
+					<p>
+					<img src=sexp-right-menu.gif align=right hspace=10>
+					To edit a line in a SEXP, right click on it.  You'll see a menu like
+					the one shown at right.  Different items will be grayed out depending
+					on the situation.
+					<p>
+					<b>Delete Item</b> deletes the current line and any sub-SEXPs under
+					it.  For example, if you delete an operator, its arguments will also
+					get deleted.
+					<p>
+					<b>Edit Data</b> is used to edit lines containing raw data, like
+					numbers and text strings.
+					<p>
+					<b>Expand All</b> shows the arguments of the current operator.  It's
+					similar to clicking on the minus sign to the left of the operator, but
+					it also expands any sub-SEXPs.
+					<p>
+					<b>Cut</b>, <b>Copy</b>, and <b>Paste</b> work just as you'd expect.
+					<b>Add Paste</b> adds whatever SEXP is on the clipboard (the one most
+					recently cut or copied) as an additional argument to the current
+					operator.
+					<p>
+					<b>Add Operator</b> adds a new operator as an argument to the current
+					operator.  (It gives you a huge menu of operators to choose from;
+					more on those in a moment.)  <B>Add Data</b> lets you add a number or
+					string, or possibly the name of an object, event, or objective.
+					<p>
+					<B>Insert Operator</B> replaces this operator with a new one (such as
+					<code>and</code>) and makes the current operator an argument of the
+					new one.  For example, if you had this SEXP
+					<br clear=all>
+					<img src=nyarlathotep-before.gif vspace=10>
+					<br clear=all>
+					and then picked <b>Insert Operator</b> <code>and</code>, you'd get
+					this one:
+					<br clear=all>
+					<img src=nyarlathotep-after.gif vspacee=10>
+					<br clear=all>
+					<b>Replace Operator</b> and <b>Replace Data</b> replace the current
+					line (and any sub-SEXPs).
+					<p>
+					You can create variables to store information (numbers and text
+					strings).  Use <b>Add Variable</b> to make a new one and set its
+					default value.  Use <b>Modify Variable</b> to remove a variable or
+					change its default value.  (If you want to change a variable's value
+					during the course of a mission, use the <code>modify-variable</code>
+					operator.)  <b>Replace Variable</b> replaces the current line of data
+					with one of the variables you've defined.  <em>Variable names and string
+					variable values cannot contain spaces.</em>
+					<p>
+					A few words about <code>incomplete</code> values are in order.  Some
+					boolean SEXP operators 
+					(such as <code>is-destroyed-delay</code>) can return the value
+					<code>incomplete</code> instead of <code>true</code> or
+					<code>false</code>.  This will change to <code>true</code> or
+					<code>false</code> when appropriate.  (<code>is-destroyed-delay</code>
+					becomes <code>true</code> when all of the specified ships are
+					destroyed, <code>false</code> when at least one of them departs.)
+					<p>
+					There are three places where this can cause trouble:
+					<ul>
+					  <li>Anything which is <code>incomplete</code> at the end of a
+					      mission becomes <code>false</code>.  Therefore, the operators
+					      <code>is-goal-incomplete</code> and
+					      <code>is-event-incomplete</code> should never be used in
+					      debriefing or campaign branch SEXPs.
+					  <li>Once an entire SEXP (for example, an event) returns something
+					      other than <code>incomplete</code>, it will not be 
+					      evaluated again.  (<a href=editors.html#events>Events</a> with a
+					      <b>Repeat Count</b> of more
+					      than 1 are an exception to this.)
+					      <br clear=all>
+					  <li>If the <code>not</code> operator is given
+					      <code>incomplete</code> as an argument, it returns
+					      <code>true</code>.
+					      <p>
+					      Specifically, consider this SEXP:
+					      <br clear=all>
+					      <img src=not-incomplete.gif vspace=10>
+					      <br clear=all>
+					      At the beginning of the mission, the
+					      <code>is-destroyed-delay</code> sub-SEXP returns
+					      <code>incomplete</code>.  Therefore, the <code>not</code>
+					      returns <code>true</code>, and the event occurs immediately at the
+					      beginning of the mission!
+					      <br clear=all>
+					</ul>
+					</div>
+					    </td>
+					</tr>
+					  <tr>
+					  <td colspan=2>
+					  <a name=operators></a>
+					  <h2>SEXP Operators</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  There are a lot of operators in FRED2.  Fortunately, the SEXP help
+					  explains what each one does when you highlight it.
+					  <p>
+					  When you go to pick an operator in FRED2, many choices will be
+					  grayed out.  This is usually because they don't return the right type of
+					  information;  for example, the <code>time-docked</code> operator
+					  returns a number, so you can't use it as the first argument of a
+					  <code>when</code>, which must be boolean.
+					  <p>
+					  In order to help you find the operator you want, the operators
+					  within each category are listed below.  Most of them are
+					  self-explanatory.  If you're not sure about how to use one,
+					  create a SEXP using it, highlight it, and look at the SEXP help at
+					  the bottom of the editor.
+					  <p>
+					  <h3>Objectives</h3>
+					  These operators determine if primitive events (such as ship
+					  destruction) have occurred.  They return boolean values.
+					  <p>
+						
+					  <table width=100%>
+					    <tr>
+					      <td valign=top>
+					      <code>
+					  is-destroyed-delay<br>
+					  is-subsystem-destroyed-delay<br>
+					  is-disabled-delay<br>
+					  is-disarmed-delay<br>
+					  has-docked-delay<br>
+					  has-undocked-delay<br>
+					      has-arrived-delay
+					      </code>
+					      </td>
+					      <td valign=top>
+					      <code>
+					  has-departed-delay<br>
+					  are-waypoints-done-delay<br>
+					  ship-type-destroyed<br>
+					  percent-ships-departed<br>
+					  percent-ships-destroyed<br>
+					  depart-node-delay<br>
+					      destroyed-or-departed-delay
+					      </code>
+					      </td>
+					      </tr>
+					</table>
+					  <h3>Time</h3>
+					  These operators determine when (in seconds since the beginning of
+					  the mission) events happened.  They return numbers.
+					  <p>
+					  <table width=100%>
+					    <tr>
+					      <td valign=top>
+					      <code>
+					  time-ship-destroyed<br>
+					  time-ship-arrived<br>
+					  time-ship-departed<br>
+					  time-wing-destroyed<br>
+					  time-wing-arrived
+					      </code>
+					      </td>
+					      <td valign=top>
+					      <code>
+					  time-wing-departed<br>
+					  mission-time<br>
+					  time-docked<br>
+					  time-undocked
+					      </code>
+					      </td>
+					      </tr>
+					    </table>
+					  <h3>Logical</h3>
+					  Most of these operators combine numbers or boolean values.  They return boolean values.
+					  <p>
+					  <table width=100%>
+					    <tr>
+					      <td valign=top>
+					      <code>
+					      true<br>
+					      false<br>
+					      and<br>
+					      and-in-sequence<br>
+					      or<br>
+					      not
+					      </code>
+					      </td>
+					      <td valign=top>
+					      <code>
+					      =<br>
+					      &gt;<br>
+					      &lt;<br>
+					      is-iff<br>
+					      has-time-elapsed
+					      </code>
+					      </td>
+					      </tr>
+					    </table>
+					  <h3>Arithmetic</h3>
+					  Most of these operators combine numbers.  They return numbers.
+					  <p>
+					  <table width=100%>
+					    <tr>
+					      <td valign=top>
+					      <code>
+					      +<br>
+					      -<br>
+					      *
+					      </code>
+					      </td>
+					      <td valign=top>
+					      <code>
+					      /<br>
+					      mod<br>
+					      rand
+					      </code>
+					      </td>
+					      </tr>
+					    </table>
+					  <h3>Status</h3>
+					  These operators determine the state of particular ships or of the
+					    mission in general.  Some of them return numbers, some return
+					    boolean values.
+					  <p>
+					  <table width=100%>
+					    <tr>
+					      <td valign=top>
+					      <code>
+					      is-cargo-known-delay<br>
+					      cap-subsys-cargo-known-delay<br>
+					      has-been-tagged-delay<br>
+					      is-tagged<br>
+					      num-kills<br>
+					      num-type-kills<br>
+					      num-class-kills<br>
+					      shield-recharge-pct<br>
+					      engine-recharge-pct<br>
+					      weapons-recharge-pct<br>
+					      shield-quad-low<br>
+					      </code>
+					      </td>
+					      <td valign=top>
+					      <code>
+					      secondary-ammo-pct<br>
+					      is-secondary-selected<br>
+					      is-primary-selected<br>
+					      shields-left<br>
+					      hits-left<br>
+					      hits-left-subsystem<br>
+					      distance<br>
+					      time-elapsed-last-order<br>
+					      skill-level-at-least<br>
+					      num-players<br>
+					      special-warp-dist
+					      </code>
+					      </td>
+					      </tr>
+					    </table>
+					  <h3>Change</h3>
+					  These operators cause things happen.  They do not return
+					    values.  Because this group is so large, you will have to use the
+					    triangles at the top and bottom of the menu to scroll through it.
+					  <p>
+					  <table width=100%>
+					    <tr>
+					      <td valign=top>
+					      <code>
+					      modify-variable<br>
+					      special-warpout-name<br>
+					      do-nothing<br>
+					      add-goal<br>
+					      clear-goals<br>
+					      change-iff<br>
+					      protect-ship<br>
+					      unprotect-ship<br>
+					      beam-protect-ship<br>
+					      beam-unprotect-ship<br>
+					      send-message<br>
+					      self-destruct<br>
+					      end-campaign<br>
+					      sabotage-subsystem<br>
+					      repair-subsystem<br>
+					      set-subsystem-strength<br>
+					      invalidate-goal<br>
+					      validate-goal<br>
+					      send-random-message<br>
+					      transfer-cargo<br>
+					      exchange-cargo<br>
+					      good-rearm-time<br>
+					      allow-ship<br>
+					      allow-weapon<br>
+					      break-warp<br>
+					      fix-warp<br>
+					      never-warp<br>
+					      allow-warp<br>
+					      </code>
+					      </td>
+					      <td valign=top>
+					      <code>
+					      good-secondary-time<br>
+					      ship-invisible<br>
+					      ship-visible<br>
+					      ship-invulnerable<br>
+					      ship-vulnerable<br>
+					      red-alert<br>
+					      jettison-cargo-delay<br>
+					      fire-beam<br>
+					      beam-free<br>
+					      beam-free-all<br>
+					      beam-lock<br>
+					      beam-lock-all<br>
+					      turret-free<br>
+					      turret-free-all<br>
+					      turret-lock<br>
+					      turret-lock-all<br>
+					      add-remove-escort<br>
+					      awacs-set-radius<br>
+					      send-message-list<br>
+					      cap-waypoint-speed<br>
+					      ship-guardian<br>
+					      ship-no-guardian<br>
+					      turret-tagged-only<br>
+					      turret-tagged-clear<br>
+					      subsys-set-random<br>
+					      supernova-start<br>
+					      cargo-no-deplete
+					      </code>
+					      </td>
+					      </tr>
+					    </table>
+					  <h3>Conditional</h3>
+					  There is only one operator in this group, <code>when</code>.  It is
+					    the top-level operator in most events ("When this happens, do
+					    these things"), and returns a boolean value.
+					  <h3>Debugging</h3>
+					    This group also contains only one operator, <code>debug</code>.
+					    You probably won't need this one.
+					  <h3>AI Goals</h3>
+					  These operators affect the behavior of computer-controlled ships.
+					    They return ship goals, which can be only be used as the second
+					    argument to the <code>add-goal</code> operator.  Some of these
+					    goals cannot be given to certain types of ships;  for example,
+					    capital ships cannot perform the <code>ai-guard</code> order.
+					    <p>
+					    The <code>ai-chase</code> goal is equivalent to "attack" for fighters
+					    and bombers.  For larger ships, "chase" is a better word;  they
+					    will try to stay near the specified ship, but they will still fire at the
+					    most threatening target in the area.  If you need to choreograph
+					    capital ship fire in more detail, consider the
+					    <code>beam-fire</code> operator.
+					  <p>
+					  <table width=100%>
+					    <tr>
+					      <td valign=top>
+					      <code>
+					      ai-chase<br>
+					      ai-dock<br>
+					      ai-undock<br>
+					      ai-warp-out<br>
+					      ai-waypoints<br>
+					      ai-waypoints-once<br>
+					      ai-destroy-subsystem<br>
+					      ai-disable-ship<br>
+					      ai-disarm-ship
+					      </code>
+					      </td>
+					      <td valign=top>
+					      <code>
+					      ai-guard<br>
+					      ai-chase-any<br>
+					      ai-evade-ship<br>
+					      ai-stay-near-ship<br>
+					      ai-keep-safe-distance<br>
+					      ai-ignore<br>
+					      ai-stay-still<br>
+					      ai-play-dead
+					      </code>
+					      </td>
+					      </tr>
+					    </table>
+					  <h3>Events / Goals</h3>
+					  These operators determine whether events have occurred or goals have
+					    been met.  They return boolean values.
+					    <p>
+					    The "previous" operators in this group refer to things that
+					    happened in a previous mission in a campaign.
+					  <p>
+					  <table width=100%>
+					    <tr>
+					      <td valign=top>
+					      <code>
+					      is-goal-incomplete<br>
+					      is-goal-true-delay<br>
+					      is-goal-false-delay<br>
+					      is-event-incomplete<br>
+					      is-event-true-delay
+					      </code>
+					      </td>
+					      <td valign=top>
+					      <code>
+					      is-event-false-delay<br>
+					      is-previous-goal-true<br>
+					      is-previous-goal-false<br>
+					      is-previous-event-true<br>
+					      is-previous-event-false
+					      </code>
+					      </td>
+					      </tr>
+					    </table>
+					  <h3>Training</h3>
+					  These operators are used mainly in pilot training missions.  Some of
+					    them return boolean values, some do not return anything.
+					  <p>
+					  <table width=100%>
+					    <tr>
+					      <td valign=top>
+					      <code>
+					      key-pressed<br>
+					      key-reset<br>
+					      targeted<br>
+					      speed<br>
+					      facing<br>
+					      facing-waypoint<br>
+					      order<br>
+					      waypoint-missed<br>
+					      </code>
+					      </td>
+					      <td valign=top>
+					      <code>
+					      waypoint-twice<br>
+					      path-flown<br>
+					      training-msg<br>
+					      flash-hud-guage<br>
+					      special-check<br>
+					      secondaries-depleted<br>
+					      set-training-context-fly-path<br>
+					      set-training-context-speed
+					      </code>
+					      </td>
+					      </tr>
+					    </table>
+						</div>
+					    </td>
+					</tr>
+					</table>
+
+
+<!--- END DRAKE STUFF --->
+		</td>
+	</tr>
+</table>
+
+</body> 
+<!-- Mirrored from fs2downloads.com/freddocs/SEXP.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:48:05 GMT -->
+</html>

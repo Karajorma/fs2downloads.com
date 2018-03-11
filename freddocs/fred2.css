@@ -1,0 +1,65 @@
+P  {}
+
+H1  {
+	font-weight : bold;
+	color : Black;
+}
+
+H2  {}
+
+H3  {}
+
+A  {
+	color : rgb(92,170,110);
+}
+
+A:Visited  {
+	color : rgb(92,170,110);
+}
+
+A:Active  {
+	color : rgb(138,255,165);
+	text-decoration : underline;
+}
+
+A:Hover  {
+	color : rgb(138,255,165);
+	text-decoration : underline;
+}
+
+BODY  {
+	font-size : 10pt;
+	font-family : Arial;
+	color : Black;
+}
+
+.newstitle  {
+	font-weight : bold;
+	color : White;
+	font-family : 12pt;
+}
+
+.newsitem  {
+	font-family : Arial;
+	color : Silver;
+	font-size : 10pt;
+}
+
+.h1  {
+	font-size : large;
+	font-family : Arial;
+	font-weight : bold;
+	color : White;
+}
+
+.copy  {
+	font-size : 10pt;
+	font-family : Arial;
+	color : Black;
+}
+
+li  {
+	font-size : 10pt;
+	font-family : Arial;
+	color : Black;
+}

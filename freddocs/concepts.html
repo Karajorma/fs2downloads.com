@@ -1,0 +1,331 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<!-- Mirrored from fs2downloads.com/freddocs/concepts.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:47:45 GMT -->
+<head>
+<title>Using FRED2: Basic Concepts</title>
+<map name="menu">
+	<area shape="RECT" coords="5,12,106,24" href="index.html">
+	<area shape="RECT" coords="5,24,106,36" href="quickstart.html">
+	<area shape="RECT" coords="5,36,106,48" href="concepts.html">
+	<area shape="RECT" coords="5,48,106,60" href="toolbar.html">
+	<area shape="RECT" coords="5,60,106,72" href="menus.html">
+	<area shape="RECT" coords="5,72,106,84" href="walkthrough.html">
+	<area shape="RECT" coords="5,84,106,96" href="editors.html">
+	<area shape="RECT" coords="5,96,106,108" href="sexp.html">
+	<area shape="RECT" coords="5,108,106,120" href="internet.html">
+	<area shape="RECT" coords="5,120,106,132" href="index-no-really.html">
+</map>	
+<link href="fred2.css" rel="STYLESHEET" type="text/css">
+</head>
+
+<body bgcolor=white background="nacbkg1.gif">
+<table width="672" cellpadding=0 cellspacing=0>
+	<tr>
+		<td width="80">&nbsp;</td>
+		<td width="580"><img src="nactitle1.jpg" width=580 height=95 alt="" border="0"><br></td>
+	</tr>
+</table>
+<table width="672" cellpadding=0 cellspacing=0>	
+	<tr>
+		<td width="111" valign="top"><img src="nacmenu1.gif" width=111 height=142 alt="" border="0" usemap="#menu"></td>
+		<td width="561" valign="top">
+		
+<!--- START DRAKE STUFF --->
+					<table width = 100% cellpadding=10>
+					  <tr>
+					    <td colspan=2>
+					    <h1>Basic Concepts</h1>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top><div class="copy">
+					    This file introduces some basic concepts about using FRED2.
+					    The sections are:
+					    <ul>
+					      <li> <a href=#cartesian>Cartesian Coordinates</a>
+					      <li> <a href=#movement>Movement Commands</a>
+					      <li> <a href=#selection>Selection and Marking</a>
+					      <li> <a href=#mouse>Mouse Commands</a>
+					      <li> <a href=#status>The Status Bar</a>
+					    </ul>
+						</div>
+					</td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=cartesian></a>
+					  <h2>Cartesian Coordinates</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <img src="cartesian.gif" width=562 height=320 alt="" border="0"><p>
+					  
+					  <div class="copy">
+					  The position of each object (ship, jump node, etc.) in FRED2 is
+					  given by three numbers, called 
+					  <b>X</b>, <b>Y</b>, and <b>Z</b>.  When you first start FRED2, the
+					  default ship is at 
+					  position (0, 0, 0).  This point is called the origin.
+					  <p>
+					  From the starting point of view, <b>X</b> indicates how many meters to the
+					  right of the origin an object is.  If an object is to the left of
+					  the origin, it will have a negative <b>X</b> value.
+					  <p>
+					  Similarly, <b>Y</b> indicates how many meters up the object is, and <b>Z</b>
+					  indicates how many meters it is back into the screen.
+					  <p>
+					  The coordinates of the camera are shown in the upper right of the
+					  FRED2 window.
+					  <br clear=all>
+					  </div>
+					  </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					<a name=movement></a>
+					  <h2>Movement Commands</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  The following commands move the camera:
+					  <p>
+					    <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th width=20% align=left>Key</th>
+					      <th width=20% align=left>Effect</th>
+					      <th width=20% align=left>Key</th>
+					      <th width=20% align=left>Effect</th>
+					    </tr>
+					    <tr>
+					      <td>1 (keypad)
+					      </td>
+					      <td>Move left
+					      </td>
+					      <td>4 (keypad)
+					      </td>
+					      <td>Turn (yaw) left
+					      </td>
+					    </tr>
+					    <tr>
+					      <td>3 (keypad)
+					      </td>
+					      <td>Move right
+					      </td>
+					      <td>6 (keypad)
+					      </td>
+					      <td>Turn (yaw) right
+					      </td>
+					    </tr>
+					    <tr>
+					      <td>A
+					      </td>
+					      <td>Move forward
+					      </td>
+					      <td>8 (keypad)
+					      </td>
+					      <td>Turn (pitch) up
+					      </td>
+					    </tr>
+					    <tr>
+					      <td>Z
+					      </td>
+					      <td>Move backward
+					      </td>
+					      <td>2 (keypad)
+					      </td>
+					      <td>Turn (pitch) down
+					      </td>
+					    </tr>
+					    <tr>
+					      <td>- (keypad)
+					      </td>
+					      <td>Move up
+					      </td>
+					      <td>7 (keypad)
+					      </td>
+					      <td>Roll left (ship view only)
+					      </td>
+					    </tr>
+					    <tr>
+					      <td>+ (keypad)
+					      </td>
+					      <td>Move down
+					      </td>
+					      <td>9 (keypad)
+					      </td>
+					      <td>Roll right (ship view only)
+					      </td>
+					    </tr>
+					</table>
+					<p>
+					There are several modes which make these commands do different things:
+					<a href=menus.html#view>Current Ship</a> view,
+					<a href=toolbar.html#rotate-around-object>Rotate Around Object</a>,
+					and
+					<a href=menus.html#misc>Control Object</a> mode.
+					</div>
+					</td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					<a name=selection></a>
+					  <h2>Selection and Marking</h2>
+					  </td>
+					</tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+					    <img src=marking.gif hspace=10>
+						<p>
+						<div class="copy">
+					    Many commands refer to the currently selected or marked objects.
+					    The difference is subtle, but important.  Only one object can be
+					    selected at a time, but several objects can be marked.
+					    <p>
+					    The currently selected object, if any, gets a white outline.  Other
+					    currently marked objects get gold outlines.  In the picture at
+					    right, the GTC Curly is selected.  The GTCs Curly, Larry, and Moe
+					    are all marked.  The GTC Shemp is neither selected nor marked.
+					    <p>
+					    When more than one object is marked, many commands (including
+					    movement and rotation) 
+					    affect all of them as a group.  If you just want to move one
+					    ship, make sure nothing else is marked!
+					    <p>
+					    The words "selected" and "marked" are not used entirely
+					    consistently throughout FRED2.  For example, the <a href=toolbar.html#select-list>Select List</a>
+					    button should probably be called Mark List.
+						</div>
+					    </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					<a name=mouse></a>
+					  <h2>Mouse Commands</h2>
+					  </td>
+					</tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    The mouse commands within FRED2 are shown below.  The list may
+					    seem long, but don't worry;  the mouse generally does about what
+					    you'd expect.
+					    <p>
+					    <table border=1 cellspacing=0 cellpadding=5>
+					      <tr>
+						<th align=left>Mouse Action</th>
+						<th align=left>Effect</th>
+					      </tr>
+					      <tr>
+						<td valign=top>Click on an object</td>
+						<td valign=top>Select and mark object under pointer.  All other
+						    objects become unmarked.  (This behaves differently if the
+						<a href=toolbar.html#selection-lock>Selection Lock</a> button is pressed.)
+						</td>
+					      </tr>
+					      <tr>
+						<td valign=top>Click in empty space</td>
+						<td valign=top>Clear all selection and marking.  (This behaves
+						differently if the 
+						<a href=toolbar.html#selection-lock>Selection Lock</a> button is pressed.)
+						</td>
+					      </tr>
+					      <tr>
+						<td valign=top>Lasso (drag a rectangle around some stuff)
+						</td>
+						<td valign=top>Mark several objects and select one.
+						</td>
+					      </tr>
+					      <tr>
+						<td valign=top>Shift click / Shift lasso
+						</td>
+						<td valign=top>Mark object(s), and select (one) if nothing else is selected.
+						</td>
+					      </tr>
+					      <tr>
+						<td valign=top>Ctrl click
+						</td>
+						<td valign=top>Create a new object of the type indicated by
+						the <a href=toolbar.html#selection-box>Selection Box</a>.
+						</td>
+					      </tr>
+					      <tr>
+						<td valign=top>Drag an object
+						</td>
+						<td>Possibly move or rotate the currently marked object(s),
+						    depending on the <a href=toolbar.html#mouse-drag-mode>Mouse Drag Mode</a>.
+						    If the object under the pointer is not marked, this also
+						    selects it and unmarks everything else.
+						</td>
+					      </tr>
+					      <tr>
+						<td valign=top>Ctrl drag
+						</td>
+						<td>Copy marked object(s)
+						</td>
+					      </tr>
+					      <tr>
+						<td valign=top>Right click on an object
+						</td>
+						<td>Pop up a menu, which allows opening one of several <a href=editors.html>Editors</a> on the object under the pointer and any
+						    other marked objects.
+						</td>
+					      </tr>
+					      <tr>
+						<td valign=top>Right click in empty space
+						</td>
+						<td>Pop up a menu, which lists some choices from the <a href=menus.html#view>View Menu</a>
+						    and the <a href=toolbar.html#selection-box>Selection Box</a>.
+						</td>
+						          </tr>
+						    </table>
+						    <p>
+					      If you're having trouble placing things precisely, you might
+					      want to use the <a href=editors.html#objects>Objects
+					      Editor</a>.  Also, remember that you can move the camera to see
+					      things from a better angle, and use the <a
+					      href=menus.html#speed>Speed Menu</a> to change the camera speed.
+						  </div>
+					    </td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					<a name=status></a>
+					  <h2>The Status Bar</h2>
+					  </td>
+					</tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+					    <img src=status-bar.gif hspace=10><p>
+						<div class="copy">
+					    The status bar is at the bottom of the screen.  It tells you how
+					    many objects you have marked, how the <b>Viewpoint</b> is set (in
+					    the <a
+					    href=menus.html#view>View Menu</a>), whether
+					    you have made any modifications to your mission since last saving
+					    it, and how far across the small squares on the grid are.  (The
+					    large squares are ten times as far across.)
+						
+					    <p>
+					    You can turn the status bar off in the <a
+					    href=menus.html#view>View Menu</a>.
+						</div>
+					    </td>
+					</tr>
+					</table>
+<!--- END DRAKE STUFF --->
+		</td>
+	</tr>
+</table>
+
+</body> 
+<!-- Mirrored from fs2downloads.com/freddocs/concepts.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:47:45 GMT -->
+</html>

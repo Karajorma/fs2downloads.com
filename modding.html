@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<title>The FreeSpace Oracle</title>
+</head>
+<body alink="LIMEGREEN" bgcolor="LIGHTSTEELBLUE" link="DARKBLUE"
+vlink="DARKRED">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td><img src="FAQ-Images/Oracle.gif"></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr valign="top">
+<td>
+<table width="200">
+<tbody>
+<tr>
+<td>
+<ul>
+<li><a href="intro.html">Home</a></li>
+<li><a href="general.html">General Questions</a></li>
+<li><a href="fred.html">FRED Questions</a></li>
+<ul><font size="-1">
+<li><a href="fredretail.html">Retail
+Help</a></li>
+<li><a href="fredretailtech.html">Retail Tech Help</a></li>
+<li><a href="fredopen.html">FRED_Open Help</a></li>
+<li><a href="fredopentech.html">FRED_Open Tech Help</a></li>
+<li><a href="fredcommonmistakes.html">Common Mistakes</a></li>
+<li><a href="fredcookbook.html">FRED Cookbook</a></li>
+</font></ul>
+</li>
+<li><a href="gameplay.html">Gameplay Questions</a></li>
+<li><a href="installing.html">Installing FreeSpace</a></li>
+<ul><font size="-1">
+<li><a href="installingfs2.html">Installing
+FS2</a></li>
+<li><a href="installingfs2_open.html">Installing
+FS2_Open</a></li>
+<li><a href="installingmods.html">Installing Mods</a></li>
+</font></ul>
+</li>
+<li><a href="technical.html">Technical Problems</a></li>
+<ul><font size="-1">
+<li><a href="fs1-technical.html">FreeSpace
+1</a></li>
+<li><a href="fs2-technical.html">FreeSpace 2</a></li>
+<li><a href="fs2_open-technical.html">SCP</a></li>
+<li><a href="movies.html">Cutscenes</a></li>
+</font></ul>
+</li>
+<li><a href="storyline.html">Storyline Questions</a></li>
+<li><a href="modding.html">Modding Questions</a></li>
+<li><a href="shipmods.html">Turreting Tutorial</a></li>
+<li><a href="glossary.html">Glossary</a></li>
+<li><a href="downloads.html">Downloads</a></li>
+<li><a href="tools.html">FreeSpace Tools</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+
+      <a name="Top"></a>
+<b><H1>Modding Page</H1></b><p>		
+
+<H2>What is modding?</H2>  
+
+<P>Modding is the process of changing any part of FreeSpace (with the exception of the missions themselves which is known as FREDding). FreeSpace was designed to make modding possible which means that there is a fair sized modding community for the game. As with FREDding most people prefer to work on FS2 as it is newer and has more features. 
+
+<H2> What do I need to mod? </H2><P>
+
+ Modding is a big field. The tools you'll need for modding depend on the type of modding you are interested in. The only tool you'll definitely need is something for opening up the <b>V</b>olition <b>P</b>ackage files which contain the data FreeSpace uses. <a href="http://wcsaga.com/index.php/rs-downloads/download.html?path=tools%252FVPVIEW.rar" TARGET="_blank">VPView</a> is the main tool people use for this task but I'll link to other similar programs below too. Instructions on how to use VPView can be found further down. <br>
+ Apart from VP viewing/extraction tool, the programs you'll need will vary depending on the task at hand. I've included a list of the most common tools in the <A HREF="tools.html">tools</A> section of this FAQ. <br>		  
+ 
+<H2>How can I alter a ship already present in the game?</H2> 
+		
+<b><i>Table edits</i></b>
+
+<P>This is a good place to start when it comes to modding. It is relatively simple to alter FreeSpace to make the weapons more damaging or to make ships faster. <br>
+ FreeSpace stores information like this in the table files. To edit these files all you need to do is extract them and open them using a copy of a text editor like Notepad. This makes table modding one of the easiest fields to get into.<br>
+ The FreeSpace table files can be found in Root.vp and for FS2 they live in Root_fs2.vp. All of these tables can be edited but most people concentrate on ships.tbl and weapons.tbl. Both tables have comments throughout to help you figure out what each individual line does. If you need more help Galemp has made an excellent guide to the FS2 tables which you can find <A HREF="https://web.archive.org/web/20071023061126/http://www.3dactionplanet.com:80/hlp/hosted/fsurp/help/ge/vptut.html" TARGET="_blank">here</A></P>. FS2_Open has added a lot of things to table files since that guide was written however so if you encounter something it doesn't explain you may want to consult the <a href="http://wiki.hard-light.net/index.php/Tables" TARGET="_blank">wiki</a>. <br>	
+Two things that are important to remember when editing tables. Firstly if you are using retail you must not allow the ships.tbl or the weapons.tbl to grow much beyond 380k. Crashes have been reported with both once they get larger than that. Secondly unless you are using an Inferno build of FS2_Open you should not have more than 130 ships in the ships.tbl. Doing so breaks multiplayer and can cause a very strange bug that starts the mission at 2 minutes in. 
+
+<p><b><i>Retexturing</i></b>  
+
+<p>Retexturing is also an easy type of modding to do. Retexturing basically involves repainting a ship to make it look different in the game. This is often done to make a mk II version of a ship already present (generally with a table mod to make the ship perform better). The Artemis D.H is an example of a retexture since it is basically a standard Artemis with a black paint job. <br>
+ To retexture a fighter or bomber simply figure out which maps it uses using ModelView or something similar then either extract and alter the original maps. Then place the altered map in the data\maps directory and make sure that it has the same name as the old one and it will replace the old map for that ship. <br>
+ With capships the process is pretty much the same but you must be careful that the ship you are modding is the only ship which uses that texture. If it isn't you can use ModelView to alter the name of the texture that particular model looks for. You can find a good tutorial on how to retexture a ship <A HREF="https://web.archive.org/web/20080720141415/http://freespace.volitionwatch.com/fs1/mods/Guide/ZSkinFAQ.shtml" TARGET="-blank">here.</A> 	<br>
+ Retexturing was popular when FreeSpace is new but now that you can make your own ships it has become much less common. <br>
+
+<p><b><I> Making Orion nameplates </I></b>
+
+<p>The retail versions of FreeSpace have always allowed you to change the nameplates on the Orion class destroyer. Basically this is a special kind of retexturing (i.e. you only replace one specific texture and then create a separate table entry and .pof model for each ship). The texture you need to replace is called capital01-05a on the original Orion model but you will of course need to change that name for your nameplate (or all your Orions will have the same name). <br>		
+As for how to make the nameplate itself, there is a great guide on how to do it <A HREF="https://sectorgame.com/goober/nameplates.html" TARGET="_blank">here</A> or you can get one from <A HREF="https://web.archive.org/web/20151028232822/http://www.wild666.freeserve.co.uk/Mainpage.htm" TARGET="_blank">the downloads section of Dark's website</A><P>	
+
+<p><b><i>Making other nameplates</i></b>
+
+<p>FS2_Open added a texture replacement system to FRED. This means that ships can now have nameplates without needing to use up spaces on the ships table. Simply open up FRED and use the texture replacement option from the ships editor to replace one texture with a new one. This system can of course be used with Orions instead of the above method. <br>		 
+
+<H2>How do I make new ships?</H2>  
+
+This is one of the major reasons people get into modding. While it's nice to dress up and alter the existing ships you can only really say you've made something truly new when you've built it from scratch.<br>
+ New ships are built in a modelling program. They must then be put into the correct hierarchy in True space or 3DS Max (other modelling programs). The models must be then converted into a .pof file. The pof file must then be edited to give it subsystems, weapon points etc. The tools you use for almost every section can be changed. What follows a quick guide to the process of making a new ship. More detailed tutorials can be found in the links given further down the page<p>
+
+<I> <b>STEP 1) Modelling the ship</b> </I><p>
+
+ You can use any modelling program you want. There are plenty to try and it's up to you decide which program you feel most comfortable. The only important thing is that you <B>MUST</B> choose a program that can save the model in the .cob format <B>OR</B> get hold of a program that will convert the model into a TrueSpace .cob file <b>OR</b> have a copy of 3DS Max.<BR>
+ Of course you could just simply use True space/3DS Max for step 1 since you have to have it for a later step anyway. <BR>
+I've included a list of all the modelling programs commonly used in the community in my tools section. 
+<p>
+
+<I> <b>STEP 2) Setting the Hierarchy of the ship</b> </I><p>
+
+ The ship then needs to be grouped. FreeSpace ships are rarely made up from a single model. Most ships have LODs (levels of detail), debris and capships and bombers usually have turrets. All of these must be made as separate models. You can find more details in the turretting tutorial on this site. Details on how to do what I haven't covered can be found in either IP Andrews ship creation guide or Rampages guide. Grouping has to be done with True space or 3DS Max at the moment. You can get a copy of TrueSpace 3.2 from <A HREF="http://forms.caligari.com/forms/tS32_free.html" TARGET="_blank">here</A>  for free. Simply register and Caligari will send you a link to download it.  <p>
+
+<I> <b>STEP 3) Converting the model</b> </I><p>
+
+ Now you need to change the model into a form FreeSpace can understand. If you are working on a .cob, you can do this using cob2pof or Cob2fs2 (Both available <A HREF="http://freespace.volitionwatch.com/fs2files.php" TARGET="_blank">here</A>) or by using PCS (the most recent version is available <A HREF="https://sourceforge.net/projects/alliance/" TARGET="_blank">here</A>) <br>
+ If you are using 3DS Max you will need the plug-in from <a href="https://www.hard-light.net/forums/index.php/topic,26260.0.html" TARGET="_blank">here</a>.
+
+<p>
+
+<I> <b>STEP 4) Editing the .pof</b> </I><p>
+
+ This is basically done using either PCS or ModelView. This is where you set up all the turrets, gunpoints etc. <p>
+ 
+ <i><b>STEP 5) Editing the table file</b></i>
+ 
+<p> Once your new ships is modelled you'll need to make sure the game can find/use it. This is done by editing the table to add the new ship. Most people tend to pick a ship similar to the new one and copy/edit its entry on the table.  
+ 
+<P><I> <b>More detailed guides to ship modding</b> </I>
+
+<p>The FAQ has a guide to turretting but for everything else you may find these more advanced tutorials and guides useful.
+
+<P><A HREF="https://web.archive.org/web/20110809095210/http://freespace.volitionwatch.com:80/blackwater/fstut/fstut_index01.htm" TARGET="_blank">Bobboau's PCS Tutorial</A> An excellent guide on how to use PCS (even explaining things like paths which many people find hard)<BR>
+<A HREF="https://web.archive.org/web/20101030022113/http://underworld.fortunecity.com:80/pacman/106/fs2mods/shipcreationguide/" TARGET="-blank">FreeSpace 2 Ship Creation Guide</A> Creating a stable model, Turreting it and Texturing it using LithUnwrap. <BR>
+<A HREF="http://wiki.hard-light.net/index.php/Rampage%27s_Post_Modding_Guide" TARGET="-blank">Rampages Post Modding Guide</A> Making LODs, Debris Turrets and shields. There is also a troubleshooting guide on the same page.<BR>
+<A HREF="https://web.archive.org/web/20110816013943/http://freespace.volitionwatch.com:80/fs2/mods/" TARGET="_blank">FreeSpace Watch's Modding Section</A> Tutorials covering texturing and modelling (using Blender). One of those got me started so they are well worth looking at.<BR>	  
+<A HREF="../classicgaming.gamespy.com/hlp/hosted/scroll/misc/interfacetutorial.zip">Sesquipedalian's Interface Tutorial</A> A tutorial covering the design of interphase art for fighters and bombers. <BR>
+<A HREF="https://web.archive.org/web/20040905171621/http://www.brainzipper.com/fs2/rhino_fs2/" TARGET="_blank">Sandwich's Rhino Tutorial</A> A tutorial covering the use of the 3D modelling package Rhino. The section on True space should be useful to everyone. <BR>
+<A HREF="http://www.geocities.com/weather_op/pageone.html?1113100476773" TARGET="_blank">WeatherOp's TS 3.2 Tutorial</A> Covers the basics of how to use True space 3.2 and even covers building a basic ship with it.<BR>
+<A HREF="https://web.archive.org/web/20071227174837/http://www.geocities.com/hyrulecastleau/ModelviewHelp.html" TARGET="_blank">Blue Thunder's ModelView FAQ</A> A short FAQ covering some of the issues that may arise when using ModelView.<BR>
+<A HREF="http://www.3dap.com/hlp/hosted/fsurp/help/ge/vptut.html" TARGET="_blank"> GE's VPView Tutorial</A>	 A tutorial covering the use VPView and Table modding.</p>		
+
+<H2>How do I make a VP file?</H2>
+
+<P>First you'll need some VP making Software. I personally use Kazan's <A HREF="Downloads/vpcs2.zip" TARGET="_blank">VP Constructor Suite</A> (VPCS) but once you've grasped the basics you'll probably find that any of the programs available are easy to use. I'm going to assume you're using VPCS for the rest of this guide.
+  <ol>
+  <li> Open VPCS.</li>
+  <li> Choose Directory>>Add Files A prompt will open up asking you for a directory name.</li>
+  <li> All files in a vp are placed in directories inside the vp. The names of the directories are exactly the same as those in the Freespace2\Data folder. If you're adding a mission file you'll need a directory called missions. If you're adding a model you'll need to put the pofs in a folder called models same as you would in the data folder.</li>
+  <li> Once you've created the folder click on the add files button (It's a yellow plus sign). Browse to the folder containing the files you want to add to the directory you just created. Select them and click open. You'll notice that the files are added to the folder you just created.</li>
+  <li> Repeat the last two steps for any other folders you need to create (effects, music, etc.)</li>
+  <li> Choose File>>Write VP.</li>
+  <li> Give the VP a new name and save it.</li>
+</ol>
+																	  																							  
+</TD></TR> 
+</TABLE>
+</body>
+</html>

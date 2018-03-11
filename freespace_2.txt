@@ -1,0 +1,5362 @@
+        _____    _____    _____    _____    ______   _____     _      _____    _____
+      _|  ___| _|  __ \ _| ____| _| ____|  /  ___/ _|  __ \ __/ \    /  ___\ _| ____|
+      \   __/  \   _  / \  ___/  \  ___/   \____ \ \   ___/ \  _ \  <   \___ \  ___/
+       |_|      |_| \_\  |_____|  |_____|  /_____/  |_|     /_/ \_\  \_____/  |_____|
+
+      * * * * * * * * * * * * * * * * *     _ _     * * * * * * * * * * * * * * * * *
+          * * * * * * * * * * * * * *      //^\\      * * * * * * * * * * * * * *
+                  * * * * * * * * * *        _//      * * * * * * * * * *
+                        * * * * * * *       //        * * * * * * *
+                                * * * *    //__]    * * * *
+
+                                        GUIDE v 2.11
+___________________________________________________________________________________________
+
+Written by Tim Wuyts (December 25th 1999 - January 17th 2000)
+E-mail: tim.wuyts@planetinternet.be
+
+The author is also the webmaster of The Cheat Empire: 
+
+http://home.planetinternet.be/~twuyts
+
+Where you can always find the latest cheats & walkthroughs for PC Games.
+For the LATEST VERSION of this Guide, check his website!
+
+
+--> COPYRIGHT notice at the bottom
+
+
+___________________________________________________________________________________________
+
+<*+- TABLE OF CONTENTS -+*>
+
+
+1.   GENERAL INFORMATION
+        1.1  Guide Information
+        1.2  Update Information
+        1.3  Introduction
+        1.4  Special Thanks
+        1.5  Freespace 2 System requirements
+3.   GENERAL TACTICS
+        3.1  Preparations
+        3.2  Know the Controls
+        3.3  Flying
+        3.4  Favorite Ship
+4.   MISSION OVERVIEW (Single Player)
+        4.1  Information
+        4.2  Mission 1 - Training 1
+        4.3  Mission 2 - Training 2
+        4.4  Mission 3 - Training 3
+        4.5  Mission 4 - Surrender Belisarius!
+        4.6  Mission 5 - The Place of Chariots
+        4.7  Mission 6 - The Romans Blunder
+        4.8  Mission 7 - Training 4
+        4.9  Mission 8 - Training 5
+        4.10 Mission 9 - A Lion at the Door
+        4.11 Mission 10 - Mystery of the Trinity
+        4.12 Mission 11 - The Great Hunt
+        4.13 Mission 12 - Slaying Ravana
+        4.14 Mission 13 - Training 6
+        4.15 Mission 14 - The Sixth Wonder
+        4.16 Mission 15 - Into the Maelstrom
+        4.17 Mission 16 - Feint! Parry! Riposte!
+        4.18 Mission 17 - Rebels & Renegades
+        4.19 Mission 18 - Love the Treason ...
+        4.20 Mission 19 - ... But Hate the Traitor
+        4.21 Mission 20 - Battle of the Wilderness
+        4.22 Mission 21 - A game of TAG
+        4.23 Mission 22 - Proving Grounds
+        4.24 Mission 23 - The King's Gambit
+        4.25 Mission 24 - The Sicilian defense
+        4.26 Mission 25 - Endgame
+        4.27 Mission 26 - The Fog of War
+        4.28 Mission 27 - A Monster in the Mist
+        4.29 Mission 28 - Speaking in Tongues
+        4.30 Mission 29 - A Flaming Sword
+        4.31 Mission 30 - Bearbaiting
+        4.32 Mission 31 - High Noon
+        4.33 Mission 32 - Return to Babel
+        4.34 Mission 33 - Straight, No Chaser
+        4.35 Mission 34 - Argonautica
+        4.36 Mission 35 - As Lightning Fall
+        4.37 Mission 36 - Into the Lion's Den
+        4.38 Mission 37 - Exodus
+        4.39 Mission 38 - Dunkerque
+        4.40 Mission 39 - Their Finest Hour
+        4.41 Mission 40 A - Clash of the Titans II
+        4.42 Mission 40 B - Incoming Transmission
+5.   THE WEAPONS
+        5.1  Information
+        5.2  Guns
+        5.3  Missiles
+6.   THE SHIPS
+        6.1  Information
+        6.2  Shivan Ships
+        6.3  Terran Ships
+        6.4  Vasudan Ships
+7.   OTHER GAME RELATED INFORMATION
+        7.1  Information
+
+
+- LEGAL NOTICE -
+
+
+___________________________________________________________________________________________
+
+=========================
+1.   GENERAL INFORMATION
+=========================
+
+1.1 Guide Information
+______________________
+
+This is the text version of the the Freespace 2 HTML guide - also made by Tim Wuyts.  Please keep 
+in mind that the HTML guide is the primary guide: all updates will first be made in the HTML guide, 
+it has some pictures of the spacecraft and weapons and it does contain some extra information here 
+and there.
+
+The author is the webmaster of  The Cheat Empire (URL see top of document), where you can find the 
+latest cheats & walkthroughs for PC Games. Including the latest version of this guide.
+
+I wrote this guide because I like to help people. I don't pretend to know everything there is to 
+know about the game and I'm certainly not the best pilot out there. I would like to label myself an 
+"average" pilot, who has tons of single player experience, but with minor multiplayer experience. I 
+also believe a guide is never complete, so you can always help me by sending tips to me (don't add 
+them yourself).
+
+
+1.2 Update Information
+_______________________
+
+Version 1.0 - (25/12/1999 - 17/01/2000):
+* The original works
+
+Version 1.5 - (18/01/2000 - 19/01/2000):
+* Added loadout specifications for all ships
+
+Version 2.00 - (21/01/2000 - 26/01/2000): 
+* Added additional information to some mission overviews 
+* Updated community page 
+* Updated ship information 
+* Additional weapon information (guns and missiles)
+* Special Thanks section added
+
+Version 2.10 - (01/02/2000 - 02/02/2000):
+* Added additional information to some mission overviews
+* Corrected some mistakes (incl. adding of GVB Bakha)
+
+Version 2.10 - (06/06/2000 - 06/06/2000):
+* Changed legal information
+* Deleted ranking system (incorrect)
+
+
+1.3 Introduction
+_________________
+
+I've been playing space sims since I was a small boy. When I think about space sims, I think about 
+the legendary series like Wing Commander (Including Privateer) and X-Wing. No space sim could rival 
+these titles ... up till now.
+
+Although the first Freespace couldn't appeal me, Freespace 2 turned out to be a magnificent piece 
+of art. The story is dragging you to the finish line and has a lot of (unsuspected) plots. The 
+sound creates just the right atmosphere: music, voices and effects are all high quality. But 
+probably the most stunning feature are the graphics ... that is, if you have a "mean machine". I 
+was able to run Freespace 2 at a very high detail level in 1024x768. Words cannot describe the 
+magic Volition created.
+
+On top of the superb single player campaign, you also have a lot of multiplayer options. Team vs. 
+Team, Dogfight and co-operative. On top of that we have the squad wars, which sounds very 
+attractive to me. I say sounds, since I have never tried the on-line multiplayer capabilities 
+(yet). I hope to test them out at my friends house, who has cable connection with the internet.
+
+
+1.4 Special Thanks
+___________________
+
+Special thanks to the following persons:
+
+Zarathud [Descent Chronicles] - Detailed weapon and ship information.
+Starfire - Detailed weapon and ship information.
+François Chiarelli - Extra tips for some missions.
+
+Volition and Interplay for the game.
+
+
+1.5 Freespace 2 System Requirements
+____________________________________
+
+Required:
+---------
+* Pentium 200Mhz 
+* Windows© 95/98/NT with DirectX 6.0 
+* 32 MB RAM 
+* 400MB Hard drive space 
+* 8x CD-ROM 
+* DirectSound certified sound card 
+* Hardware accelerated card (with newest drivers); G200, G400, Banshee, Voodoo 1, Voodoo 2, Voodoo 
+3, Savage 4, TNT, TNT2, ATI Rage Fury, ATI Rage 128 or ATI Rage 
+
+Recommended:
+------------
+* Pentium 266Mhz 
+* 64 MB RAM 
+* Harware accelerated card with 8MB VRAM (see chipsets above) 
+* Joystick 
+* 3D Sound Card (A3D or EAX) 
+
+___________________________________________________________________________________________
+
+=====================
+3.   GENERAL TACTICS
+=====================
+
+3.1 Preparations
+_________________
+
+Before you start doing some fancy dogfighting, it's necessary to make the proper preparations. This 
+includes ship, gun and missile selection. This seems obvious, but I know quite a lot of friends who 
+make a selection based on the name of the ship/weapon or whether it looks cool or not.
+
+It's important to know what kind of weapons work best in certain situations. The Prometheus S for 
+example is an extraordinary weapon, but because of it's slow refire rate, I'm not able to use it 
+properly. This makes the weapon useless for me, since I prefer guns with a high refire rate which 
+may lack the punch of the bigger brother.
+
+It's also important to pick a ship where you are comfortable with. The GVF Serapis is an excellent 
+interceptor with high speeds, but it's light armor do not fit the profile of my 'ideal' ship. 
+Although not an interceptor, I prefer to take a ship with less maneuverability and more armor like 
+the myrmidon.
+
+If you know what you are going into, try to pick your most favorable ships, guns and missiles for 
+that situation! The default selection of the computer is not bad, but don't be afraid to change it.
+
+
+3.2 Know the Controls
+______________________
+
+Also obvious and simple. Just keep in mind that you don't need to know every key to be a good 
+pilot. I know the keys which allow me to play comfortably and relaxed, e.g.: I never use the M key 
+(auto adjust speed to target). Why? Because I think it's annoying. I want to go full speed ahead 
+and I'll adjust my speed with the A/Z temporary speed adjust keys.
+
+When I see a friend goofing up because he can't find the gun/missile selection key while flying, I 
+have an urge put my head in the toilet and flush. Things like that shouldn't happen, they can mean 
+the difference between life and death.
+
+Most of you will be flying this space sim with a joystick (you have to be nuts if you don't). Well, 
+don't forget to adjust the sensitivity of the joystick to your liking. Maximum sensitivity is not 
+always the best option, since it has a big influence on your aim. To those who want to use the 
+rudder but can't: you can install the rudder in your key assignment screen. Select absolute 
+positioning if you install your rudder.
+
+
+3.3 Flying
+___________
+
+There are lots of different flying styles, but I'm going to explain mine. This might help newbies a 
+bit in developing their own style.
+
+First of all adjust your weapon settings. I always tend to set my guns in dual fire mode (this 
+already explains why I can't use 2 guns which drain power very fast). This gives me max. damage 
+with the least effort. Once my gun energy is running low I switch back to single fire mode (but 
+that almost never happens). For the missiles it depends on the type of missile and the type of 
+target. Against fighters I use single/dual launch mode, depending on the rocket. Trebuchets 
+shouldn't be launched to a fighter in dual launch mode ... it has sufficient power to knock a 
+fighter down by itself. Dumbfires, on the other hand, are always launched in dual fire mode ... 
+they lack punch against both fighters as capital ships. Against capital ships I always fire 
+missiles in dual mode. There are only 2 exceptions: the Cyclops and the helios missile.
+
+An important aspect of flying is being capable of dodging incoming fire (guns or missiles). Gunfire 
+can easily be evaded by a simple maneuver. However, if the attacker is flying on your tail, you'll 
+need to shake some fancy flying out of your sleeve in order to dodge the incoming fire. The best 
+thing to do in such a situation is to stop focusing on your current target and trying to evade the 
+hostile fighter completely, preferably in a position which allows you to take him out!
+Evading missiles might seem easy ... you have the countermeasures for something right?! Wrong! In 
+single player missions, you usually have enough countermeasures to finish a mission, but in the few 
+multiplayer missions I have flown, you'll notice that they are depleted pretty fast. You need to 
+learn how to evade missiles without countermeasures. If you are flying a fast agile fighter you 
+have 2 possibilities. If you are flying a bomber, only 1. The first possibility for the fighter is 
+to let the missiles get real close to you (mind the beeping noise). Once the missile is extremely 
+close, you have to pull up (or any other direction) fiercely, in combination with a speed boost 
+with the afterburners. This can't be applied by bombers, since they lack maneuverability and the 
+speed to evade the missile. The second possibility works for both the fighter and the bomber. You 
+should fly head on with the missile and just before impact you should pull up (or down). The 
+missile will fly right past you ... This can be used bythe bombers too, since the missile has less 
+time to correct it's path once the evasive maneuver starts. The second way of evading missiles is 
+more efficient (if you follow the same path as the missile, it has more time to adjust it's flying 
+path), but also harder (since the missile is closing in on you at a very high speed (missile speed 
++ your own velocity). Nonetheless, both methods require extensive training, since timing is an 
+extremely important factor.
+
+The easiest way to take out a target it to fly behind it and follow it, preferably from close 
+range. Head-to-head situations are not healthy for your own fighter, so don't do it too often. 
+Attacking a fighter from the side is also a possibility. This means that the target is no threat to 
+you, but the target is much harder to hit, since small changes in speed result in a miss (this 
+isn't the case when you tail your target). Also, don't be afraid to use your missiles ... if the 
+banks get depleted, so what?! You can rearm yourself in most missions and by not using missiles 
+you're making everything more difficult for yourself. This often results in finished missions with 
+almost all missiles in the banks, that's not why they are there! Furthermore you should make a 
+difference between the ships you are attacking:
+
+
+Bombers
+-------
+
+Bombers aren't a real threat to a fighter, unless you are heavily outnumbered (this means that you 
+get a rocket behind your tail every 5 seconds). Bombers lack maneuverability, which usually make 
+them easy targets for your guns. If the need is high, you should fire missiles to speed up the job, 
+otherwise your guns will be sufficient.
+
+Remember however that taking a bomber out with your guns might take a while, because of their heavy 
+hull and shielding. Therefore it's not wise (certainly in multiplayer) to hover behind a bomber for 
+a longer period of time. This makes you the sitting duck, since your fighter isn't heavily armored 
+and you are flying at slower speeds.
+
+
+Fighters
+--------
+
+Fighters can be annoying from time to time. With their excellent maneuverability and often high 
+speeds, they tend to be a more difficult target. I thought the SF Dragon was the hardest target to 
+destroy: it outmaneuvered and outran you easily, but once you were able to hit it a few times they 
+were spacedust. This is also the biggest drawback of the fighter, lack of shielding and hull 
+plating. It doesn't take much to take out an enemy fighter (there are some exceptions like the SF 
+Mara), but also remember that you are flying a similar craft and also are lightly armored. That's 
+why I like the GTF Erinyes most. It has good speed, maneuverability and plating, combined with a 
+large number of gun mounts and missile banks.
+
+
+Warships
+--------
+
+It's not recommended to attack warships with a regular fighter. It's not fit for the job and 
+usually does minor damage because of it's unadapted payload. If you want to take out multiple 
+capital ships, make sure you pick a bomber.
+
+While attacking a warship, always try to hit one of it's weapons or subsystems. This does damage 
+and if you destroy a laser turret, that's one less thing to worry about. What should you target 
+first? This depends on the urgency of the matter. If you notice one of your capital ships is being 
+torn apart, head for the beam turrets. Otherwise I recommend to take out laser turrets or missile 
+launchers first. You might also target one of the subsystems: engines if you don't want the target 
+to get in close range of a certain ship, sensors or weapons - can't remember exactly - if you want 
+to make the targeting system less accurate.
+
+
+3.4 Favorite Ship
+__________________
+
+SHIP: GTF Erinyes
+
+GUNS: GTW Subach HL-7
+      GTW UD-8 Kayser 
+
+MISSILES: GTM-19 Harpoon (2x) 
+
+
+Why is this my favorite ship and weapon loadout? Simple, the Erinyes is an excellent ship: it's 
+sturdy, has an average flying speed and average maneuverability. Combine this with the high number 
+of gun mounts and 2 missile banks and you have the perfect dogfighter. Some will say, what's the 
+difference with the Myrmidon ... I don't know! I tend to perform better with the Erinyes than with 
+any other ship.
+
+Why do you put a Subach HL-7 gun on the ship? There's this thing called energy management ... I 
+don't like to toy around with the engine/shield/gun recharge levels and this solves my problem. If 
+you want to pack a good punch, dual fire mode gives you the solution. I tend to fly with only the 
+Kayser on-line ... once my energy levels become critically low, I switch to the Subach. This allows 
+me to continue firing at the enemy, while the energy level has the opportunity to recharge (the 
+Subach hardly drains any power).
+
+The Harpoons are also an obvious choice, since this is my favorite dogfighting ship. No need for 
+heavy trebuchets, cyclops or helios missiles. If you are fighting against the odds, speed is of the 
+essence. The harpoon with his fast lock gives me the speed. Cripple the shields with the guns, fire 
+the harpoon for the kill. The great thing of it is ... it works! 
+
+
+___________________________________________________________________________________________
+
+=======================================
+4.   MISSION OVERVIEW  (Single Player)
+=======================================
+
+4.1 Information
+________________
+
+This is merely an overview of the single player missions, since I haven't played much multiplayer 
+missions yet. Single player missions are also easier to write about, since you have total control 
+over the success/failure of a mission.
+
+I divided the missions just by numbers, not by category (SOC, Vasudan, Terran, ...). I suggest you 
+read the general tactics section before going over the different missions. I was able to complete 
+these missions with the tactics explained there!
+
+The first missions are all very easy, but from level 20 and higher, you can notice a gradual climb 
+in difficulty (some missions are more difficult than others). Strangely enough, the first missions 
+weren't a high success (statistical wise - I didn't have a lot of kills), while in the latter 
+missions I tend to be flying through enemy debris. Maybe it took some time to get used to the 
+controls, or maybe I just had to get into berserk mode ... I don't know. When I replayed the 
+missions, I did get a lot of extra kills.
+
+This mission overview includes all training and SOC missions. If you decide to skip one of them, 
+you should recalculate the missions numbers.
+
+The missions themselves contain the following information:
+    * Primary objectives 
+    * Secondary objectives 
+    * Default ship and loadout 
+    * Possible ships and loadouts 
+    * Overview of the mission 
+
+Keep in mind that the primary and secondary objectives given in the mission overview are the ones 
+at the beginning of the the mission. During the mission, extra objectives may be added. You can 
+view them by pressing the F4 key!
+
+If some of the information mentioned here is incorrect or incomplete, please contact me. I'm only 
+human and bound to make a mistake here or there!
+
+
+4.2 Mission 1 - Training 1
+___________________________
+
+Objectives
+----------
+
+Primary objectives:    None 
+Secondary Objectives:  None 
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Myrmidon
+   Guns:      GTW Subach HL-7
+   Missiles:  None	
+
+Possibilities:
+
+   Ships:     None
+   Guns:      None
+   Missiles:  None
+
+Mission Overview
+----------------
+
+You'll train basic targeting, throttle and weapon systems. Just do as you're told.
+
+
+4.3 Mission 2 - Training 2
+___________________________
+
+Objectives
+----------
+
+Primary objectives:    None 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Myrmidon
+   Guns:      GTW Subach HL-7 (2x)
+   Missiles:  GTM MX-64 Rockeye (2x)
+              GTM MX-6 Tempest Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      None	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+You'll train advanced targeting, weapon systems and rearming procedures. Just do as you're told 
+
+
+4.4 Mission 3 - Training 3
+___________________________
+
+Objectives
+----------
+
+Primary objectives:    None
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Myrmidon	
+   Guns:      GTW Subach HL-7 (2x)	
+   Missiles:  GTM MX-64 Rockeye (2x)
+              GTM MX-6 Tempest Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      None	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+You'll train your dogfighting skills with this training. Just do as you're told. 
+
+
+4.5 Mission 4 - Surrender Belisarius!
+______________________________________
+
+Objectives
+----------
+
+Primary objectives:    Protect IOTA until you are relieved of duty 
+Secondary Objectives:  None 
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Myrmidon	
+   Guns:      GTW Subach HL-7 (2x)	
+   Missiles:  GTM MX-64 Rockeye (2x)
+              GTM MX-6 Tempest Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      GTW Akheton SDG	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+* Escort IOTA 
+* Destroy Leo 
+* Destroy Cancer 
+* Destroy Gemini 
+* Destroy Aquarius 
+* Destroy Aries
+
+Escorting IOTA isn't that hard. The only opposition you'll get in this mission are some GTF 
+Hercules (usually in pairs). Once all fighters have been taken out a friendly warship will arrive 
+... a few moments later the NTF Corvette Belarius. You can engage it, but it'll get blown away by 
+the friendly warship, so why bother.
+
+
+4.6 Mission 5 - The Place of Chariots
+______________________________________
+
+Objectives
+----------
+
+Primary objectives:    Destroy all NTF Fighters 
+                       Extra: Destroy rebel installation
+                       Extra: Destroy NTF Reinforcements
+Secondary Objectives:  Destroy all freighters and sentry guns
+Bonus Objectives:      Destroy all cargo
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Myrmidon	
+   Guns:      GTW Subach HL-7 (2x)	
+   Missiles:  GTM MX-64 Rockeye (2x)
+              GTM MX-6 Tempest Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      GTW Akheton SDG	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+* Destroy Cancer 
+* Destroy Sentries 
+* Destroy Aquarius 
+* Destroy Aries 
+* Investigate Asteroid 
+* Destroy Installation 
+* Destroy Pisces 
+* Destroy Virgo
+
+You'll be dealing with a few GTF Hercules' here, but you'll encounter more GTF Loki's.
+
+Once you start the mission, take out the fighters first, followed by the sentry guns. Once that's 
+done, wait for more fighters to jump into your system.
+
+After a while command will give you the order to investigate the asteroid (blinking red dot on 
+radar). Do it and take out the turrets as you move closer to the asteroid. Once it has been ID'ed, 
+you should destroy it. The ICENI goes into hyperjump though, and you won't be able to destroy it in 
+time. While attacking the asteroid/installation/ICENI, some new fighters will appear. Take them out 
+as you see fit (cfr. if they annoy you).
+
+
+4.7 Mission 6 - The Romans Blunder
+___________________________________
+
+Objectives
+----------
+
+Primary objectives:    Destroy the NTF ICENI
+                       Extra: Destroy freighters
+Secondary Objectives:  Extra: Destroy NTF Fighters
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Myrmidon	
+   Guns:      GTW Subach HL-7 (2x)	
+   Missiles:  GTM MX-64 Rockeye (2x)
+              GTM MX-6 Tempest Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      None	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+* Destroy the ICENI 
+* Destroy Freighters 
+* Destroy Gemini 
+* Destroy Leo 
+* Destroy Aquarius 
+* Destroy Scorpio 
+
+You'll never reach the ICENI in time, so don't bother. You'll be reassigned to stop any enemy ship 
+that comes through the system.
+
+First 2 freighters will enter the system, together with a fighter escort. Needless to say, take out 
+the fighters (GTF Loki I believe) first followed by the freighters (which are an easy target).
+
+Once this job is done a few warships jump in ... also with a fighter escort. Concentrate on the 
+fighters first, once they are blown out of the sky, concentrate on the warships. They should have 
+sustained quite a bit of damage by now (because of the Psamtik), so finishing them off should be 
+easy by now. 
+
+
+4.8 Mission 7 - Training 4
+___________________________
+
+Objectives
+----------
+
+Primary objectives:    None 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Hercules Mark II	
+   Guns:      GTW Subach HL-7
+              GTW-5a Prometheus (R) Cannon	
+   Missiles:  GTM-19 Harpoon (2x)	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      None	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+You'll train communication systems, countermeasures and aspect-seeking missiles. Just do as you're 
+told. 
+
+
+4.9 Mission 8 - Training 5
+___________________________
+
+Objectives
+----------
+
+Primary objectives:    None 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Hercules Mark II	
+   Guns:      GTW Subach HL-7
+              GTW-5a Prometheus (R) Cannon	
+   Missiles:  GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      None	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+You'll train shield management and the energy transfer system. Just do as you're told. 
+
+
+4.10 Mission 9 - A Lion at the Door
+____________________________________
+
+Objectives
+----------
+
+Primary objectives:    Neutralize all hostiles
+                       Extra: Protect CARTHAGE
+Secondary Objectives:  Extra: Protect the DAHSHOR
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Hercules Mark II	
+   Guns:      GTW-5a Prometheus (R) Cannon (2x)	
+   Missiles:  GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      GTW Subach HL-7
+              GTW Akheton SDG	
+   Missiles:  GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy BEHEMOTH 
+* Destroy SEMYAZA 
+* Destroy Virgo 
+* Destroy MAUL 
+* Destroy Cancer 
+* Destroy NEQAEL 
+* Destroy Leo 
+* Destroy Aries 
+* Destroy Aquarius 
+* Destroy Scorpio 
+* Destroy GOLIATH 
+* Destroy Libra
+
+There's a lot to be done in this mission. Quite a lot of Shivan fighters and smaller warships have 
+to be destroyed. Basically you have to take it as it comes. Take out the fighters first, but if you 
+notice that a fighter is a few 1000m away and you're flying past a warship, try to take out the 
+warship first.
+
+Since the warships aren't that big, your hornets (if these are the missiles you picked) do quite a 
+bit of damage (dual fire mode = 8 missiles). Combined with a good old fashioned energy weapon, it 
+will be creamed in no time.
+
+You'll meet 2 Shivan fighters: SF Mara and SF Astaroth. The Mara has good plating and speed but 
+only a reasonable maneuverability. It's also quite big and therefore easy to hit. The Astaroth is 
+more maneuverable and also has a higher speed, but it's fragile. You might miss it a few times, but 
+once you hit it ... it'll be out of the sky in no time. 
+
+
+4.11 Mission 10 - Mystery of the Trinity
+_________________________________________
+
+Objectives
+----------
+
+Primary objectives:    Patrol nebula with Zeta wing
+                       Extra: Protect the TRINITY
+                       Extra: Protect the DISCOVERY
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Hercules Mark II	
+   Guns:      GTW Subach HL-7
+              GTW-5a Prometheus (R) Cannon	
+   Missiles:  GTM MX-64 Rockeye
+              GTM MX-6 Tempest Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      None	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+* Follow Zeta 1 
+* Destroy Leo 
+* Destroy Aries 
+* Protect DISCOVERY 
+* Destroy TRINITY 
+* Destroy Virgo 
+* Destroy Aquarius 
+* Destroy Cancer 
+* Destroy Libra
+
+At first everything is very quiet in this mission. All you have to do is follow Zeta 1 until you 
+notice some enemies on your radar. Once that happens, move in to destroy them. You'll encounter 
+some SF Manticores. A little bit later, you'll notice another wing of Manticores. Once they are 
+taken out, continue your patrol.
+
+You'll encounter the NTF Trinity, protect it and the repair team they send to recover it. Once the 
+repair team has jumped in, more Shivan fighters will appear, including: SF Manticores, SF Basilisks 
+and SF Dragons. Fight them off at your best ability, but once the Dragons jump in, the mission is 
+over. The Trinity and the Discovery will be destroyed (they went from 96% health to 0% in a matter 
+of seconds ... don't ask me how). GTVA command will announce that you have to return to base. Do 
+so, or you'll have to deal with 2 wings of enemy Dragons and that usually isn't too healthy. 
+
+
+4.12 Mission 11 - The Great Hunt
+_________________________________
+
+Objectives
+----------
+
+Primary objectives:    Protect ACTIUM and LYSANDER 
+Secondary Objectives:  Destroy ASURAS
+                       Destroy IBLIS
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Hercules Mark II	
+   Guns:      GTW-5a Prometheus (R) Cannon (2x)	
+   Missiles:  GTM-4 Hornet Swarm Missile (2x)	
+
+Possibilities:
+
+   Ships:     GTF Myrmidon	
+   Guns:      GTW Subach HL-7
+              GTW Akheton SDG	
+   Missiles:  GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye
+              GTM-19 Harpoon	
+
+Mission Overview
+----------------
+
+* Protect Corvettes 
+* Destroy Taurus 
+* Destroy Pisces 
+* Destroy Libra 
+* Destroy Virgo 
+* Destroy ASURAS 
+* Destroy Scorpio 
+* Destroy Gemini 
+* Destroy Aquarius 
+* Destroy IBLIS 
+* Destroy Cancer
+
+Since protecting the Corvette is you primary objective, always make sure that you return to it once 
+you've taken out the fighters. That way you are always on time to intercept the next wing of enemy 
+fighters.
+
+First you'll get a wing of Astaroths and Maras to hold off. This shouldn't be too hard.
+
+The next time the Asuras an 2 fighter escorts will jump in. First take out the fighters (Astaroths 
+and Basilisks), since they pose the biggest threat to you (although I wouldn't call a Basilisk a 
+big threat). The Asuras isn't a big to the Corvettes in the beginning (unless it takes you 1 hour 
+to take out the fighters). Once the fighters are goners, fire some hornets at the Asuras, taking it 
+down shouldn't take too long.
+
+The next wings contain of Maras and SB Seraphims, needless to say that the Seraphims, should be 
+engaged first. They are extremely dangerous for the Corvettes, so try to take them out before they 
+can launch their bombs. Proceed with the Maras.
+
+Now the Iblis will jump in, together with a Mara wing. Same procedure as with the Asuras.
+
+Suddenly an unknown ship will appear on radar. Upon investigation you come to the conclusion that 
+it's a destroyer and it will cream the Corvettes no matter what you do. Jump out of the system, 
+once you are told to do so. 
+
+
+4.13 Mission 12 - Slaying Ravana
+_________________________________
+
+Objectives
+----------
+
+Primary objectives:    Destroy RAVANA 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTB Boanerges	
+   Guns:      GTW-5a Prometheus (R) Cannon	
+   Missiles:  GTM-4 Hornet Swarm Missile GTM-12 Cyclops (2x)	
+
+Possibilities:
+
+   Ships:     GTB Medusa
+              GTB Ursa	
+   Guns:      GTW Subach HL-7
+              GTW Akheton SDG	
+   Missiles:  GTM MX-6 Tempest Missile	
+
+Mission Overview
+----------------
+
+* Destroy Virgo 
+* Destroy Taurus 
+* Destroy RAVANA 
+* Destroy Cancer 
+* Destroy Aquarius 
+* Destroy Saggitarius 
+* Destroy Gemini 
+* Destroy Scorpio 
+* Destroy Leo
+
+I didn't fly this mission with the Boanerges, but with the Medusa. Mainly because of the 
+maneuverability (the boanerges can't even follow a ship if it flew past him at 1 mps - making it a 
+terrible ship for dogfights).
+
+Although your job is to take out the Ravana, don't forget about the fighters either. If you let 
+them alive too long, all of your wingmates will be dead and they will all come after you - so this 
+is a definite no, no. Before heading for the Ravana take out the Basilisks (they are closer than 
+the Ravana).
+
+Now head for the Ravana and launch your Cyclops missiles at close range (eg. 0.5 km - it takes a 
+while to acquire a lock. If you launch from too far, the Cyclops can be destroyed before impact. If 
+you launch too close, you'll get hit by the blast radius.) I tend to target the sensors or weapons 
+systems, first (whatever the bombs can hit from my current fly path).
+
+Once the cyclops' have been launched (dual fire mode) occupy yourself with the fighters again. It's 
+wise to engage the fighters away from the Ravana (if it starts shooting it's flak guns, your 
+shields and hull might get creamed), but this isn't always possible. If you retreat to engage the 
+fighters, head for the Kehnmu (Corvette), since it'll help to destroy the fighters.  This is also a 
+good place to rearm yourself, because of the protection the Corvette gives. Once you've taken out 
+the fighters that were bugging you, head back for the Ravana. This will avoid getting a bunch of 
+fighters behind your tail while paying enough attention to crippling the Ravana.
+
+Repeat until the mission is finished.
+
+PS. If you want to fire the Cyclops 2x you have to keep in mind that it needs a reload time of 20 
+seconds. If you have 2 banks with Cyclops missiles, just change the bank you are firing from to 
+speed things up. 
+
+
+4.14 Mission 13 - Training 6
+_____________________________
+
+Objectives
+----------
+
+Primary objectives:    None 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Perseus	
+   Guns:      GTW Subach HL-7
+              GTW Akheton SDG	
+   Missiles:  GTM-4 Hornet Swarm Missile
+              GTM-19 Harpoon	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      None	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+You'll train to target bombs, turrets and subsystems. Just do as you're told. 
+
+
+4.15 Mission 14 - The Sixth Wonder
+___________________________________
+
+Objectives
+----------
+
+Primary objectives:    Protect ENIF Station 
+Secondary Objectives:  Protect transports
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Perseus	
+   Guns:      GTW Subach HL-7
+              GTW-5a Prometheus (R) Cannon	
+   Missiles:  GTM-4 Hornet Swarm Missile
+              GTM MX-6 Tempest Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      GTW Akheton SDG	
+   Missiles:  GTM MX-64 Rockeye
+              GTM-43a Stiletto II
+              GTM-19 Harpoon	
+
+Mission Overview
+----------------
+
+* Protect Transports 
+* Destroy CATO 
+* Destroy Pisces 
+* Destroy Leo 
+* Destroy Virgo 
+* Destroy HAWKWOOD 
+* Destroy Aries 
+* Destroy Taurus
+
+First take out the GTF Hercules', followed by the Cato. Once the bombers jump (GTB Zeus) in 
+redirect yourself to these and let the Cato alone for a while. Since you have to protect the 
+station, you have to act swiftly. Intercept the bombers as fast as you can, if they are able to 
+launch missiles take them out first and afterwards the bombers. Once the first wing of bombers is 
+destroyed, go back and finish off the Cato.
+
+By that time a second wing of bombers will fly in, followed shortly by the Hawkwood. Concentrate on 
+the bombers (and bombs) for now, only if there are no more bombers left, go back to take on the 
+Hawkwood. Don't just fire to do damage, try to destroy weaponry or subsystems. The same rule 
+applies here, once more bombers fly in, divert your attention. Eventually the GTVA Colossus will 
+jump in to finish the Hawkwood (that's why it's important to take on it's weapons and subsystems - 
+so it can only do minimal damage to the station/transports - the Colossus will destroy it for you) 
+
+
+4.16 Mission 15 - Into the Maelstrom
+_____________________________________
+
+Objectives
+----------
+
+Primary objectives:    Protect the PARACOMBE, JOOYUN and AVILA 
+Secondary Objectives:  Extra: Destroy all enemy fighters
+                       Extra: Destroy all enemy bombers
+Bonus objectives:      Destroy all sentry guns
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Perseus	
+   Guns:      GTW Subach HL-7
+              GTW-5a Prometheus (R) Cannon	
+   Missiles:  GTM-4 Hornet Swarm Missile
+              GTM-19 Harpoon	
+
+Possibilities:
+
+   Ships:     GTF Loki
+              GTF Ulysses	
+   Guns:      None	
+   Missiles:  GTM MX-64 Rockeye
+              GTM MX-6 Tempest Missile	
+
+Mission Overview
+----------------
+
+* Defend Convoy 
+* Destroy Libra 
+* Destroy Pisces 
+* Destroy Gemini 
+* Destroy Aquarius 
+* Destroy Capricorn 
+* Destroy Aries 
+* Destroy Cancer 
+* Destroy MAELSTROM
+
+Head for the flashing red dots in the radar and take out a few sentry guns. Don't keep on 
+destroying sentry guns, since there are bombers flying towards the convoy. It's more important to 
+intercept them. Once the bombers (and bombs) are destroyed, take on the fighters and then 
+concentrate your fire on the remaining sentry guns.
+
+Nothing will happen for quite a long time now. Suddenly some fighters and the Maelstrom will jump 
+in ... first try to take out the beam weapon of the Maelstrom, it does a lot of damage to the 
+convoy if you don't take it out. This is one of the crucial factors to complete the primary 
+objective. Once that's done, kill the fighters (if any are left) and make scrap out of the 
+Maelstrom (with the help of the Deimos and the remaining fighters).
+
+
+4.17 Mission 16 - Feint! Parry! Riposte!
+_________________________________________
+
+Objectives
+----------
+
+Primary objectives:    Destroy the cruisers' fighter escort 
+                       Help destroy Koth's battle group 
+Secondary Objectives:  Defend the RAMPART
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Perseus	
+   Guns:      GTW-5a Prometheus (R) Cannon
+              GTW Subach HL-7	
+   Missiles:  GTM-4 Hornet Swarm Missile
+              GTM-19 Harpoon	
+
+Possibilities:
+
+   Ships:     GTF Hercules Mark II	
+   Guns:      None
+   Missiles:  GTM MX-6 Tempest Missile	
+
+Mission Overview
+----------------
+
+* Destroy Escort Fighters 
+* Protect the RAMPART 
+* Destroy Libra 
+* Destroy Aries
+
+You'll be confronted with a few Hercs and 2 GTC's (Majestic and Refute). These can be destroyed 
+quite easily. Afterwards, multiple GTF Loki's will jump in. They are fast and agile, but can't take 
+a beating. Just concentrate on all new fighter wings that jump in.
+
+If the destroyer jumps it, leave it be. The Colossus will jump in to help you, but they will 
+collide with each other. You can't stop it, so why bother attacking the GTD (unless you want to 
+improve your stats) 
+
+
+4.18 Mission 17 - Rebels & Renegades
+_____________________________________
+
+Objectives
+----------
+
+Primary objectives:    Escort the ICENI to the Regulus jump node 
+Secondary Objectives:  Scan the ICENI
+                       Protect the HINTON
+Bonus objectives:      Scan the HINTON
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Myrmidon	
+   Guns:      GTW Subach HL-7 (2x)	
+   Missiles:  GTM MX-6 Tempest Missile (3x)	
+
+Possibilities:
+
+   Ships:     GTF Hercules
+              GTF Loki	
+   Guns:      None
+   Missiles:  GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Scan Iceni 
+* Destroy YAARU 
+* Protect ICENI 
+* Protect HINTON 
+* Destroy Libra 
+* Destroy Gemini 
+* Destroy Scorpio 
+* Destroy Virgo 
+* Destroy Leo 
+* Destroy Sagittarius
+
+This is definitely the most difficult mission up till now. First go and scan the Iceni (600m) and 
+then go and scan the Hinton (200m - bonus objective). Now some bombers and fighters will enter the 
+system. Forget about the fighters, head straight for the bombers and deal with them swiftly. Speed 
+of execution is very important ... a little screw up here or there usually results in failure.
+
+Like I already said, bombers are a priority, no matter which wings jump in. Let the Taurets toy a 
+bit and destroy them once you have the time. There will also be 2 warships: a GVC and a GVCv. The 
+first is pretty easy to destroy, the second is a nightmare (esp. to the Iceni). Once it flies in, 
+try to destroy all the beam turrets first. Another good tactic is to take out the weapon system. At 
+approximately the same time, you'll get orders to intercept any incoming asteroids, do this once 
+the turrets or weapon system have been taken out. The asteroids have a higher priority than 
+fighters which might harass you. If a lot of them impact the Iceni, it's history too. Only engage 
+fighters if you have a short break!
+
+If you want to know the damage the asteroids do in combination with the GVCv, I suggest you stand 
+down and watch the Iceni health indicator diminish rapidly. 
+
+
+4.19 Mission 18 - Love the Treason ...
+_______________________________________
+
+Objectives
+----------
+
+Primary objectives:    Escort the SUNDER 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Hercules Mark II	
+   Guns:      GTW-5a Prometheus (R) Cannon
+              GTW Subach HL-7	
+   Missiles:  GTM MX-6 Tempest Missile
+              GTM-19 Harpoon	
+
+Possibilities:
+
+   Ships:     GTF Hercules
+              GTF Loki
+              GTF Ulysses	
+   Guns:      None
+   Missiles:  GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Protect SUNDER 
+* Destroy NTF Fighters 
+* Protect HAMAKO 
+* Destroy Kappa 
+* Destroy Iota 
+* Destroy MYLAE 
+* Destroy Leo 
+* Destroy Gemini 
+* Destroy HELLESPONT 
+* Destroy Taurus 
+* Destroy Pisces 
+* Destroy Aries 
+* Destroy Aquarius
+
+Suddenly, the rest of the fighter escort discovers that you are a traitor. Take them out with the 
+help of the lieutenant. They are all Hercs Mark II, but they are pretty easy to defeat. Tempest 
+dumbfire missiles help you to take out targets fast, since they don't require a lock. So use them!  
+If you have trouble in the higher difficulty settings (eg. hard) pump your shields up to the max, 
+minus 2 for the engine (no gun power, you can deplete your current gun energy though).
+
+Then additional NTF Fighters will jump in, but they won't attack you. Once the GTVA Fighters jump 
+in, the NTF's will become hostile. So kill them too. After you destroyed all enemy fighters, assign 
+a wing of the skull squadron to protect the Hamako and let the other wing protect the Sunder. This 
+will will help a lot later in the mission.
+
+A little while later the Mylae will jump in with a Herc Fighter escort. First take out the 
+fighters, the Mylae doesn't do a lot of damage. The Hercs shouldn't take too long with the help of 
+the other GTVA fighters. Then take out the Mylae ... also pretty easy.
+
+Then the Hellespont will jump in, together with a fighter escort which consists of Hercs and Hercs 
+Mark II. I suggest you leave the Hercs alone for the moment and concentrate on the Hellespont, it 
+does a lot of damage to the Sunder if you intercept it too late. Prioritize the beam turrets, once 
+they are take care of ... go for the kill. A friendly Corvette will jump in to assist you. If there 
+are any fighters left after the destruction of the Hellespont, engage them too.
+
+Once all friendly ships have jumped out of the area, wait for the NTC rendezvous ships and then 
+return to base. 
+
+
+4.20 Mission 19 - ... But Hate the Traitor
+___________________________________________
+
+Objectives
+----------
+
+Primary objectives:    Destroy targets of opportunity 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Myrmidon	
+   Guns:      GTW Subach HL-7 (2x)	
+   Missiles:  GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye (2x)	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      GTW-5a Prometheus (R) Cannon	
+   Missiles:  GTM-4 Hornet Swarm Missile	
+
+Mission Overview
+----------------
+
+* Destroy Alastor 
+* Destroy Beta 
+* Destroy Alpha 
+* Destroy Gemini 
+* Destroy Cancer 
+* Destroy SAHARAN
+
+In this mission they know you are a traitor so I suggest the following: Stay low in the beginning 
+of this mission, don't engage any sentry guns. The idea is this: the less you damage the sentry 
+guns, the more they can damage the NTF fighters. This means that later on in the mission, you don't 
+have to hit them as much to destroy them.
+
+Once the NTF fighters have taken out the sentry guns and the cargo, a transport (Elysium) will jump 
+in. Don't engage it! After a few warnings the NTF Fighters will turn hostile. This is the a 
+difficult part of this mission. Take out the Myrmidons as soon as possible (a good way to take out 
+the first ship very fast is by flying right behind it, once it turns hostile all you have to do is 
+press the fire button and BOOM, it's out of there) ... don't be afraid to use missiles to take out 
+the first targets in a few seconds. Otherwise you'll get a bunch of fighters behind you and that's 
+not recommendable. If your shield is crippled by the fight, wait a while before you kill the last 
+fighter. No new ships will jump in unless this wing has been completely destroyed. Once you're back 
+to full strength, destroy the last ship.
+
+Once they are taken care of, a little while later, more Myrmidons will appear. The key is to do 
+evasive maneuvers once they jump in! It's not very healthy to engage them right away, you are way 
+outnumbered here. Luckily, additional fighter wings will jump in to help you. Once they do, you can 
+engage the enemy too, since they aren't able to concentrate their fire only on you. It doesn't 
+really matter if you first take care of the fighters or the cruiser, as long as they die somewhere 
+along the way, you're OK. Once they all are destroyed, return to the GTVA base ... Your undercover 
+SOC missions are over. 
+
+
+4.21 Mission 20 - Battle of the Wilderness
+___________________________________________
+
+Objectives
+----------
+
+Primary objectives:    Escort the VAUBAN to the WARSPITE 
+                       Escort the ERINPURA to the WARSPITE 
+Secondary Objectives:  Protect the LUCIDITY
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Perseus	
+   Guns:      GTW-5a Prometheus (R) Cannon
+              GTW Subach HL-7	
+   Missiles:  GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      GTW ML-70 Morning Star
+              GTW-19 Circe	
+   Missiles:  GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Scorpio 
+* Destroy Libra 
+* Destroy MALOR 
+* Destroy Cancer 
+* Destroy Virgo
+
+Wait until the ships you need to escort to jump in. Once they do, just wait for the first enemy 
+wing to jump in. Once they do, take them (SF Manticores) out. Later on, you'll get some Maras on 
+your back, but they shouldn't pose a problem either.
+
+Once the cruiser jumps in, call in Zeta wing. They are more fit to take out cruisers, I wouldn't 
+worry to much about the cruiser if you called in Zeta. They can take care of it pretty fast. You 
+keep your eye on new incoming wings of fighters and bombers. Once the bombers (SB Nephelims) 
+arrive, make sure you take them out first. The freighters and the Lucidity have a real 
+lowthresholdd for damage so ...
+
+Overall, this mission was pretty easy to complete. There are lots of dead moments in between the 
+different wings, giving you plenty of time to recover. 
+
+
+4.22 Mission 21 - A game of TAG
+________________________________
+
+Objectives
+----------
+
+Primary objectives:    Test the TAG missile system 
+                       Destroy all Shivan fighters 
+                       Protect the WARSPITE 
+                       Protect the LUCIDITY 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Ulysses	
+   Guns:      GTW-5a Prometheus (R) Cannon
+              GTW Subach HL-7	
+   Missiles:  GTI TAG-A Missile	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      None	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+* TAG Cancer 
+* TAG Scorpio 
+* Destroy Leo 
+* Destroy Virgo 
+* Destroy Libra
+
+At first you'll encounter some Basilisks. You can either tag them or destroy them, it doesn't 
+really matter, as long as they get destroyed. But, as expected, something goes wrong: an 
+(unexpected) wing of Shivan fighters jump in ... including bombers!
+
+Once this happens, TAG as many different targets as possible ... once this is done, you can easily 
+finish them off with your guns. Remember that the TAG-A is a dumbfire missile, so try to get in 
+close before you fire it. You'll notice that your target is tagged by the yellow (instead of red) 
+brackets around them. The tag will wear off after a few seconds. Also keep in mind that the target 
+should be within 3000m of the capital ship ... otherwise it's useless. Make sure you keep your 
+distance once you tagged a target, it's not healthy to be caught in the beam that was meant to 
+damage the enemy fighter.
+
+Just make sure you intercept the bombers in time. Once they are gone, you'll surely be able to 
+finish the mission without any further complications. 
+
+
+4.23 Mission 22 - Proving Grounds
+__________________________________
+
+Objectives
+----------
+
+Primary objectives:    Test the Pegasus stealth fighter 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Perseus	
+   Guns:      GTW ML-70 Morning Star
+              GTW Subach HL-7	
+   Missiles:  GTM MX-6 Tempest Missile (2x)	
+
+Possibilities:
+
+   Ships:     GTF Hercules Mark II
+              GTF Myrmidon	
+   Guns:      GTW-5a Prometheus (R) Cannon
+              GTW Akheton SDG	
+   Missiles:  GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile
+              GTM-43a Stiletto II
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Protect OBERON 
+* Destroy Virgo 
+* Destroy Taurus 
+* Protect AQUITAINE 
+* Destroy TIAMAT 
+* Destroy Cancer 
+* Destroy Pisces 
+* Destroy Libra
+
+You'll have to test the stealth abilities of the Pegasus (unfortunately, you are not allowed to fly 
+it in this mission). They call in the Oberon, an old cruise, which you have to defend. You'll 
+notice that it's pretty hard to fly without a lock on your target. But once you have visual 
+contact, you won't lose track of the Pegasus easily. I think you have to keep the Oberon for at 
+least 20% healthy in order to protect it successfully. I really don't see the point of this, 
+because you can fire as much as you want (and hit the target of course), the Pegasus will continue 
+it's standard attack/retreat routines. It doesn't matter one bit if you hit it or miss it. The only 
+way to break their attack is by firing the morning star on them ... but you can only occupy 
+yourself with one target and it doesn't take a long time to recover from the kinetic effect.  
+Anyway, just don't waste your missiles on them!
+
+Once the second part of the test is about to begin, a group of Shivan fighters (Mara) will jump in 
+... time for some real action. A bit later the Taurus group will jump in. These are bombers, so 
+intercept them and their bombs first! They pose a serious threat to the Aquitaine. By the time you 
+have taken them out a corvette will jump in (Tiamat) ... destroy it first! Target the beam turrets, 
+so it doesn't inflict much damage to the Aquitaine. Then go for whichever weapon system you want 
+... I usually go for the flaks or missile launchers first, but tend to pick off a laser here and 
+there as the opportunity arises. Remember that you have to keep close to the Tiamat in order to get 
+help from the Aquitaine. Your sensors allow the Aquitaine to open fire. Once the Tiamat is 
+destroyed (or jumped out) take care off the remaining fighters. 
+
+
+4.24 Mission 23 - The King's Gambit
+____________________________________
+
+Objectives
+----------
+
+Primary objectives:    Intercept and destroy all NTF Warships 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTB Artemis	
+   Guns:      GTW-5 Prometheus (S) Cannon	
+   Missiles:  GTM-4 Hornet Swarm Missile
+              GTM-12 Cyclops (2x)	
+
+Possibilities:
+
+   Ships:     GTB Artemis D.H.
+              GTB Boanerges
+              GTB Medusa
+              GTB Ursa
+              GTB Zeus	
+   Guns:      GTW Akheton SDG
+              GTW ML-70 Morning Star
+              GTW Subach HL-7	
+   Missiles:  GTI TAG-A Missile
+              GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-43a Stiletto II
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy UHURU 
+* Destroy Virgo 
+* Destroy PAX 
+* Destroy Taurus 
+* Destroy LIBERTY 
+* Destroy UNDAUNTED 
+* Destroy Pisces 
+* Destroy INSPIRATION 
+* Destroy PERSEVERANCE
+
+Since you are flying a bomber and your primary mission is to take out warships. However, you should 
+not neglect the fighter wings. There are 4 sentry guns (GTSG Mjolnir) who have beam turrets. They 
+help a great deal with the destruction of the warships. All fighters launched want to take out 
+these sentry guns ... so deal with them.
+
+For the first warships, I wouldn't use too many cyclops'. Your wingmates fire enough missiles to 
+destroy the target for you. Remember that if you engage the first warships, you'll probably need to 
+rearm, to take out targets that arrive later. Rearming is always a risky business! While your 
+wingmates take out the first capital ship you can spent some engaging the enemy fighters!
+
+Once the Liberty and the Undaunted jumped in, I started to engage warships too. Your wingmates seem 
+to have depleted their cyclops' missiles by that time. Also communicate with your wings to optimize 
+destruction. Let another wing engage a target, you are not engaging. The Perseverance (the last 
+warship to jump in) is also the most difficult to destroy ... if you have to rearm yourself at the 
+time it jumps in, you can forget about it. You have such a short time span and practically no help 
+from your wingmates. It's not a disaster if it jumps out of the system (happened to me too a few 
+times), but it's more satisfying to see it explode into a thousand pieces. 
+
+
+4.25 Mission 24 - The Sicilian defense
+_______________________________________
+
+Objectives
+----------
+
+Primary objectives:    Destroy the NTF ICENI 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTB Artemis	
+   Guns:      GTW-5 Prometheus (S) Cannon	
+   Missiles:  GTM-10 Piranha
+              GTM-12 Cyclops (2x)	
+
+Possibilities:
+
+   Ships:     GTB Artemis D.H.
+              GTB Boanerges
+              GTB Medusa
+              GTB Ursa
+              GTF Hercules Mark II
+              GTF Myrmidon
+              GTF Perseus
+              GTF Ulysses	
+   Guns:      GTW Akheton SDG
+              GTW ML-70 Morning Star
+              GTW Subach HL-7	
+   Missiles:  GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile
+              GTM-43a Stiletto II
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy VENTURE 
+* Destroy VINDICATOR 
+* Destroy Aries 
+* Destroy Taurus 
+* Destroy Virgo 
+* Destroy YOSHIMOTO 
+* Destroy ALBA 
+* Destroy Cancer 
+* Destroy EPIGONI 
+* Destroy Pisces
+
+Once you jump in the Vindicator and the Venture are already in the system, no Iceni though. Once 
+you launched your cyclops (2x) divert your attention to the Hercules fighters. It takes 20 seconds 
+before you can fire another missile. The Hercules fighters shouldn't be hard to destroy, once they 
+have been destroyed you should concentrate on destroying the warship and the transport (don't use 
+cyclops' on the transport, it's not worth it).
+
+From now on, keep on concentrating on taking out bigger ships. There's a wing of Myrmidons to 
+assist you with the destruction of the fighters. You might want to rearm, but like I said before, 
+watch out ... you're a sitting duck if any enemy wing is in the vicinity. 
+ 
+
+4.26 Mission 25 - Endgame
+__________________________
+
+Objectives
+----------
+
+Primary objectives:    Defend the Knossos device 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Myrmidon	
+   Guns:      GTW Subach HL-7 (2x)	
+   Missiles:  GTM-4 Hornet Swarm Missile
+              GTM-4a Tornado Missile	
+
+Possibilities:
+
+   Ships:     GTF Hercules Mark II
+              GTF Loki
+              GTF Pegasus
+              GTF Perseus
+              GTF Ulysses	
+   Guns:      None	
+   Missiles:  GTI TAG-A Missile
+              GTM-11 Infyrno
+              GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-55 Trebuchet
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Aquarius 
+* Destroy Virgo 
+* Destroy LOYOLA 
+* Destroy Sagittarius 
+* Destroy Leo 
+* Destroy Gemini 
+* Destroy Cancer 
+* Destroy Pisces 
+* Destroy DANTON 
+* Destroy ICENI
+
+The beginning of this mission is quite hectic, but things will slow down eventually. The first part 
+is also the most important part. Protect the Monitor from the bombers and fighters. Taking the 
+bombers out shouldn't take too long. Once you have successfully repelled the first wave, the 
+Colossus will jump in to relieve the Monitor of duty.
+
+From then on, do the thing you are supposed to do: take out all hostiles. The Colossus will help 
+taking out the bigger ships, so don't worry too much about those.
+
+Once the Iceni jumps in the Colossus malfunctions (figures!). Don't try to take it out, you won't 
+get the time. Keep concentrated on the fighters. 
+
+
+4.27 Mission 26 - The Fog of War
+_________________________________
+
+Objectives
+----------
+
+Primary objectives:    Destroy all Shivan gas miners 
+Secondary Objectives:  Destroy all Shivan sentry guns
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GVF Serapis	
+   Guns:      GTW-5 Prometheus (S) Cannon
+              GTW-66 Maxim Cannon	
+   Missiles:  GTM-4 Hornet Swarm Missile (2x)	
+
+Possibilities:
+
+   Ships:     GVF Horus
+              GVF Tauret
+              GVF Thoth	
+   Guns:      GTW-83 Lamprey
+              GTW Akheton SDG
+              GTW ML-70 Morning Star
+              GTW Mekhu HL-7	
+   Missiles:  GTI TAG-A Missile
+              GTM-10 Piranha
+              GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-4a Tornado Missile
+              GTM-43a Stiletto II
+              GTM-55 Trebuchet
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Gas Miners 
+* Destroy Sentries 
+* Destroy Virgo 
+* Destroy Libra 
+* Destroy Cancer 
+* Destroy Taurus 
+* Destroy Scorpio 
+* Protect TATENEN 
+* Destroy Aries 
+* Destroy Gemini
+
+You have to find a good balance between picking off fighters/sentries and destroying miners. If 
+you're having troubles, you're probably concentrating too much of your fire on the miners, which do 
+minimal damage to your fighter. The only thing you should keep in mind when you are flying this 
+mission is: don't fly too close to the miners when they explode. Your hull will be crippled 
+severely if a miner explodes in your vicinity.
+
+Once all miners, sentries, fighters, ... have been taken out, the Shivans will launch an attack on 
+the Tatenen. Target the bombers first, then take care of the remaining fighters. Once that's done, 
+you have to investigate an unknown ship. Once you discover what it is (a juggernaut class warship - 
+let's just call it a big warship), it's already too late. The Tatenen will be blown away. 
+ 
+
+4.28 Mission 27 - A Monster in the Mist
+________________________________________
+
+Objectives
+----------
+
+Primary objectives:    Scan nav, comm, weapons and sensors 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GVF Ptah	
+   Guns:      GTW Akheton SDG	
+   Missiles:  GTM-4 Hornet Swarm Missile
+              GTM-55 Trebuchet	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      GTW-19 Circe
+              GTW-5 Prometheus (S) Cannon
+              GTW Mekhu HL-7	
+   Missiles:  GTM-14 EMP Adv.
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Scan Communications
+* Scan Weapons
+* Scan Sensors
+* Scan Navigation 
+
+This is an easy mission. Target the different subsystems and do a scan (a few seconds from close 
+range). Make sure you target the subsystem closest to you, this reduces the flight time. You might 
+get some missiles fired at you, but they shouldn't be that hard to dodge.
+
+Once the systems are all scanned you get 2 option: return to base or take out as many turrets as 
+you can. Just take out the turrets, they are easy to destroy and there's little opposition. Do this 
+until the Sathanas jumps out of the system. 
+
+
+4.29 Mission 28 - Speaking in Tongues
+______________________________________
+
+Objectives
+----------
+
+Primary objectives:    Destroy all Shivan warships 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GVF Serapis	
+   Guns:      GTW Mekhu HL-7
+              GTW-66 Maxim Cannon	
+   Missiles:  GTI TAG-B Missile
+              GTM-4 Hornet Swarm Missile (2x)	
+
+Possibilities:
+
+   Ships:     GVF Horus
+              GVF Seth
+              GVF Tauret
+              GVF Thoth	
+   Guns:      GTW-5 Prometheus (S) Cannon
+              GTW-83 Lamprey
+              GTW Akheton SDG
+              GTW ML-70 Morning Star	
+   Missiles:  GTM-10 Piranha
+              GTM-19 Harpoon
+              GTM-4a Tornado Missile
+              GTM-43a Stiletto II
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Virgo 
+* Destroy Taurus 
+* Destroy Cancer 
+* Destroy Scorpio
+
+This is a strange mission: you have to destroy all warships, but they are never mentioned in your 
+objectives screen in the HUD. If you are flying the Serapis, I wouldn't engage too many warships, 
+just occupy yourself with the fighters. Delta wing (needs to be called in) in combination with the 
+friendly capital ships are more than enough to take out warships.
+
+Later in the mission you'll be confronted with the supreme Shivan fighter (in my opinion) the SF 
+Dragon. They are agile, fast and can do a lot of damage ... luckily they have a light hull. But in 
+overall, this mission should be nothing to worry about! 
+
+
+4.30 Mission 29 - A Flaming Sword
+__________________________________
+
+Objectives
+----------
+
+Primary objectives:    Monitor the Knossos demolition 
+Secondary Objectives:  Engage and destroy all hostile ships
+                       Keep Shivans away from the Meson bomb 
+                       Protect the RENENET
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GVF Tauret	
+   Guns:      GTW Mekhu HL-7
+              GTW-5 Prometheus (S) Cannon	
+   Missiles:  GTM-4a Tornado Missile
+              GTM MX-64 Rockeye	
+
+Possibilities:
+
+   Ships:     GVF Horus
+              GVF Ptah
+              GVF Serapis
+              GVF Seth
+              GVF Thoth	
+   Guns:      GTW-19 Circe
+              GTW-66 Maxim Cannon
+              GTW-83 Lamprey
+              GTW Akheton SDG
+              GTW ML-70 Morning Star	
+   Missiles:  GTI TAG-A Missile
+              GTI TAG-B Missile
+              GTM-10 Piranha
+              GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile
+              GTM-43a Stiletto II
+              GTM MX-6 Tempest Missile	
+
+Mission Overview
+----------------
+
+* Engage Hostiles 
+* Lure Shivans to RENENET 
+* Destroy Capricorn 
+* Destroy Scorpio 
+* Destroy Aries 
+* Destroy Libra 
+* Destroy Cancer 
+* Destroy Pisces
+
+In the beginning some astaroth's are patrolling the Knossos device. Just engage them, more will 
+jump in while you are fighting. You could lure them closer to the Renenet, this makes things easier 
+for you. It's also mentioned in the objectives screen in your HUD, because it keeps the Shivans 
+away from the meson bomb.
+
+The main advantage of fighting close to the Renenet is that you don't have to fly away from the 
+meson bomb to clear the area. They just begin countdown and they don't bug you that much. At the 
+time the countdown begins, some SF Dragons will jump in. Just let them be, they will all be wiped 
+away by the meson bomb.
+
+Once the first bomb exploded (but wasn't successful) a wing of SF Mara's will jump in. In other 
+words: nothing to worry about if you are fast enough. If you tend to get swamped by the Mara's, 
+fight closer to the Renenet, so it can help you. Once they have been wiped out, a second and third 
+meson bomb will be deployed. Just wait until lambda jumps out and the bomb will explode. But 
+suddenly the Sathanas jumps in without the use of the Knossos device (surprise, surprise!). It's 
+time to head back to base. 
+
+
+4.31 Mission 30 - Bearbaiting
+______________________________
+
+Objectives
+----------
+
+Primary objectives:    Neutralize Sathanas forward beam cannon 1 
+                       Neutralize Sathanas forward beam cannon 2 
+                       Neutralize Sathanas forward beam cannon 3 
+                       Neutralize Sathanas forward beam cannon 4 
+Secondary Objectives:  Destroy Sathanas forward flak batteries
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GVB Bakha	
+   Guns:      GTW Akheton SDG
+              GTW Mekhu HL-7	
+   Missiles:  GTM-13 Helios
+              GTM-55 Trebuchet	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      None	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+* Destroy Forward Flak Guns 
+* Destroy Scorpio 
+* Destroy Virgo 
+* Destroy Beam Turrets 
+* Destroy Beam Turrets 
+* Destroy Gemini
+
+This is a not so difficult mission if you know how to fly it ... I have been successful in taking 
+out all beam turrets and the flak guns, but that means that you have to fly a perfect mission (cfr. 
+if the 2 helios missiles fail to take out a beam turret completely, your chances of taking out all 
+4 are greatly diminished). The success of the mission depends on the way you deploy the helios 
+missiles. You should launch them from close range and at maximum speed (with afterburners). If you 
+do this correctly, launching 2 helios missiles (dual fire mode) will be enough to take down one 
+beam turret.
+
+The next question a lot of players might ask ... I only have 4 helios missiles. How am I supposed 
+to take out more than 2 beam turrets? Easy, rearm yourself. Call for the rearming ship once you 
+start the mission. You can rearm yourself while the new helios missiles are loaded into your 
+missile banks (30 seconds) ... this is also a perfect time to start taking out the flak guns. You 
+can easily rearm and shoot at the flak guns at the same time! Another option is to let your escort 
+wings attack the flak guns, they can take it out in no time!
+
+Also keep in mind that you can call in reinforcements at any time ... they can help a great deal 
+keeping the enemy fighters at a distance.
+
+Once this is done, do it again ... and again (you don't need to rearm every time).
+
+Once the Sathanas jumps out, don't head back to base. You have to take out another ship (you can 
+rearm while you are waiting, the helios missiles will make things just a bit easier). You have to 
+take out the Beleth's beam turrets. First target the engines to stop the warship (unless you can do 
+it in time). Then start taking out the beam turrets and then finish it off. It's not advisable to 
+destroy it immediately (before you take out the turrets), since the objectives for taking out the 
+beam turrets will be incomplete (It's strange, I know - I've notified Volition about this).
+
+Now it's time to destroy Gemini wing and head out of there! 
+
+
+4.32 Mission 31 - High Noon
+____________________________
+
+Objectives
+----------
+
+Primary objectives:    Help the Colossus neutralize the SATHANAS 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GVF Bakha
+   Guns:      GTW Akheton SDG
+              GTW Mekhu HL-7	
+   Missiles:  GTM-13 Helios
+              GTM-55 Trebuchet	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      None	
+   Missiles:  None	
+
+Mission Overview
+----------------
+
+* Destroy Beams 
+* Destroy Cancer
+
+The number of beams you have to destroy in this mission, depends on how many beams you destroyed in 
+the previous. If you did a bad job, you'll have to sweat it out in this mission. If you want to 
+know how to take out the beams, check the previous mission.
+
+Once the beams are taken out, concentrate on taking out Cancer wing. This shouldn't be very hard. 
+Once the fighters are taken out, take out the remaining weapons on the Sathanas: beam turrets, flak 
+guns, laser guns, missile launchers ...  Once the Sathanas is about to explode, move closer to the 
+Colossus (or just make sure there's a save distance between you and the Sathanas).  You don't want 
+to get caught in the blast radius.   Once the Sathanas is destroyed, jump back to base. 
+
+
+4.33 Mission 32 - Return to Babel
+__________________________________
+
+Objectives
+----------
+
+Primary objectives:    Capture the ETAK technology 
+Secondary Objectives:  Destroy the SAMMAEL
+                       Destroy the AZMEDAJ
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GVF Serapis	
+   Guns:      GTW-5 Prometheus (S) Cannon
+              GTW-66 Maxim Cannon	
+   Missiles:  GTM-4 Hornet Swarm Missile (2x)	
+
+Possibilities:
+
+   Ships:     GVF Horus
+              GVF Seth
+              GVF Tauret
+              GVF Thoth	
+   Guns:      GTW-19 Circe
+              GTW-83 Lamprey
+              GTW Akheton SDG
+              GTW Mekhu HL-7
+              GTW ML-70 Morning Star	
+   Missiles:  GTI TAG-B Missile
+              GTM-10 Piranha
+              GTM-11 Infyrno
+              GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-4a Tornado Missile
+              GTM-43a Stiletto II
+              GTM-55 Trebuchet
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Aries 
+* Destroy Cruisers 
+* Destroy Leo 
+* Destroy Aquarius 
+* Destroy Cancer 
+* Destroy Virgo 
+* Destroy Scorpio 
+* Destroy Libra 
+* Destroy Pisces 
+* Destroy Capricorn 
+* Destroy Sagittarius 
+* Destroy Taurus
+
+First take out the SF Mara's that are in the system, then head for one of the cruisers and take it 
+out with the help of beta wing. By the time it's destroyed, a wing of bombers will have jumped in. 
+You intercept the bombers and their bombs, while you can let Beta wing take care of the remaining 
+cruiser.
+
+Once the transport jumps in, different wings of enemy fighters and bombers will jump in. Just 
+remember that bombers are always a priority! No transport/Iceni, means a failed mission objective 
+and the bombers are the only threat. Just watch your radar closely and once you see a new wave of 
+fighters jumping in, head to intercept. If you take most of them out before they become a threat 
+you should have no trouble completing this mission. 
+
+
+4.34 Mission 33 - Straight, No Chaser
+______________________________________
+
+Objectives
+----------
+
+Primary objectives:    Intercept and capture the AZRAEL transport 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GVF Serapis	
+   Guns:      GTW Akheton SDG
+              GTW-66 Maxim Cannon	
+   Missiles:  GTM-4a Tornado Missile
+              GTM MX-6 Tempest Missile	
+
+Possibilities:
+
+   Ships:     GVF Horus
+              GVF Seth
+              GVF Tauret
+              GVF Thoth	
+   Guns:      GTW-19 Circe
+              GTW-5 Prometheus (S) Cannon
+              GTW-83 Lamprey
+              GTW Mekhu HL-7
+              GTW ML-70 Morning Star	
+   Missiles:  GTI TAG-B Missile
+              GTM-10 Piranha
+              GTM-11 Infyrno
+              GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile (2x)
+              GTM-43a Stiletto II
+              GTM-55 Trebuchet
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Scorpio 
+* Destroy Libra 
+* Destroy DAHAKA 
+* Destroy SEPHIROTH 
+* Destroy Aries 
+* Destroy Capricorn 
+* Destroy Taurus
+
+This mission has nothing to do with the recovery of the Azrael. During the mission you'll be given 
+a complete set of new instructions, so listen carefully (or watch them in the F4 objectives 
+screen).
+
+Fly toward the red blinking dots in your radar. You'll find a second subspace portal. You'll be 
+engaging a dogfight with multiple SF Dragons and a few Mara's. Like I already said, they are hard 
+to destroy because of their speed and maneuverability. Don't call in the reinforcements, since this 
+triggers the arrival of a cruiser ... and that's one more thing to worry about. First take out all 
+dragons and the Dahaka, then call in Delta wing. It'll be easy to take out the Sephiroth.
+
+The Psamtik will jump in (about 9000m away from the device), assign your wings to defend it. There 
+will be a few wings, but they are not so hard to destroy. Once this is done a new Juggernaut will 
+jump in and destroy the Psamtik. You'll get the order to return to base. 
+
+
+4.35 Mission 34 - Argonautica
+______________________________
+
+Objectives
+----------
+
+Primary objectives:    Defend the AQUITAINE until it safely departs the nebula 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GVF Serapis	
+   Guns:      GTW-66 Maxim Cannon
+              GTW Mekhu HL-7	
+   Missiles:  GTM-19 Harpoon
+              GTM-4a Tornado Missile	
+
+Possibilities:
+
+   Ships:     GVF Horus
+              GVF Seth
+              GVF Tauret
+              GVF Thoth	
+   Guns:      GTW-19 Circe
+              GTW-5 Prometheus (S) Cannon
+              GTW-83 Lamprey
+              GTW Akheton SDG
+              GTW ML-70 Morning Star	
+   Missiles:  GTI TAG-B Missile
+              GTM-10 Piranha
+              GTM-14 EMP Adv.
+              GTM-4 Hornet Swarm Missile (2x)
+              GTM-43a Stiletto II
+              GTM-55 Trebuchet
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Aries 
+* Destroy ABADDON 
+* Destroy Scorpio 
+* Destroy Virgo 
+* Destroy Pisces 
+* Destroy Libra 
+* Destroy Leo 
+* Destroy Gemini 
+* Destroy Taurus 
+* Destroy Capricorn 
+* Destroy Sagittarius 
+* Destroy Aquarius
+
+First intercept the Mara's attacking the Aquitaine - you should have some time left to help the 
+Aquitaine with the Abaddon if you're fast enough. However, once the fighters jump in, concentrate 
+on them. The Aquitane can take care of the Abaddon itself.
+
+Some bombers and Mara's will jump in by the time you have taken out the Astaroth's. First take out 
+the bombers (and their bombs), since they can do the most damage to the Aquitaine, then go for the 
+fighters. Some additional Basilisks and SB Taurvi will jump in. Again, you should first concentrate 
+on the bombers, then on the fighters!
+
+Now you'll have to wait a while until the transport has docked with the Aquitaine. Once this 
+operation is complete more bombers (and only bombers from now on) will jump in. SB Taurvi's, but 
+mostly SB Nahema's ... hold them off until the Aquitaine has jumped. 
+
+
+4.36 Mission 35 - As Lightning Fall
+____________________________________
+
+Objectives
+----------
+
+Primary objectives:    Rescue Lt. Commander Snipes 
+Secondary Objectives:  Locate and recover the GRALL
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Erinyes	
+   Guns:      GTW Subach HL-7 (2x)	
+   Missiles:  GTM MX-6 Tempest Missile (2x)	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      GTW-19 Circe
+              GTW-5 Prometheus (S) Cannon
+              GTW-5a Prometheus (R) Cannon
+              GTW-66 Maxim Cannon
+              GTW Akheton SDG
+              GTW ML-70 Morning Star
+              GTW UD-8 Kayser	
+   Missiles:  GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile
+              GTM-4a Tornado Missile
+              GTM-55 Trebuchet
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Follow Nav Buoys 
+* Find GRALL 
+* Call in LAMBDA 1 
+* Protect LAMBDA 1
+
+This SOC mission is not so difficult, but it can get quite annoying. Your HUD doesn't function 
+properly because of the interference caused by the nebula. The trick is to keep an eye on your 
+radar. It may not function properly, but in between the glitches you can use it to navigate through 
+the nebula. Just fly to the next nav buoy and once you fly past it, a new buoy (grey dot) will 
+appear on radar. So all you have to do, is watch where the new dot appears on the radar and fly 
+towards it.
+
+There will be a wing (or two) of Basilisks around each buoy, but they are easy to destroy. The 
+hardest part is to get back on track after the engagement (I once flew all the way back to NB 1 - 
+Aaaaaaaaargh!).
+
+After 7 buoys you'll finally reach the Grall, but it's under attack by Nahema bombers. Needless to 
+say that you have to take them out. Watch out though, they might send quite a few missiles behind 
+your tail. Sometimes it's better to do evasive maneuvers than it is to stick to your target!
+
+Once the bombers have been taken out, call in Lambda 1. Some enemy wings will jump in, but they 
+shouldn't give you too much trouble.
+
+
+4.37 Mission 36 - Into the Lion's Den
+______________________________________
+
+Objectives
+----------
+
+Primary objectives:    Reconnoiter Knossos 2 sector 
+Secondary Objectives:  None 
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      SF Mara (Terran)	
+   Guns:      GTW UD-8 Kayser (2x)	
+   Missiles:  GTM MX-6 Tempest Missile (2x)	
+
+Possibilities:
+
+   Ships:     None	
+   Guns:      GTW Subach HL-7	
+   Missiles:  GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile
+              GTM-4a Tornado Missile
+              GTM-55 Trebuchet
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Leo 
+* Destroy Libra 
+* Destroy Shivan Devices 
+* Destroy Scorpio 
+* Destroy Gemini 
+* Destroy Aries
+
+Once the mission starts, immediately dive with your fighter and hit the afterburners to evade the 
+Juggernaut who goes into hyperspace.  Then start heading for the Shivan device.  Once you get to 
+close, the Shivans will be alerted and engage you!
+
+The most efficient way to take out the device is by destroying the subspace crystal in the center 
+of the device (the red center).  You just need a couple of missiles (if you hit it correctly).  
+Once you've destroyed it (the red center doesn't burst or anything), the device will self destruct.  
+The best way to hit it is by flying close to the center, into the device ... between the rotating 
+arms.  However, the explosion of the device is very powerful and it can do some serious damage to 
+your hull.  So you have to get out of that position as fast as you can, once you destroyed it!  
+Another way to go (and which is preferred) is to change your missiles before starting the mission.  
+I tend to take harpoons and trebuchets with me.  The harpoons help me take out the enemy fighters 
+while the trebuchets can be used to take out the crystals at a great distance.  This may take a few 
+tries though, the rotating arms provide good cover for the crystal.
+
+For the other 2 devices, you can always rely on your wingmates, should your hull be critically 
+damaged.  You can hold off the Shivan fighters / bombers.  Taking out the devices is a priority 
+though, the bombers and fighters will keep on jumping in.  Since the distance between the different 
+devices is so big, it's wise to divert power to your engines ... so your afterburners can recharge 
+faster, enabling you to reach the devices faster (this buys you some minutes).
+
+Once the devices are destroyed, head back to the jump node and wait until 15:00 have passed (take 
+out any hostiles that bother you).  Also watcht out for the warship that jumps in; if you wait 
+inside the jump node, it's likely that you die because of a collisions once if jumps in.  Once the 
+15 mins are over, your jump drives will be enabled and you can jump out of there!
+
+
+4.38 Mission 37 - Exodus
+_________________________
+
+Objectives
+----------
+
+Primary objectives:    Escort LAMBDA 1 and LAMBDA 2 to the Epsilon Pegasi Node 
+                       Protect the medical ship VESALIUS 
+Secondary Objectives:  Destroy all hostile targets
+                       Protect the cargo ship SULLA
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Erinyes	
+   Guns:      GTW-66 Maxim Cannon
+              GTW UD-8 Kayser	
+   Missiles:  GTM-55 Trebuchet
+              GTM MX-6 Tempest Missile	
+
+Possibilities:
+
+   Ships:     GTF Ares
+              GTF Hercules Mark II
+              GTF Perseus
+              GTF Ulysses	
+   Guns:      GTW-19 Circe
+              GTW-5 Prometheus (S) Cannon
+              GTW-83 Lamprey
+              GTW ML-70 Morning Star
+              GTW Subach HL-7	
+   Missiles:  GTI TAG-B Missile
+              GTM-4a Tornado Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Scorpio 
+* Destroy Leo 
+* Protect Convoy 
+* Destroy Gibborim Beams 
+* Destroy Taurus 
+* Destroy Aries 
+* Destroy Virgo
+
+If you have troubles completing this mission successfully, don't be too shy to call in Theta wing. 
+They don't solve a lot of problems, but they do take some of the pressure away. Personally, I found 
+this mission pretty hard ... you can easily stay alive, but it's hard to keep whole convoy in one 
+piece. You have to be extremely fast or you're bound to lose a few ships in the convoy.
+
+Bombers and bombs should be intercepted immediately. If there are multiple bomber wings, assign 
+Theta specifically to a certain wing. This allows you to occupy yourself with the the other wing, 
+while Theta wing takes care of the other bombers.
+
+Try to keep the Nebtuu alive as long as possible, it helps a great deal destroying the warship that 
+was already in the system. Don't make the mistake of attacking the SC too fast! Don't head straight 
+for it once it enters the system (I believe it's 6.5km away). First occupy yourself with the 
+bombers and go after the SC Cain once it becomes a threat. 
+
+
+4.39 Mission 38 - Dunkerque
+____________________________
+
+Objectives
+----------
+
+Primary objectives:    Provide fighter cover for the evacuation of 3rd Fleet HQ 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Erinyes	
+   Guns:      GTW UD-8 Kayser
+              GTW-5 Prometheus (Standard) Cannon	
+   Missiles:  GTM MX-6 Tempest Missile
+              GTM-4 Hornet Swarm Missile	
+
+Possibilities:
+
+   Ships:     GTF Ares
+              GTF Hercules Mark II
+              GTF Myrmidon
+              GTF Perseus
+              GTF Ulysses	
+   Guns:      GTW-19 Circe
+              GTW-5 Prometheus (Standard) Cannon
+              GTW-66 Maxim Cannon
+              GTW-83 Lamprey
+              GTW ML-70 Morning Star
+              GTW Subach HL-7	
+   Missiles:  GTI TAG-B Missile
+              GTM-10 Piranha
+              GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile
+              GTM-4a Tornado Missile
+              GTM-43a Stiletto II
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Aries 
+* Destroy Pisces 
+* Destroy Virgo 
+* Destroy Cancer 
+* Destroy Leo 
+* Destroy Taurus 
+* Destroy Libra 
+* Destroy Capricorn 
+* Destroy Gemini 
+* Destroy Aquarius 
+* Destroy Scorpio 
+* Destroy Sagittarius
+
+Assign Delta wing to defend Lambda wing 1 and 2 (once they are in the system). This should provide 
+enough cover for the transports, while you have the time to engage enemies all over the playing 
+field.
+
+Again the same story while escorting capital ships ... concentrate on bombers and the bombs they 
+launch. Fighters are of a lesser priority (but should also be taken out). If you abide this rule, 
+you'll finish the mission in no time! 
+
+
+4.40 Mission 39 - Their Finest Hour
+____________________________________
+
+Objectives
+----------
+
+Primary objectives:    Neutralize all enemy fighters that enter the field of engagement 
+Secondary Objectives:  Destroy targets of opportunity
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Erinyes	
+   Guns:      GTW UD-8 Kayser
+              GTW-66 Maxim Cannon	
+   Missiles:  GTM-55 Trebuchet
+              GTM-4a Tornado Missile	
+
+Possibilities:
+
+   Ships:     GTF Ares
+              GTF Hercules Mark II
+              GTF Loki
+              GTF Perseus
+              GTF Ulysses	
+   Guns:      GTW-19 Circe
+              GTW-5 Prometheus (Standard) Cannon
+              GTW-66 Maxim Cannon
+              GTW-83 Lamprey
+              GTW ML-70 Morning Star
+              GTW Subach HL-7	
+   Missiles:  GTI TAG-B Missile
+              GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile
+              GTM-4a Tornado Missile
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Destroy Freighters 
+* Destroy Scorpio 
+* Destroy Cancer 
+* Destroy BAAL 
+* Destroy Virgo 
+* Destroy Libra
+
+There don't seem to be that many fighters in this mission, so you shouldn't have any troubles 
+taking them all out of commission. This means you also have plenty of time to attack some warships 
+(make sure you adjust your missile loadout to deal with capital ships (dumbfires work just fine)). 
+Don't get cocky though, once you notice that your hull integrity has dropped to a critical level, 
+don't bother about the warships any more (if this happens it will be near the end of the mission)
+
+Once the bomber squadron becomes available to you, let them take out all capital ships while you 
+let one of the fighter wings protect it.
+
+Whatever you do, the GTVA Colossus will always be destroyed. So don't bother about it! 
+
+
+4.41 Mission 40 A - Clash of the Titans II
+___________________________________________
+
+Objectives
+----------
+
+Primary objectives:    Escort the BASTION to the Epsilon Pegasi node 
+Secondary Objectives:  None
+
+Ship and loadout
+----------------
+
+Default:
+
+   Ship:      GTF Hercules Mark II	
+   Guns:      GTW UD-8 Kayser
+              GTW Akheton SDG	
+   Missiles:  GTM-55 Trebuchet
+              GTM-11 Infyrno	
+
+Possibilities:
+
+   Ships:     GTF Ares
+              GTF Erinyes
+              GTF Hercules
+              GTF Loki
+              GTF Myrmidon
+              GTF Perseus
+              GTF Ulysses	
+   Guns:      GTW-19 Circe
+              GTW-5 Prometheus (Standard) Cannon
+              GTW-66 Maxim Cannon
+              GTW-83 Lamprey
+              GTW ML-70 Morning Star
+              GTW Subach HL-7	
+   Missiles:  GTI TAG-B Missile
+              GTM-14 EMP Adv.
+              GTM-19 Harpoon
+              GTM-4 Hornet Swarm Missile
+              GTM-4a Tornado Missile
+              GTM MX-6 Tempest Missile
+              GTM MX-64 Rockeye	
+
+Mission Overview
+----------------
+
+* Protect the BASTION 
+* Destroy Cancer 
+* Destroy Scorpio 
+* Destroy Libra 
+* Destroy Aquarius 
+* Destroy Leo 
+* Destroy Taurus 
+* Destroy Virgo
+
+Intercept all bombers and fighters ... but you should especially focus on the bombers and the 
+missiles they fire. Make sure you are able to intercept them in time. Fighters tend to do some 
+damage to capital ships, but they don't carry Cyclops missiles, ... When you are intercepting the 
+bombs, make sure you don't destroy them from close range. An exploding Cyclops at close range can 
+seriously damage your shields.
+
+Trebuchets are a good choice for this mission, mainly because of their range and power. But don't 
+load them in both your missile banks. You have to make sure that you have enough missiles (you 
+can't carry 400 trebuchets) to last this mission and the next one (you don't get time to reload or 
+choose another ship).
+
+Once the Bastion is safe, you are treated with a little FMV. 
+
+
+4.42 Mission 40 B - Incoming Transmission
+__________________________________________
+
+Objectives
+----------
+
+Primary objectives:    Protect Convoys 
+Secondary Objectives:  Prevent Shivan warships to enter the Vega node
+
+Ship and loadout
+----------------
+
+Default:
+
+   Not applicable: you are flying with the same ship as in mission 34 and with the same (depleted) 
+loadout.
+
+Possibilities:
+
+   Not applicable: you are flying with the same ship as in mission 34 and with the same (depleted) 
+loadout. 
+
+Mission Overview
+----------------
+
+* Destroy Sagittarius 
+* Destroy THANATOS 
+* Destroy Cancer 
+* Destroy Gemini 
+* Destroy BANE 
+* Destroy MELCHOM 
+* Destroy Scorpio 
+* Destroy Libra 
+* Destroy Virgo 
+* Destroy Leo
+
+This mission is easy to say the least. If you wait for 12 minutes inside the jump node and then 
+jump out of the system, the game is over.
+
+However, it's more fun to do some dogfighting for 12 minutes, than just sitting there and wait. 
+Take on every fighter wing that comes into the system, but keep a special eye out to the bombers 
+and the heavy payload missiles they fire.
+
+At first you'll encounter bombers - followed by a wing of Dragons - and again nothing but bombers.
+
+Make sure that, when the 12 minute deadline is coming closer, prepare to head back for the jump 
+node. If you don't make it on time, you'll be fried by the supernova (only a small difference in 
+the ending movie). Once they announce the supernova you have 50 seconds to reach the node and jump 
+out of there. The first time, I didn't expect the supernova, but was able to reach the node in time 
+(I was 7500 m away from the node). Unfortunately I didn't have any time left to do the jump.
+
+
+THE END 
+
+
+___________________________________________________________________________________________
+
+=================
+5.   THE WEAPONS
+=================
+
+5.1 Information
+________________
+
+This gives you a nice overview of all the weapons you can use. There isn't any extensive 
+information though, mainly because it's not available.
+
+I've divided the weapons into guns and missiles. Just click any weapons to view some detailed 
+specs. I've tried to verify the range of all weapons (which is not easy on flying targets in singe 
+player). If I'm wrong, just mail me and I'll correct the error.  If someone has information about 
+other weapon specs like damage, refire rate, ...  please contact me.
+
+
+5.2 Guns
+_________
+
+Guns should be chosen carefully, since they'll be your main weapon of attack. Some weapons have 
+incredible power, but usually have a slow recharge rate or do a specific kind of damage.
+
+
+GTW-19 Circe
+------------
+
+SPECS: Tactical Weapon
+       Level 6 Shield Damage 
+  
+RANGE: 1350 m 
+  
+PROS: Extreme shield damage 
+CONS: No hull damage
+      Refire rate
+      Energy drain
+
+
+SPECIFICATIONS                  |
+---------------+----------------|
+Damage ........|             45 |
+  Hull  .......|           0.00 |
+  Shield ......|          45.00 |
+  Subsystem ...|           0.00 |
+Energy Used ...|           1.00 |
+Refire Rate ...|         0.40 s |
+Velocity ......|          450.0 |
+Range .........|         1350 m |
+Special .......|    Anti-Shield |
+
+
+Can be fitted on the following ships:
+
+GTB Artemis
+GTB Artemis D.H.
+GTB Boanerges
+GTB Medusa
+GTB Ursa
+GTB Zeus
+GTF Ares
+GTF Erinyes
+GTF Hercules
+GTF Hercules Mark II
+GTF Ulysses
+GVB Bakha
+GVF Horus
+GVF Serapis
+GVF Seth
+GVF Tauret
+GVF Thoth
+
+
+GTW-5 Prometheus (S) Cannon
+---------------------------
+
+SPECS: Medium Energy Usage
+       Level 5 Hull Damage
+       Level 4 Shield Damage 
+  
+RANGE: 1500 m 
+  
+PROS: Good hull and shield damage 
+CONS: Refire rate
+      Power drain 
+
+
+SPECIFICATIONS                  |
+---------------+----------------|
+Damage ........|             30 |
+  Hull  .......|          27.00 |
+  Shield ......|          30.00 |
+  Subsystem ...|          10.50 |
+Energy Used ...|           1.00 |
+Refire Rate ...|         0.35 s |
+Velocity ......|          750.0 |
+Range .........|         1500 m |
+Special .......|       Standard |
+
+
+Can be fitted on the following ships:
+
+GTB Artemis
+GTB Artemis D.H.
+GTB Boanerges
+GTB Medusa
+GTB Ursa
+GTB Zeus
+GTF Ares
+GTF Erinyes
+GTF Hercules
+GTF Hercules Mark II
+GTF Loki
+GTF Myrmidon
+GTF Pegasus
+GTF Perseus
+GTF Ulysses
+GVB Bakha
+GVF Horus
+GVF Ptah
+GVF Serapis
+GVF Seth
+GVF Tauret
+GVF Thoth
+
+
+GTW-5a Prometheus (R) Cannon
+----------------------------
+
+SPECS: Special Issue
+       Level 4 Hull Damage
+       Level 1 Shield Damage 
+  
+RANGE: 900 m 
+  
+PROS: Good hull damage 
+CONS: Refire Rate
+
+
+SPECIFICATIONS                  |
+---------------+----------------|
+Damage ........|             18 |
+  Hull  .......|          19.80 |
+  Shield ......|          14.40 |
+  Subsystem ...|           6.30 |
+Energy Used ...|           0.60 |
+Refire Rate ...|         0.45 s |
+Velocity ......|          450.0 |
+Range .........|          900 m |
+Special .......|       Retrofit |
+
+
+Can be fitted on the following ships:
+
+GTB Artemis
+GTB Artemis D.H.
+GTB Boanerges
+GTB Medusa
+GTB Ursa
+GTB Zeus
+GTF Ares
+GTF Erinyes
+GTF Hercules
+GTF Hercules Mark II
+GTF Loki
+GTF Myrmidon
+GTF Pegasus
+GTF Perseus
+GTF Ulysses
+GVB Bakha
+GVF Horus
+GVF Ptah
+GVF Serapis
+GVF Seth
+GVF Tauret
+GVF Thoth
+
+
+GTW-66 Maxim Cannon
+-------------------
+
+SPECS: HiVel Weapon
+       Level 8 Hull Damage
+       Level 1 Shield Damage 
+  
+RANGE: 3600 m 
+  
+PROS: Extreme hull damage
+      Refire rate
+      Excellent range 
+CONS: Mediocre shield damage
+      Makes your ship shake when firing
+      Energy drain
+
+
+SPECIFICATIONS                  |
+---------------+----------------|
+Damage ........|             20 |
+  Hull  .......|          26.00 |
+  Shield ......|           4.00 |
+  Subsystem ...|          20.00 |
+Energy Used ...|           1.00 |
+Refire Rate ...|         0.15 s |
+Velocity ......|         1800.0 |
+Range .........|         3600 m |
+Special .......|     HiVelocity |
+
+
+Can be fitted on the following ships:
+
+GTB Artemis
+GTB Artemis D.H.
+GTB Boanerges
+GTB Medusa
+GTB Ursa
+GTB Zeus
+GTF Ares
+GTF Erinyes
+GTF Hercules
+GTF Hercules Mark II
+GTF Loki
+GTF Ulysses
+GVF Serapis
+
+
+GTW-83 Lamprey
+--------------
+
+SPECS: Tactical Weapon
+       Medium Energy Usage
+       Level 3 Shield Damage 
+  
+RANGE: 900 m 
+  
+PROS: Good shield damage
+      Drains power from ship systems 
+CONS: Minor damage
+      High energy usage
+      Usefulness ??? 
+
+
+SPECIFICATIONS                  |
+---------------+----------------|
+Damage ........|             14 |
+  Hull  .......|           1.40 |
+  Shield ......|          14.00 |
+  Subsystem ...|           0.00 |
+Energy Used ...|           1.20 |
+Refire Rate ...|         0.30 s |
+Velocity ......|          450.0 |
+Range .........|          900 m |
+Special .......|  Drains Energy |
+
+
+Can be fitted on the following ships:
+
+GTB Artemis
+GTB Artemis D.H.
+GTB Boanerges
+GTB Medusa
+GTB Ursa
+GTB Zeus
+GTF Ares
+GTF Erinyes
+GTF Hercules
+GTF Hercules Mark II
+GTF Loki
+GTF Ulysses
+GVB Bakha
+GVF Horus
+GVF Serapis
+GVF Seth
+GVF Tauret
+GVF Thoth
+
+
+GTW Akheton SDG
+---------------
+
+SPECS: Tactical Weapon
+       Subsystem Disruption 
+  
+RANGE: 750 m 
+  
+PROS: Disrupts subsystems 
+CONS: Refire rate
+      Energy drain
+
+
+SPECIFICATIONS                  |
+---------------+----------------|
+Damage ........|             30 |
+  Hull  .......|           0.00 |
+  Shield ......|          15.00 |
+  Subsystem ...|          30.00 |
+Energy Used ...|           1.60 |
+Refire Rate ...|         0.35 s |
+Velocity ......|          500.0 |
+Range .........|          750 m |
+Special .......| Anti-Subsystem |
+
+
+Can be fitted on the following ships:
+
+GTB Ursa
+GTB Zeus
+GTF Ares
+GTF Erinyes
+GTF Hercules
+GTF Hercules Mark II
+GTF Loki
+GTF Myrmidon
+GTF Pegasus
+GTF Perseus
+GTF Ulysses
+GVB Bakha
+GVF Ptah
+GVF Serapis
+GVF Seth
+GVF Tauret
+GVF Thoth
+
+
+GTW Mekhu HL-7
+--------------
+
+SPECS: Standard Issue
+       Level 3 Hull Damage
+       Level 3 Shield Damage 
+  
+RANGE: 970 m 
+  
+PROS: Refire rate 
+CONS: Moderate damage 
+
+
+SPECIFICATIONS                  |
+---------------+----------------|
+Damage ........|             12 |
+  Hull  .......|          10.80 |
+  Shield ......|           9.60 |
+  Subsystem ...|           3.60 |
+Energy Used ...|           0.20 |
+Refire Rate ...|         0.15 s |
+Velocity ......|          485.0 |
+Range .........|          970 m |
+Special .......|       Standard |
+
+
+Can be fitted on the following ships:
+
+GVB Bakha
+GVF Horus
+GVF Ptah
+GVF Serapis
+GVF Seth
+GVF Tauret
+GVF Thoth
+
+
+GTW ML-70 Morning Star
+----------------------
+
+SPECS: Long-Range Tactical
+Kinetic Weapon 
+  
+RANGE: 2000 m 
+  
+PROS: Refire rate
+      Range
+      Kinetic effect is funny to see
+CONS: Range is only useful against warships
+      Little damage
+
+
+SPECIFICATIONS                  |
+---------------+----------------|
+Damage ........|              7 |
+  Hull  .......|           3.50 |
+  Shield ......|           9.10 |
+  Subsystem ...|           1.40 |
+Energy Used ...|           0.80 |
+Refire Rate ...|         0.15 s |
+Velocity ......|         1000.0 |
+Range .........|         2000 m |
+Special .......|        Kinetic |
+
+
+Can be fitted on the following ships:
+
+GTB Ursa
+GTB Zeus
+GTF Ares
+GTF Erinyes
+GTF Hercules
+GTF Hercules Mark II
+GTF Loki
+GTF Myrmidon
+GTF Pegasus
+GTF Perseus
+GTF Ulysses
+GVF Horus
+GVF Ptah
+GVF Serapis
+GVF Seth
+GVF Tauret
+GVF Thoth
+
+
+GTW Subach HL-7
+---------------
+
+SPECS: Standard Issue
+       Level 3 Hull Damage
+       Level 2 Shield Damage 
+  
+RANGE: 900 m 
+  
+PROS: Refire rate 
+CONS: Moderate damage 
+
+
+SPECIFICATIONS                  |
+---------------+----------------|
+Damage ........|             15 |
+  Hull  .......|          13.50 |
+  Shield ......|          10.50 |
+  Subsystem ...|           4.50 |
+Energy Used ...|           0.20 |
+Refire Rate ...|         0.20 s |
+Velocity ......|          450.0 |
+Range .........|          900 m |
+Special .......|       Standard |
+
+
+Can be fitted on the following ships:
+
+SF Mara (Terran)
+GTB Artemis
+GTB Artemis D.H.
+GTB Boanerges
+GTB Medusa
+GTB Ursa
+GTB Zeus
+GTF Ares
+GTF Erinyes
+GTF Hercules
+GTF Hercules Mark II
+GTF Loki
+GTF Myrmidon
+GTF Pegasus
+GTF Perseus
+GTF Ulysses
+
+
+GTW UD-8 Kayser
+---------------
+
+SPECS: Special Issue
+       Level 6 Hull Damage
+       Level 5 Shield Damage 
+  
+RANGE: 975 m 
+  
+PROS: Very powerful
+      High refire rate for heavy weapon 
+CONS: Power drain 
+
+
+SPECIFICATIONS                  |
+---------------+----------------|
+Damage ........|             28 |
+  Hull  .......|          28.00 |
+  Shield ......|          25.20 |
+  Subsystem ...|           9.80 |
+Energy Used ...|           1.20 |
+Refire Rate ...|         0.25 s |
+Velocity ......|          650.0 |
+Range .........|          975 m |
+Special .......|        Special |
+
+
+Can be fitted on the following ships:
+
+SF Mara (Terran)
+GTB Boanerges
+GTF Ares
+GTF Erinyes
+GTF Hercules
+GTF Hercules Mark II
+GTF Loki
+GTF Myrmidon
+GTF Perseus
+GVF Horus
+GVF Seth
+GVF Tauret
+
+
+5.3 Missiles
+_____________
+
+With missiles you only have to check 2 things:
+
+The type of missile (dumbfire, heat- or aspect-seeking) 
+The kind of damage they inflict (area, EMP, ...). 
+
+Also keep in mind that heavier missiles need longer reload times, are slow (and therefore should be 
+dropped at max speed) and take a long time to lock on to a target.
+
+
+GTI TAG-A Missile
+-----------------
+
+ISSUE: Special Issue 
+TYPE: Electronic Warfare 
+  
+RANGE: 2000 m 
+  
+PROS: Effective in singleplayer 
+CONS: In range of a capital ship (3000m)
+      Dumbfire missile 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|             1 |
+  Hull  .......|           0.1 |
+  Shield ......|           0.1 |
+  Subsystem ...|           0.1 |
+Refire Rate ...|         3.0 s |
+Velocity ......|         400.0 |
+Range .........|        2000 m |
+Cargo .........|           1.0 |
+Lock ..........|      Dumbfire |
+Special .......|    Electronic |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|   105 |   105 |     - |
+GTB Artemis ............|     - |     - |     - |
+GTB Artemis D.H. .......|     - |     - |     - |
+GTB Boanerges ..........|     - |     - |     - |
+GTB Medusa .............|     - |     - |     - |
+GTB Ursa ...............|     - |     - |     - |
+GTB Zeus ...............|     - |     - |     - |
+GTF Ares ...............|     - |     - |     - |
+GTF Erinyes ............|    40 |    50 |     - |
+GTF Hercules ...........|     - |     - |     - |
+GTF Hercules Mark II ...|    80 |   100 |     - |
+GTF Loki ...............|     - |     - |     - |
+GTF Myrmidon ...........|     - |     - |     - |
+GTF Pegasus ............|    20 |    10 |     - |
+GTF Perseus ............|    40 |    40 |     - |
+GTF Ulysses ............|    40 |     - |     - |
+GVF Bakhu ..............|     - |     - |     - |
+GVF Horus ..............|     - |     - |     - |
+GVF Ptah ...............|    20 |    10 |     - |
+GVF Serapis ............|     - |     - |     - |
+GVF Seth ...............|     - |     - |     - |
+GVF Tauret .............|     - |     - |     - |
+GVF Thoth ..............|     - |     - |     - |
+
+
+GTI TAG-B Missile
+-----------------
+
+ISSUE: Special Issue 
+TYPE: Electronic Warfare 
+  
+RANGE: 1625 m 
+  
+PROS: Effective in single player 
+CONS: In range of a capital ship (3000m) 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|            10 |
+  Hull  .......|           1.0 |
+  Shield ......|           1.0 |
+  Subsystem ...|           1.0 |
+Refire Rate ...|         8.0 s |
+Velocity ......|         325.0 |
+Range .........|        1625 m |
+Cargo .........|           2.0 |
+Lock ..........|        Aspect |
+Special .......|    Electronic |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|     - |     - |     - |
+GTB Artemis ............|     - |     - |     - |
+GTB Artemis D.H. .......|     - |     - |     - |
+GTB Boanerges ..........|     - |     - |     - |
+GTB Medusa .............|     - |     - |     - |
+GTB Ursa ...............|     - |     - |     - |
+GTB Zeus ...............|     - |     - |     - |
+GTF Ares ...............|     - |     - |     - |
+GTF Erinyes ............|    20 |    25 |     - |
+GTF Hercules ...........|     - |     - |     - |
+GTF Hercules Mark II ...|    40 |    50 |     - |
+GTF Loki ...............|     - |     - |     - |
+GTF Myrmidon ...........|     - |     - |     - |
+GTF Pegasus ............|    10 |     5 |     - |
+GTF Perseus ............|    20 |    20 |     - |
+GTF Ulysses ............|     - |     - |     - |
+GVF Bakhu ..............|     - |     - |     - |
+GVF Horus ..............|    20 |    20 |     - |
+GVF Ptah ...............|    10 |     5 |     - |
+GVF Serapis ............|    30 |    15 |     - |
+GVF Seth ...............|    20 |    40 |     - |
+GVF Tauret .............|    50 |    50 |     - |
+GVF Thoth ..............|    40 |     - |     - |
+
+
+GTM-10 Piranha
+--------------
+
+ISSUE: Standard Issue 
+TYPE: Area Effect
+      Fighter Suppression Weapon 
+  
+RANGE: 360 m 
+  
+PROS: Can do damage to multiple fighters 
+CONS: Not useable in dogfights
+      Range 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|           100 |
+  Hull  .......|         100.0 |
+  Shield ......|          75.0 |
+  Subsystem ...|         100.0 |
+Refire Rate ...|         5.0 s |
+Velocity ......|          90.0 |
+Range .........|         360 m |
+Cargo .........|          12.0 |
+Lock ..........|      Dumbfire |
+Special .......|          Area |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|     - |     - |     - |
+GTB Artemis ............|     3 |     5 |     5 |
+GTB Artemis D.H. .......|     3 |     5 |     5 |
+GTB Boanerges ..........|     3 |     8 |     8 |
+GTB Medusa .............|     3 |     7 |     7 |
+GTB Ursa ...............|     7 |     7 |     7 |
+GTB Zeus ...............|     3 |     3 |     3 |
+GTF Ares ...............|     - |     - |     - |
+GTF Erinyes ............|     - |     - |     - |
+GTF Hercules ...........|     - |     - |     - |
+GTF Hercules Mark II ...|     - |     - |     - |
+GTF Loki ...............|     - |     - |     - |
+GTF Myrmidon ...........|     - |     - |     - |
+GTF Pegasus ............|     - |     - |     - |
+GTF Perseus ............|     - |     - |     - |
+GTF Ulysses ............|     - |     - |     - |
+GVF Bakhu ..............|     - |     - |     - |
+GVF Horus ..............|     - |     - |     - |
+GVF Ptah ...............|     - |     - |     - |
+GVF Serapis ............|     - |     - |     - |
+GVF Seth ...............|     - |     - |     - |
+GVF Tauret .............|     - |     - |     - |
+GVF Thoth ..............|     - |     - |     - |
+
+
+GTM-11 Infyrno
+--------------
+
+ISSUE: Standard Issue 
+TYPE: Area Effect
+      Fighter Suppression Weapon 
+  
+RANGE: 840 m 
+  
+PROS: Can do damage to multiple fighters 
+CONS: Not useable in dogfights 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|           150 |
+  Hull  .......|         150.0 |
+  Shield ......|         112.5 |
+  Subsystem ...|         150.0 |
+Refire Rate ...|         5.0 s |
+Velocity ......|         120.0 |
+Range .........|         840 m |
+Cargo .........|          10.0 |
+Lock ..........|        Homing |
+Special .......|    Electronic |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|     - |     - |     - |
+GTB Artemis ............|     4 |     6 |     6 |
+GTB Artemis D.H. .......|     4 |     6 |     6 |
+GTB Boanerges ..........|     4 |    10 |    10 |
+GTB Medusa .............|     4 |     8 |     8 |
+GTB Ursa ...............|     8 |     8 |     8 |
+GTB Zeus ...............|     4 |     4 |     4 |
+GTF Ares ...............|     9 |    10 |     - |
+GTF Erinyes ............|     4 |     5 |     - |
+GTF Hercules ...........|     6 |     6 |     - |
+GTF Hercules Mark II ...|     8 |    10 |     - |
+GTF Loki ...............|     - |     - |     - |
+GTF Myrmidon ...........|     2 |     2 |     4 |
+GTF Pegasus ............|     - |     - |     - |
+GTF Perseus ............|     - |     - |     - |
+GTF Ulysses ............|     - |     - |     - |
+GVF Bakhu ..............|     8 |    10 |     - |
+GVF Horus ..............|     - |     - |     - |
+GVF Ptah ...............|     - |     - |     - |
+GVF Serapis ............|     - |     - |     - |
+GVF Seth ...............|     4 |     8 |     - |
+GVF Tauret .............|    10 |    10 |     - |
+GVF Thoth ..............|     - |     - |     - |
+
+
+GTM-12 Cyclops
+--------------
+
+ISSUE: Special Issue 
+TYPE: Anti-Cruiser Bomb
+      Non-Conventional Warhead 
+  
+RANGE: 2000 m 
+  
+PROS: High payload 
+CONS: Slow speed
+      Slow aspect lock
+      20 Seconds reload time 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|          2000 |
+  Hull  .......|        2000.0 |
+  Shield ......|          40.0 |
+  Subsystem ...|        1000.0 |
+Refire Rate ...|        20.0 s |
+Velocity ......|          95.0 |
+Range .........|        2375 m |
+Cargo .........|          15.0 |
+Lock ..........|        Aspect |
+Special .......|  Anti-Cruiser |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|     - |     - |     - |
+GTB Artemis ............|     3 |     4 |     4 |
+GTB Artemis D.H. .......|     3 |     4 |     4 |
+GTB Boanerges ..........|     3 |     7 |     7 |
+GTB Medusa .............|     3 |     5 |     5 |
+GTB Ursa ...............|     5 |     5 |     5 |
+GTB Zeus ...............|     3 |     3 |     3 |
+GTF Ares ...............|     - |     - |     - |
+GTF Erinyes ............|     - |     - |     - |
+GTF Hercules ...........|     - |     - |     - |
+GTF Hercules Mark II ...|     - |     - |     - |
+GTF Loki ...............|     - |     - |     - |
+GTF Myrmidon ...........|     - |     - |     - |
+GTF Pegasus ............|     - |     - |     - |
+GTF Perseus ............|     - |     - |     - |
+GTF Ulysses ............|     - |     - |     - |
+GVF Bakhu ..............|     5 |     7 |     - |
+GVF Horus ..............|     - |     - |     - |
+GVF Ptah ...............|     - |     - |     - |
+GVF Serapis ............|     - |     - |     - |
+GVF Seth ...............|     - |     - |     - |
+GVF Tauret .............|     - |     - |     - |
+GVF Thoth ..............|     - |     - |     - |
+
+
+GTM-13 Helios
+-------------
+
+ISSUE: Special Issue 
+TYPE: Anti-Capital Ship Weapon
+      Anti-Matter Torpedo 
+  
+RANGE: 1950 m 
+  
+PROS: Extremely high payload 
+CONS: Extremely slow
+      Extremely slow aspect lock
+      Launch method is critical to success
+      30 Seconds reload time 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|          6800 |
+  Hull  .......|        6800.0 |
+  Shield ......|         136.0 |
+  Subsystem ...|        5780.0 |
+Refire Rate ...|        30.0 s |
+Velocity ......|          65.0 |
+Range .........|        1950 m |
+Cargo .........|          25.0 |
+Lock ..........|        Aspect |
+Special .......|  Anti-Capital |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|     - |     - |     - |
+GTB Artemis ............|     - |     - |     - |
+GTB Artemis D.H. .......|     - |     - |     - |
+GTB Boanerges ..........|     1 |     4 |     4 |
+GTB Medusa .............|     - |     - |     - |
+GTB Ursa ...............|     3 |     3 |     3 |
+GTB Zeus ...............|     - |     - |     - |
+GTF Ares ...............|     - |     - |     - |
+GTF Erinyes ............|     - |     - |     - |
+GTF Hercules ...........|     - |     - |     - |
+GTF Hercules Mark II ...|     - |     - |     - |
+GTF Loki ...............|     - |     - |     - |
+GTF Myrmidon ...........|     0 |     0 |     1 |
+GTF Pegasus ............|     - |     - |     - |
+GTF Perseus ............|     - |     - |     - |
+GTF Ulysses ............|     - |     - |     - |
+GVF Bakhu ..............|     3 |     4 |     - |
+GVF Horus ..............|     - |     - |     - |
+GVF Ptah ...............|     - |     - |     - |
+GVF Serapis ............|     - |     - |     - |
+GVF Seth ...............|     - |     - |     - |
+GVF Tauret .............|     - |     - |     - |
+GVF Thoth ..............|     - |     - |     - |
+
+
+GTM-14 EMP Adv.
+---------------
+
+ISSUE: Advanced Missile 
+TYPE: Electromagnetic Pulse Weapon
+      General Purpose Suppression 
+  
+RANGE: 1375 m 
+  
+PROS: Disrupts electronic of target 
+CONS: Not ideal for intense dogfights
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|            45 |
+  Hull  .......|          45.0 |
+  Shield ......|          36.0 |
+  Subsystem ...|          22.5 |
+Refire Rate ...|         2.0 s |
+Velocity ......|         275.0 |
+Range .........|        1375 m |
+Cargo .........|           4.0 |
+Lock ..........|        Aspect |
+Special .......|           EMP |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|    26 |    26 |     - |
+GTB Artemis ............|    10 |    15 |    15 |
+GTB Artemis D.H. .......|    10 |    15 |    15 |
+GTB Boanerges ..........|    10 |    25 |    25 |
+GTB Medusa .............|    10 |    20 |    20 |
+GTB Ursa ...............|    20 |    20 |    20 |
+GTB Zeus ...............|    10 |    10 |    10 |
+GTF Ares ...............|    23 |    25 |     - |
+GTF Erinyes ............|    10 |    13 |     - |
+GTF Hercules ...........|    15 |    15 |     - |
+GTF Hercules Mark II ...|    20 |    25 |     - |
+GTF Loki ...............|     5 |     - |     - |
+GTF Myrmidon ...........|     5 |     5 |    10 |
+GTF Pegasus ............|     5 |     3 |     - |
+GTF Perseus ............|    10 |    10 |     - |
+GTF Ulysses ............|    10 |     - |     - |
+GVF Bakhu ..............|    20 |    25 |     - |
+GVF Horus ..............|    10 |    10 |     - |
+GVF Ptah ...............|     5 |     3 |     - |
+GVF Serapis ............|    15 |     8 |     - |
+GVF Seth ...............|    10 |    20 |     - |
+GVF Tauret .............|    25 |    25 |     - |
+GVF Thoth ..............|    20 |     - |     - |
+
+
+GTM-19 Harpoon
+--------------
+
+ISSUE: Standard Issue 
+TYPE: Fast Target Lock 
+  
+RANGE: 1250 m 
+  
+PROS: Fast lock
+      Good against fighters 
+CONS: - 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|           100 |
+  Hull  .......|         100.0 |
+  Shield ......|          80.0 |
+  Subsystem ...|          50.0 |
+Refire Rate ...|         2.0 s |
+Velocity ......|         250.0 |
+Range .........|        1250 m |
+Cargo .........|           2.5 |
+Lock ..........|        Aspect |
+Special .......|     Fast Lock |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|    42 |    42 |     - |
+GTB Artemis ............|     - |     - |     - |
+GTB Artemis D.H. .......|     - |     - |     - |
+GTB Boanerges ..........|     - |     - |     - |
+GTB Medusa .............|     - |     - |     - |
+GTB Ursa ...............|    32 |    32 |    32 |
+GTB Zeus ...............|    16 |    16 |    16 |
+GTF Ares ...............|    36 |    40 |     - |
+GTF Erinyes ............|    16 |    20 |     - |
+GTF Hercules ...........|    24 |    24 |     - |
+GTF Hercules Mark II ...|    32 |    40 |     - |
+GTF Loki ...............|     8 |     - |     - |
+GTF Myrmidon ...........|     - |     - |     - |
+GTF Pegasus ............|     8 |     4 |     - |
+GTF Perseus ............|    16 |    16 |     - |
+GTF Ulysses ............|    16 |     - |     - |
+GVF Bakhu ..............|    32 |    40 |     - |
+GVF Horus ..............|    16 |    16 |     - |
+GVF Ptah ...............|     8 |     4 |     - |
+GVF Serapis ............|    24 |    12 |     - |
+GVF Seth ...............|    16 |    32 |     - |
+GVF Tauret .............|    40 |    40 |     - |
+GVF Thoth ..............|    32 |     - |     - |
+
+
+GTM-4 Hornet Swarm Missile
+--------------------------
+
+ISSUE: Standard Issue 
+TYPE: Swarm Type
+      All-Purpose Missile 
+  
+RANGE: 1330 m 
+  
+PROS: Deadly against fighters 
+CONS: Missile banks get depleted very fast
+      Misses accuracy to take out weaponry on warships 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|            25 |
+  Hull  .......|          50.0 |
+  Shield ......|          25.0 |
+  Subsystem ...|           7.5 |
+Refire Rate ...|         2.0 s |
+Velocity ......|         190.0 |
+Range .........|        1330 m |
+Cargo .........|           1.0 |
+Lock ..........|        Aspect |
+Special .......|    Swarm of 4 |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|   105 |   105 |     - |
+GTB Artemis ............|    40 |    60 |    60 |
+GTB Artemis D.H. .......|    40 |    60 |    60 |
+GTB Boanerges ..........|    40 |   100 |   100 |
+GTB Medusa .............|    40 |    80 |    80 |
+GTB Ursa ...............|    80 |    80 |    80 |
+GTB Zeus ...............|     - |     - |     - |
+GTF Ares ...............|    90 |   100 |     - |
+GTF Erinyes ............|    40 |    50 |     - |
+GTF Hercules ...........|    60 |    60 |     - |
+GTF Hercules Mark II ...|    80 |   100 |     - |
+GTF Loki ...............|    20 |     - |     - |
+GTF Myrmidon ...........|    20 |    20 |    40 |
+GTF Pegasus ............|    20 |    10 |     - |
+GTF Perseus ............|    40 |    40 |     - |
+GTF Ulysses ............|    40 |     - |     - |
+GVF Bakhu ..............|     - |     - |     - |
+GVF Horus ..............|    40 |    40 |     - |
+GVF Ptah ...............|    20 |    10 |     - |
+GVF Serapis ............|    60 |    30 |     - |
+GVF Seth ...............|    40 |    80 |     - |
+GVF Tauret .............|   100 |   100 |     - |
+GVF Thoth ..............|    80 |     - |     - |
+
+
+GTM-4a Tornado Missile
+----------------------
+
+ISSUE: Prototype 
+TYPE: Advanced Swarm Type
+      All-Purpose Missile 
+  
+RANGE: 1610 m 
+  
+PROS: Deadly against fighters
+      More accurate than the Hornet 
+CONS: Missile banks get depleted very fast
+      Aspect lock required to fire 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|            25 |
+  Hull  .......|          50.0 |
+  Shield ......|          25.0 |
+  Subsystem ...|           7.5 |
+Refire Rate ...|         2.5 s |
+Velocity ......|         230.0 |
+Range .........|        1610 m |
+Cargo .........|          1.25 |
+Lock ..........|        Aspect |
+Special .......|    Swarm of 4 |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|    84 |    84 |     - |
+GTB Artemis ............|    32 |    48 |    48 |
+GTB Artemis D.H. .......|    32 |    48 |    48 |
+GTB Boanerges ..........|    32 |    80 |    80 |
+GTB Medusa .............|    32 |    64 |    64 |
+GTB Ursa ...............|    64 |    64 |    64 |
+GTB Zeus ...............|     - |     - |     - |
+GTF Ares ...............|    72 |    80 |     - |
+GTF Erinyes ............|    32 |    40 |     - |
+GTF Hercules ...........|    48 |    48 |     - |
+GTF Hercules Mark II ...|    64 |    80 |     - |
+GTF Loki ...............|    16 |     - |     - |
+GTF Myrmidon ...........|    16 |    16 |    32 |
+GTF Pegasus ............|    16 |     8 |     - |
+GTF Perseus ............|    32 |    32 |    32 |
+GTF Ulysses ............|    32 |     - |     - |
+GVF Bakhu ..............|     - |     - |     - |
+GVF Horus ..............|    32 |    32 |     - |
+GVF Ptah ...............|    16 |     8 |     - |
+GVF Serapis ............|    48 |    24 |     - |
+GVF Seth ...............|    32 |    64 |     - |
+GVF Tauret .............|    80 |    80 |     - |
+GVF Thoth ..............|    64 |     - |     - |
+
+
+GTM-43a Stiletto II
+-------------------
+
+ISSUE: Tactical Missile 
+TYPE: Destroys Subsystems 
+  
+RANGE: 5500 m 
+  
+PROS: Superior range
+      It does what it's meant to do... 
+CONS: ... But it doesn't do anything else 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|           775 |
+  Hull  .......|          7.75 |
+  Shield ......|           0.0 |
+  Subsystem ...|         775.0 |
+Refire Rate ...|         2.0 s |
+Velocity ......|         220.0 |
+Range .........|        5500 m |
+Cargo .........|           8.0 |
+Lock ..........|        Homing |
+Special .......|     Subsystem |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|     - |     - |     - |
+GTB Artemis ............|     5 |     8 |     8 |
+GTB Artemis D.H. .......|     5 |     8 |     8 |
+GTB Boanerges ..........|     5 |    13 |    13 |
+GTB Medusa .............|     5 |    10 |    10 |
+GTB Ursa ...............|    10 |    10 |    10 |
+GTB Zeus ...............|     5 |     5 |     5 |
+GTF Ares ...............|     - |     - |     - |
+GTF Erinyes ............|     - |     - |     - |
+GTF Hercules ...........|     - |     - |     - |
+GTF Hercules Mark II ...|     - |     - |     - |
+GTF Loki ...............|     - |     - |     - |
+GTF Myrmidon ...........|     3 |     3 |     5 |
+GTF Pegasus ............|     - |     - |     - |
+GTF Perseus ............|     5 |     5 |     - |
+GTF Ulysses ............|     - |     - |     - |
+GVF Bakhu ..............|    10 |    13 |     - |
+GVF Horus ..............|     - |     - |     - |
+GVF Ptah ...............|     - |     - |     - |
+GVF Serapis ............|     - |     - |     - |
+GVF Seth ...............|     5 |    10 |     - |
+GVF Tauret .............|    13 |    13 |     - |
+GVF Thoth ..............|     - |     - |     - |
+
+
+GTM-55 Trebuchet
+----------------
+
+ISSUE: Prototype 
+TYPE: Long-Range Anti-Bomber
+      High Payload 
+  
+RANGE: 4000 m 
+  
+PROS: Excellent range
+      Does extensive damage 
+CONS: Reload time
+      Can't load many in missile banks
+      Lacks maneuverability
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|           350 |
+  Hull  .......|         315.0 |
+  Shield ......|         175.0 |
+  Subsystem ...|         840.0 |
+Refire Rate ...|         6.0 s |
+Velocity ......|         280.0 |
+Range .........|        5040 m |
+Cargo .........|           8.0 |
+Lock ..........|        Aspect |
+Special .......|    Long Range |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|    13 |    13 |     - |
+GTB Artemis ............|     5 |     8 |     8 |
+GTB Artemis D.H. .......|     5 |     8 |     8 |
+GTB Boanerges ..........|     5 |    13 |    13 |
+GTB Medusa .............|     5 |    10 |    10 |
+GTB Ursa ...............|    10 |    10 |    10 |
+GTB Zeus ...............|     5 |     5 |     5 |
+GTF Ares ...............|    11 |    13 |     - |
+GTF Erinyes ............|     5 |     6 |     - |
+GTF Hercules ...........|     8 |     8 |     - |
+GTF Hercules Mark II ...|    10 |    13 |     - |
+GTF Loki ...............|     3 |     - |     - |
+GTF Myrmidon ...........|     3 |     3 |     5 |
+GTF Pegasus ............|     3 |     1 |     - |
+GTF Perseus ............|     5 |     5 |     - |
+GTF Ulysses ............|     - |     - |     - |
+GVF Bakhu ..............|    10 |    13 |     - |
+GVF Horus ..............|     5 |     5 |     - |
+GVF Ptah ...............|     3 |     1 |     - |
+GVF Serapis ............|     - |     - |     - |
+GVF Seth ...............|     5 |    10 |     - |
+GVF Tauret .............|    13 |    13 |     - |
+GVF Thoth ..............|     - |     - |     - |
+
+
+GTM MX-6 Tempest Missile
+------------------------
+
+ISSUE: Standard Issue 
+TYPE: High-Payload Dumbfire 
+  
+RANGE: 648 m 
+  
+PROS: Cargo size
+      Refire rate
+CONS: Dumbfire
+      Lacks 'punch' 
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|            45 |
+  Hull  .......|          40.5 |
+  Shield ......|          22.5 |
+  Subsystem ...|          27.0 |
+Refire Rate ...|         0.3 s |
+Velocity ......|         360.0 |
+Range .........|         648 m |
+Cargo .........|          0.25 |
+Lock ..........|      Dumbfire |
+Special .......|      Dumbfire |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|   420 |   420 |     - |
+GTB Artemis ............|     - |     - |     - |
+GTB Artemis D.H. .......|     - |     - |     - |
+GTB Boanerges ..........|     - |     - |     - |
+GTB Medusa .............|     - |     - |     - |
+GTB Ursa ...............|   320 |   320 |   320 |
+GTB Zeus ...............|   160 |   160 |   160 |
+GTF Ares ...............|   360 |   400 |     - |
+GTF Erinyes ............|   160 |   200 |     - |
+GTF Hercules ...........|   240 |   240 |     - |
+GTF Hercules Mark II ...|   320 |   400 |     - |
+GTF Loki ...............|    80 |     - |     - |
+GTF Myrmidon ...........|    80 |    80 |   160 |
+GTF Pegasus ............|    80 |    40 |     - |
+GTF Perseus ............|   160 |   160 |     - |
+GTF Ulysses ............|   160 |     - |     - |
+GVF Bakhu ..............|     - |     - |     - |
+GVF Horus ..............|   160 |   160 |     - |
+GVF Ptah ...............|    80 |    40 |     - |
+GVF Serapis ............|   240 |   120 |     - |
+GVF Seth ...............|   160 |   320 |     - |
+GVF Tauret .............|   400 |   400 |     - |
+GVF Thoth ..............|   320 |     - |     - |
+
+
+GTM MX-64 Rockeye
+-----------------
+
+ISSUE: Standard Issue 
+TYPE: Fire and Forget 
+  
+RANGE: 1900 m 
+  
+PROS: Heat seeking is better than dumbfire
+      Refire rate
+CONS: Cargo size
+
+
+SPECIFICATIONS                 |
+---------------+---------------|
+Damage ........|            45 |
+  Hull  .......|          45.0 |
+  Shield ......|          36.0 |
+  Subsystem ...|          36.0 |
+Refire Rate ...|         0.5 s |
+Velocity ......|         190.0 |
+Range .........|        1900 m |
+Cargo .........|           4.0 |
+Lock ..........|        Homing |
+Special .......| Fire & Forget |
+
+
+SHIPS                   | SLOT1 | SLOT2 | SLOT3 |
+------------------------+-------+-------+-------|
+SF Mara (Terran) .......|    26 |    26 |     - |
+GTB Artemis ............|    10 |    15 |    15 |
+GTB Artemis D.H. .......|    10 |    15 |    15 |
+GTB Boanerges ..........|    10 |    25 |    25 |
+GTB Medusa .............|    10 |    20 |    20 |
+GTB Ursa ...............|    20 |    20 |    20 |
+GTB Zeus ...............|     - |     - |     - |
+GTF Ares ...............|    23 |    25 |     - |
+GTF Erinyes ............|    10 |    13 |     - |
+GTF Hercules ...........|    15 |    15 |     - |
+GTF Hercules Mark II ...|    20 |    25 |     - |
+GTF Loki ...............|     5 |     - |     - |
+GTF Myrmidon ...........|     5 |     5 |    10 |
+GTF Pegasus ............|     5 |     3 |     - |
+GTF Perseus ............|    10 |    10 |     - |
+GTF Ulysses ............|    10 |     - |     - |
+GVF Bakhu ..............|    20 |    25 |     - |
+GVF Horus ..............|    10 |    10 |     - |
+GVF Ptah ...............|     5 |     3 |     - |
+GVF Serapis ............|    15 |     8 |     - |
+GVF Seth ...............|    10 |    20 |     - |
+GVF Tauret .............|    25 |    25 |     - |
+GVF Thoth ..............|    20 |     - |     - |
+
+
+___________________________________________________________________________________________
+
+===============
+6.   THE SHIPS
+===============
+
+6.1 Information
+________________
+
+This ship guide is far from complete, mainly because of the lack of info Volition provides. 
+Therefore I have only selected ships that you'll be flying. This means that only fighter and bomber 
+class ships have been mentioned ... no destroyers, cruisers, .... This also means that no Shivan 
+fighters are mentioned (except for the modified Terran one). You'll encounter them in a few 
+mission, but you never get the opportunity to fly it. I also haven't included the blablabla texts 
+Volition has provided in the encyclopaedia.
+
+You can find every ship listed per race and alphabetically. Just click the ship you want to watch 
+and you'll get an overview of the ship, including a little snapshot of it.
+
+There are abbreviations in front of the name of the ship, which contain some vital information. The 
+abbreviation usually contains 2 components: a race component and a ship class component. If you 
+combine both together you get the full abbreviation:
+
+
+RACE                                       SHIP CLASS
+====                                       ==========
+
+GT    Galactic Terran                      AC  Armored Container 
+GTVA  Galactic Terran-Vasudan Alliance     B   Bomber 
+GV    Galactic Vasudan                     C   Cruiser / Container 
+NTF   Neo Terran Front                     Cv  Corvette 
+S     Shivan                               D   Destroyer 
+T     Terran (containers only)             Dr  Drone 
+V     Vasudan (containers only)            EP  Escape Pod 
+                                           F   Fighter 
+                                           Fr  Freighter 
+                                           G   Gasminer 
+                                           I   Installation 
+                                           J   Juggernaut 
+                                           M   Medical Ship 
+                                           S   Support Ship 
+                                           SC  Lightly Armored Container / Research Ship 
+                                           SG  Sentry Gun 
+                                           T   Transport 
+                                           TC  Heavily Armored Container
+
+
+Legend for gun and missiles loadout on ships:
+
+X = Can load
+- = Can't load
+? = Don't know
+N° = Number of missiles you can load in the specified slot
+
+
+6.2 Shivan ships
+_________________
+
+SF Mara (Terrans)
+=================
+
+TYPE:            Advanced Space Superiority
+
+LENGTH:          16 meters 
+MAX VELOCITY:    75 m/s 
+MANEUVERABILITY: Excellent 
+ARMOR:           Very Heavy
+
+GUN MOUNTS:      2 
+MISSILE BANKS:   2 
+
+MANUFACTURER:    Triton Dynamics 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       475       | Speed .........|   75  |
+Shield ..........|       700       | Afterburner ...|  135  |
+Missile Space ...|    105 / 105    | Score .........|   12  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       - |
+GTW-5 Prometheus (S) .....|       - |
+GTW-5a Prometheus (R) ....|       - |
+GTW-66 Maxim Cannon ......|       - |
+GTW-83 Lamprey ...........|       - |
+GTW Akheton SDG ..........|       - |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       - |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|   105 |   105 |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     - |     - |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    26 |    26 |     - |
+GTM-19 Harpoon ...............|    42 |    42 |     - |
+GTM-4 Hornet Swarm Missile ...|   105 |   105 |     - |
+GTM-4a Tornado Missile .......|    84 |    84 |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|    13 |    13 |     - |
+GTM MX-6 Tempest Missile .....|   420 |   420 |     - |
+GTM MX-64 Rockeye ............|    26 |    26 |     - |
+
+
+6.3 Terran ships
+_________________
+
+GTB Artemis
+===========
+
+TYPE:            Medium Bomber 
+
+LENGTH:          36 meters 
+MAX VELOCITY:    65 m/s 
+MANEUVERABILITY: Poor 
+ARMOR:           Medium 
+
+GUN MOUNTS:      2 
+MISSILE BANKS:   3
+
+MANUFACTURER:    Han-Ronald Corp. 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       275       | Speed .........|   65  |
+Shield ..........|       700       | Afterburner ...|  110  |
+Missile Space ...|   40 / 60 / 60  | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       - |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       - |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     3 |     5 |     5 |
+GTM-11 Infyrno ...............|     4 |     6 |     6 |
+GTM-12 Cyclops ...............|     3 |     4 |     4 |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    10 |    15 |    15 |
+GTM-19 Harpoon ...............|     - |     - |     - |
+GTM-4 Hornet Swarm Missile ...|    40 |    60 |    60 |
+GTM-4a Tornado Missile .......|    32 |    48 |    48 |
+GTM-43a Stiletto II ..........|     5 |     8 |     8 |
+GTM-55 Trebuchet .............|     5 |     8 |     8 |
+GTM MX-6 Tempest Missile .....|     - |     - |     - |
+GTM MX-64 Rockeye ............|    10 |    15 |    15 |
+
+
+GTB Artemis D.H.
+================
+
+TYPE:            Medium Bomber
+
+LENGTH:          36 meters 
+MAX VELOCITY:    65 m/s 
+MANEUVERABILITY: Average 
+ARMOR:           Medium
+
+GUN MOUNTS:      2 
+MISSILE BANKS:   3
+
+MANUFACTURER:    Han-Ronald Corp. 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       275       | Speed .........|   65  |
+Shield ..........|       700       | Afterburner ...|  110  |
+Missile Space ...|   40 / 60 / 60  | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       - |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       - |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     3 |     5 |     5 |
+GTM-11 Infyrno ...............|     4 |     6 |     6 |
+GTM-12 Cyclops ...............|     3 |     4 |     4 |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    10 |    15 |    15 |
+GTM-19 Harpoon ...............|     - |     - |     - |
+GTM-4 Hornet Swarm Missile ...|    40 |    60 |    60 |
+GTM-4a Tornado Missile .......|    32 |    48 |    48 |
+GTM-43a Stiletto II ..........|     5 |     8 |     8 |
+GTM-55 Trebuchet .............|     5 |     8 |     8 |
+GTM MX-6 Tempest Missile .....|     - |     - |     - |
+GTM MX-64 Rockeye ............|    10 |    15 |    15 |
+
+
+GTB Boanerges
+=============
+
+TYPE:            Heavy Bomber
+
+LENGTH:          34 meters 
+MAX VELOCITY:    55 m/s 
+MANEUVERABILITY: Very Poor 
+ARMOR:           Very Heavy
+
+GUN MOUNTS:      1 
+MISSILE BANKS:   3
+
+MANUFACTURER:    RNI Systems 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       325       | Speed .........|   55  |
+Shield ..........|       850       | Afterburner ...|   85  |
+Missile Space ...|  40 / 100 / 100 | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       - |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       - |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     3 |     8 |     8 |
+GTM-11 Infyrno ...............|     4 |    10 |    10 |
+GTM-12 Cyclops ...............|     3 |     7 |     7 |
+GTM-13 Helios ................|     1 |     4 |     4 |
+GTM-14 EMP Adv. ..............|    10 |    25 |    25 |
+GTM-19 Harpoon ...............|     - |     - |     - |
+GTM-4 Hornet Swarm Missile ...|    40 |   100 |   100 |
+GTM-4a Tornado Missile .......|    32 |    80 |    80 |
+GTM-43a Stiletto II ..........|     5 |    13 |    13 |
+GTM-55 Trebuchet .............|     5 |    13 |    13 |
+GTM MX-6 Tempest Missile .....|     - |     - |     - |
+GTM MX-64 Rockeye ............|    10 |    25 |    25 |
+
+
+GTB Medusa
+==========
+
+TYPE:            Heavy Bomber
+
+LENGTH:          36 meters 
+MAX VELOCITY:    50 m/s 
+MANEUVERABILITY: Poor 
+ARMOR:           Heavy
+
+GUN MOUNTS:      2 
+MISSILE BANKS:   3
+
+MANUFACTURER:    Han-Ronald Corp. 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       350       | Speed .........|   50  |
+Shield ..........|       700       | Afterburner ...|  100  |
+Missile Space ...|   40 / 80 / 80  | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       - |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       - |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     3 |     7 |     7 |
+GTM-11 Infyrno ...............|     4 |     8 |     8 |
+GTM-12 Cyclops ...............|     3 |     5 |     5 |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    10 |    20 |    20 |
+GTM-19 Harpoon ...............|     - |     - |     - |
+GTM-4 Hornet Swarm Missile ...|    40 |    80 |    80 |
+GTM-4a Tornado Missile .......|    32 |    64 |    64 |
+GTM-43a Stiletto II ..........|     5 |    10 |    10 |
+GTM-55 Trebuchet .............|     5 |    10 |    10 |
+GTM MX-6 Tempest Missile .....|     - |     - |     - |
+GTM MX-64 Rockeye ............|    10 |    20 |    20 |
+
+
+GTB Ursa
+========
+
+TYPE:            Assault Bomber
+
+LENGTH:          41 meters 
+MAX VELOCITY:    45 m/s 
+MANEUVERABILITY: Very Poor 
+ARMOR:           Very Heavy
+
+GUN MOUNTS:      5 
+MISSILE BANKS:   3
+
+MANUFACTURER:    Han-Ronald Corp. 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       550       | Speed .........|   45  |
+Shield ..........|       850       | Afterburner ...|   90  |
+Missile Space ...|   80 / 80 / 80  | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     7 |     7 |     7 |
+GTM-11 Infyrno ...............|     8 |     8 |     8 |
+GTM-12 Cyclops ...............|     5 |     5 |     5 |
+GTM-13 Helios ................|     3 |     3 |     3 |
+GTM-14 EMP Adv. ..............|    20 |    20 |    20 |
+GTM-19 Harpoon ...............|    32 |    32 |    32 |
+GTM-4 Hornet Swarm Missile ...|    80 |    80 |    80 |
+GTM-4a Tornado Missile .......|    64 |    64 |    64 |
+GTM-43a Stiletto II ..........|    10 |    10 |    10 |
+GTM-55 Trebuchet .............|    10 |    10 |    10 |
+GTM MX-6 Tempest Missile .....|   320 |   320 |   320 |
+GTM MX-64 Rockeye ............|    20 |    20 |    20 |
+
+
+GTB Zeus
+========
+
+TYPE:            Strike Bomber
+
+LENGTH:          20 meters 
+MAX VELOCITY:    55 m/s
+MANEUVERABILITY: Average 
+ARMOR:           Medium
+
+GUN MOUNTS:      4 
+MISSILE BANKS:   3
+
+MANUFACTURER:    Dynamic Metamer 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       200       | Speed .........|   55  |
+Shield ..........|       450       | Afterburner ...|  110  |
+Missile Space ...|   40 / 40 / 40  | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     3 |     3 |     3 |
+GTM-11 Infyrno ...............|     4 |     4 |     4 |
+GTM-12 Cyclops ...............|     3 |     3 |     3 |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    10 |    10 |    10 |
+GTM-19 Harpoon ...............|    16 |    16 |    16 |
+GTM-4 Hornet Swarm Missile ...|     - |     - |     - |
+GTM-4a Tornado Missile .......|     - |     - |     - |
+GTM-43a Stiletto II ..........|     5 |     5 |     5 |
+GTM-55 Trebuchet .............|     5 |     5 |     5 |
+GTM MX-6 Tempest Missile .....|   160 |   160 |   160 |
+GTM MX-64 Rockeye ............|     - |     - |     - |
+
+
+GTF Ares
+========
+
+TYPE:            Strategic Assault 
+
+LENGTH:          20 meters 
+MAX VELOCITY:    50 m/s 
+MANEUVERABILITY: Poor 
+ARMOR:           Ultra Heavy
+
+GUN MOUNTS:      6 
+MISSILE BANKS:   2
+
+MANUFACTURER:    Nankam Aeronautical 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       425       | Speed .........|   50  |
+Shield ..........|       650       | Afterburner ...|  120  |
+Missile Space ...|     90 / 100    | Score .........|   15  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     ? |     ? |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     9 |    10 |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    23 |    25 |     - |
+GTM-19 Harpoon ...............|    36 |    40 |     - |
+GTM-4 Hornet Swarm Missile ...|    90 |   100 |     - |
+GTM-4a Tornado Missile .......|    72 |    80 |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|    11 |    13 |     - |
+GTM MX-6 Tempest Missile .....|   360 |   400 |     - |
+GTM MX-64 Rockeye ............|    23 |    25 |     - |
+
+
+GTF Erinyes
+===========
+
+TYPE:            Heavy Assault
+
+LENGTH:          17 meters 
+MAX VELOCITY:    65 m/s 
+MANEUVERABILITY: Average 
+ARMOR:           Heavy
+
+GUN MOUNTS:      8 
+MISSILE BANKS:   2
+
+MANUFACTURER:    Triton Dynamics 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       325       | Speed .........|   65  |
+Shield ..........|       500       | Afterburner ...|  130  |
+Missile Space ...|     40 / 50     | Score .........|   12  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|    40 |    50 |     - |
+GTI TAG-B Missile ............|    20 |    25 |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     4 |     5 |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    10 |    13 |     - |
+GTM-19 Harpoon ...............|    16 |    20 |     - |
+GTM-4 Hornet Swarm Missile ...|    40 |    50 |     - |
+GTM-4a Tornado Missile .......|    32 |    40 |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|     5 |     6 |     - |
+GTM MX-6 Tempest Missile .....|   160 |   200 |     - |
+GTM MX-64 Rockeye ............|    10 |    13 |     - |
+
+
+GTF Hercules
+============
+
+TYPE:            Heavy Assault
+
+LENGTH:          20 meters 
+MAX VELOCITY:    50 m/s 
+MANEUVERABILITY: Poor 
+ARMOR:           Heavy
+
+GUN MOUNTS:      6 
+MISSILE BANKS:   2
+
+MANUFACTURER:    Han-Ronald Corp 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       250       | Speed .........|   50  |
+Shield ..........|       600       | Afterburner ...|  120  |
+Missile Space ...|     60 / 60     | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     6 |     6 |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    15 |    15 |     - |
+GTM-19 Harpoon ...............|    24 |    24 |     - |
+GTM-4 Hornet Swarm Missile ...|    60 |    60 |     - |
+GTM-4a Tornado Missile .......|    48 |    48 |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|     8 |     8 |     - |
+GTM MX-6 Tempest Missile .....|   240 |   240 |     - |
+GTM MX-64 Rockeye ............|    15 |    15 |     - |
+
+
+GTF Hercules Mark II
+====================
+
+TYPE:            Heavy Assault
+
+LENGTH:          17 meters 
+MAX VELOCITY:    55 m/s 
+MANEUVERABILITY: Average 
+ARMOR:           Heavy
+
+GUN MOUNTS:      4 
+MISSILE BANKS:   2
+
+MANUFACTURER:    RNI Systems 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       275       | Speed .........|   55  |
+Shield ..........|       610       | Afterburner ...|  120  |
+Missile Space ...|     80 / 100    | Score .........|   12  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|    80 |   100 |     - |
+GTI TAG-B Missile ............|    40 |    50 |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     8 |    10 |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    20 |    25 |     - |
+GTM-19 Harpoon ...............|    32 |    40 |     - |
+GTM-4 Hornet Swarm Missile ...|    80 |   100 |     - |
+GTM-4a Tornado Missile .......|    64 |    80 |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|    10 |    13 |     - |
+GTM MX-6 Tempest Missile .....|   320 |   400 |     - |
+GTM MX-64 Rockeye ............|    20 |    25 |     - |
+
+
+GTF Loki
+========
+
+TYPE:            Recon
+
+LENGTH:          20 meters 
+MAX VELOCITY:    75 m/s 
+MANEUVERABILITY: Good 
+ARMOR:           Light
+
+GUN MOUNTS:      4 
+MISSILE BANKS:   1
+
+MANUFACTURER:    Han-Ronald Corp 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       250       | Speed .........|   75  |
+Shield ..........|       400       | Afterburner ...|  160  |
+Missile Space ...|        20       | Score .........|    7  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       - |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     - |     - |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|     5 |     - |     - |
+GTM-19 Harpoon ...............|     8 |     - |     - |
+GTM-4 Hornet Swarm Missile ...|    20 |     - |     - |
+GTM-4a Tornado Missile .......|    16 |     - |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|     3 |     - |     - |
+GTM MX-6 Tempest Missile .....|    80 |     - |     - |
+GTM MX-64 Rockeye ............|     5 |     - |     - |
+
+
+GTF Myrmidon
+============
+
+TYPE:            Advanced Space Superiority
+
+LENGTH:          16 meters 
+MAX VELOCITY:    75 m/s 
+MANEUVERABILITY: Average 
+ARMOR:           Average
+
+GUN MOUNTS:      6 
+MISSILE BANKS:   2
+
+MANUFACTURER:    RNI Systems 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       290       | Speed .........|   75  |
+Shield ..........|       390       | Afterburner ...|  135  |
+Missile Space ...|   20 / 20 / 40  | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       - |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       - |
+GTW-83 Lamprey ...........|       - |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     2 |     2 |     4 |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     0 |     0 |     1 |
+GTM-14 EMP Adv. ..............|     5 |     5 |    10 |
+GTM-19 Harpoon ...............|     - |     - |     - |
+GTM-4 Hornet Swarm Missile ...|    20 |    20 |    40 |
+GTM-4a Tornado Missile .......|    16 |    16 |    32 |
+GTM-43a Stiletto II ..........|     3 |     3 |     5 |
+GTM-55 Trebuchet .............|     3 |     3 |     5 |
+GTM MX-6 Tempest Missile .....|    80 |    80 |   160 |
+GTM MX-64 Rockeye ............|     5 |     5 |    10 |
+
+
+GTF Pegasus
+===========
+
+TYPE:            Stealth Recon
+
+LENGTH:          19 meters 
+MAX VELOCITY:    90 m/s 
+MANEUVERABILITY: Excellent 
+ARMOR:           Light
+
+GUN MOUNTS:      2 
+MISSILE BANKS:   1
+
+MANUFACTURER:    Nankam Aeronautical 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       220       | Speed .........|   90  |
+Shield ..........|       330       | Afterburner ...|  160  |
+Missile Space ...|        30       | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       - |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       - |
+GTW-83 Lamprey ...........|       - |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|    20 |    10 |     - |
+GTI TAG-B Missile ............|    10 |     5 |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     - |     - |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|     5 |     3 |     - |
+GTM-19 Harpoon ...............|     8 |     4 |     - |
+GTM-4 Hornet Swarm Missile ...|    20 |    10 |     - |
+GTM-4a Tornado Missile .......|    16 |     8 |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|     3 |     1 |     - |
+GTM MX-6 Tempest Missile .....|    80 |    40 |     - |
+GTM MX-64 Rockeye ............|     5 |     3 |     - |
+
+
+GTF Perseus 
+===========
+
+TYPE:            Interceptor
+
+LENGTH:          17 meters 
+MAX VELOCITY:    80 m/s 
+MANEUVERABILITY: High 
+ARMOR:           Average
+
+GUN MOUNTS:      2 
+MISSILE BANKS:   2
+
+MANUFACTURER:    Nankam Aeronautical 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       265       | Speed .........|   80  |
+Shield ..........|       350       | Afterburner ...|  140  |
+Missile Space ...|     40 / 40     | Score .........|   14  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       - |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       - |
+GTW-83 Lamprey ...........|       - |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|    40 |    40 |     - |
+GTI TAG-B Missile ............|    20 |    20 |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     - |     - |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    10 |    10 |     - |
+GTM-19 Harpoon ...............|    16 |    16 |     - |
+GTM-4 Hornet Swarm Missile ...|    40 |    40 |     - |
+GTM-4a Tornado Missile .......|    32 |    32 |     - |
+GTM-43a Stiletto II ..........|     5 |     5 |     - |
+GTM-55 Trebuchet .............|     5 |     5 |     - |
+GTM MX-6 Tempest Missile .....|   160 |   160 |     - |
+GTM MX-64 Rockeye ............|    10 |    10 |     - |
+
+
+GTF Ulysses
+===========
+
+TYPE:            Space Superiority
+
+LENGTH:          16 meters 
+MAX VELOCITY:    70 m/s 
+MANEUVERABILITY: Excellent 
+ARMOR:           Light
+
+GUN MOUNTS:      4 
+MISSILE BANKS:   1
+
+MANUFACTURER:    Triton / Mekhu 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       180       | Speed .........|   70  |
+Shield ..........|       380       | Afterburner ...|  150  |
+Missile Space ...|        40       | Score .........|    8  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       - |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       X |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|    40 |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     - |     - |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    10 |     - |     - |
+GTM-19 Harpoon ...............|    16 |     - |     - |
+GTM-4 Hornet Swarm Missile ...|    40 |     - |     - |
+GTM-4a Tornado Missile .......|    32 |     - |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|     - |     - |     - |
+GTM MX-6 Tempest Missile .....|   160 |     - |     - |
+GTM MX-64 Rockeye ............|    10 |     - |     - |
+
+
+6.4 Vasudan ships
+__________________
+
+GVF Bakha
+=========
+
+TYPE:            Advanced Bomber
+
+LENGTH:          18 meters 
+MAX VELOCITY:    65 m/s 
+MANEUVERABILITY: Good 
+ARMOR:           Heavy
+
+GUN MOUNTS:      2 
+MISSILE BANKS:   2
+
+MANUFACTURER:    Akheton Corporation 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       440       | Speed .........|   65  |
+Shield ..........|       620       | Afterburner ...|  105  |
+Missile Space ...|     80 / 100    | Score .........|   13  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       - |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       X |
+GTW ML-70 Morning Star ...|       - |
+GTW Subach HL-7 ..........|       - |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|     - |     - |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     8 |    10 |     - |
+GTM-12 Cyclops ...............|     5 |     7 |     - |
+GTM-13 Helios ................|     3 |     4 |     - |
+GTM-14 EMP Adv. ..............|    20 |    25 |     - |
+GTM-19 Harpoon ...............|    32 |    40 |     - |
+GTM-4 Hornet Swarm Missile ...|     - |     - |     - |
+GTM-4a Tornado Missile .......|     - |     - |     - |
+GTM-43a Stiletto II ..........|    10 |    13 |     - |
+GTM-55 Trebuchet .............|    10 |    13 |     - |
+GTM MX-6 Tempest Missile .....|     - |     - |     - |
+GTM MX-64 Rockeye ............|    20 |    25 |     - |
+
+
+GVF Horus
+=========
+
+TYPE:            Interceptor
+
+LENGTH:          19 meters 
+MAX VELOCITY:    90 m/s 
+MANEUVERABILITY: Good 
+ARMOR:           Light
+
+GUN MOUNTS:      4 
+MISSILE BANKS:   2
+
+MANUFACTURER:    Akheton Corporation 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       170       | Speed .........|   90  |
+Shield ..........|       230       | Afterburner ...|  170  |
+Missile Space ...|     40 / 40     | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       - |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       - |
+GTW Mekhu HL-7 ...........|       X |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       - |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|    20 |    20 |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     - |     - |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    10 |    10 |     - |
+GTM-19 Harpoon ...............|    16 |    16 |     - |
+GTM-4 Hornet Swarm Missile ...|    40 |    40 |     - |
+GTM-4a Tornado Missile .......|    32 |    32 |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|     5 |     5 |     - |
+GTM MX-6 Tempest Missile .....|   160 |   160 |     - |
+GTM MX-64 Rockeye ............|    10 |    10 |     - |
+
+
+GVF Ptah
+========
+
+TYPE:            Stealth Recon
+
+LENGTH:          17 meters 
+MAX VELOCITY:    90 m/s 
+MANEUVERABILITY: Excellent 
+ARMOR:           Light
+
+GUN MOUNTS:      1 
+MISSILE BANKS:   2
+
+MANUFACTURER:    Akheton Corporation 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       220       | Speed .........|   90  |
+Shield ..........|       330       | Afterburner ...|  160  |
+Missile Space ...|     20 / 10     | Score .........|   16  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       - |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       - |
+GTW-83 Lamprey ...........|       - |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       X |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       - |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|    20 |    10 |     - |
+GTI TAG-B Missile ............|    10 |     5 |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     - |     - |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|     5 |     3 |     - |
+GTM-19 Harpoon ...............|     8 |     4 |     - |
+GTM-4 Hornet Swarm Missile ...|    20 |    10 |     - |
+GTM-4a Tornado Missile .......|    16 |     8 |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|     3 |     1 |     - |
+GTM MX-6 Tempest Missile .....|    80 |    40 |     - |
+GTM MX-64 Rockeye ............|     5 |     3 |     - |
+
+
+GVF Serapis
+===========
+
+TYPE:            Advanced Interceptor
+
+LENGTH:          14 meters 
+MAX VELOCITY:    75 m/s 
+MANEUVERABILITY: Excellent 
+ARMOR:           Light
+
+GUN MOUNTS:      2 
+MISSILE BANKS:   2
+
+MANUFACTURER:    Akheton Corporation 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       220       | Speed .........|   75  |
+Shield ..........|       200       | Afterburner ...|  135  |
+Missile Space ...|     60 / 30     | Score .........|   12  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       X |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       X |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       - |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|    30 |    15 |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     - |     - |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    15 |     8 |     - |
+GTM-19 Harpoon ...............|    24 |    12 |     - |
+GTM-4 Hornet Swarm Missile ...|    60 |    30 |     - |
+GTM-4a Tornado Missile .......|    48 |    24 |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|     - |     - |     - |
+GTM MX-6 Tempest Missile .....|   240 |   120 |     - |
+GTM MX-64 Rockeye ............|    15 |     8 |     - |
+
+
+GVF Seth
+========
+
+TYPE:            Heavy Fighter
+
+LENGTH:          16 meters 
+MAX VELOCITY:    55 m/s 
+MANEUVERABILITY: Poor 
+ARMOR:           Heavy
+
+GUN MOUNTS:      4 
+MISSILE BANKS:   2
+
+MANUFACTURER:    Mekhu Corporation 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       280       | Speed .........|   55  |
+Shield ..........|       580       | Afterburner ...|  130  |
+Missile Space ...|     40 / 80     | Score .........|   12  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       - |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       X |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       - |
+GTW UD-8 Kayser ..........|       x |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|    20 |    40 |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     4 |     8 |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    10 |    20 |     - |
+GTM-19 Harpoon ...............|    16 |    32 |     - |
+GTM-4 Hornet Swarm Missile ...|    40 |    80 |     - |
+GTM-4a Tornado Missile .......|    32 |    64 |     - |
+GTM-43a Stiletto II ..........|     5 |    10 |     - |
+GTM-55 Trebuchet .............|     5 |    10 |     - |
+GTM MX-6 Tempest Missile .....|   160 |   320 |     - |
+GTM MX-64 Rockeye ............|    10 |    20 |     - |
+
+
+GVF Tauret
+==========
+
+TYPE:            Heavy Fighter
+
+LENGTH:          17.5 meters 
+MAX VELOCITY:    65 m/s 
+MANEUVERABILITY: Poor 
+ARMOR:           Medium
+
+GUN MOUNTS:      4 
+MISSILE BANKS:   2
+
+MANUFACTURER:    Sahr Corporation 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       300       | Speed .........|   65  |
+Shield ..........|       530       | Afterburner ...|  135  |
+Missile Space ...|    100 / 100    | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       - |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       X |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       - |
+GTW UD-8 Kayser ..........|       X |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|    50 |    50 |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|    10 |    10 |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    25 |    25 |     - |
+GTM-19 Harpoon ...............|    40 |    40 |     - |
+GTM-4 Hornet Swarm Missile ...|   100 |   100 |     - |
+GTM-4a Tornado Missile .......|    80 |    80 |     - |
+GTM-43a Stiletto II ..........|    13 |    13 |     - |
+GTM-55 Trebuchet .............|    13 |    13 |     - |
+GTM MX-6 Tempest Missile .....|   400 |   400 |     - |
+GTM MX-64 Rockeye ............|    25 |    25 |     - |
+
+
+GVF Thoth
+=========
+
+TYPE:            Space Superiority
+
+LENGTH:          17 meters 
+MAX VELOCITY:    65 m/s 
+MANEUVERABILITY: Excellent 
+ARMOR:           Light
+
+GUN MOUNTS:      4 
+MISSILE BANKS:   1
+
+MANUFACTURER:    Sahr Corporation 
+
+
+OTHER SHIP SPECIFICATIONS                                   |
+-----------------------------------+----------------+-------|
+Hull ............|       200       | Speed .........|   65  |
+Shield ..........|       200       | Afterburner ...|  130  |
+Missile Space ...|        80       | Score .........|   10  |
+
+
+GUNS                      | USEABLE |
+--------------------------+---------|
+GTW-19 Circe .............|       X |
+GTW-5 Prometheus (S) .....|       X |
+GTW-5a Prometheus (R) ....|       X |
+GTW-66 Maxim Cannon ......|       - |
+GTW-83 Lamprey ...........|       X |
+GTW Akheton SDG ..........|       X |
+GTW Mekhu HL-7 ...........|       X |
+GTW ML-70 Morning Star ...|       X |
+GTW Subach HL-7 ..........|       - |
+GTW UD-8 Kayser ..........|       - |
+
+
+MISSILES                      | SLOT1 | SLOT2 | SLOT3 |
+------------------------------+-------+-------+-------|
+GTI TAG-A Missile ............|     - |     - |     - |
+GTI TAG-B Missile ............|    40 |     - |     - |
+GTM-10 Piranha ...............|     - |     - |     - |
+GTM-11 Infyrno ...............|     - |     - |     - |
+GTM-12 Cyclops ...............|     - |     - |     - |
+GTM-13 Helios ................|     - |     - |     - |
+GTM-14 EMP Adv. ..............|    20 |     - |     - |
+GTM-19 Harpoon ...............|    32 |     - |     - |
+GTM-4 Hornet Swarm Missile ...|    80 |     - |     - |
+GTM-4a Tornado Missile .......|    64 |     - |     - |
+GTM-43a Stiletto II ..........|     - |     - |     - |
+GTM-55 Trebuchet .............|     - |     - |     - |
+GTM MX-6 Tempest Missile .....|   320 |     - |     - |
+GTM MX-64 Rockeye ............|    20 |     - |     - |
+
+
+___________________________________________________________________________________________
+
+====================================
+7.   OTHER GAME RELATED INFORMATION
+====================================
+
+7.1 Information
+________________
+
+In this section you'll find stuff that doesn't really fit in the other sections. If you have 
+anything to add, which fits in this section ... let me know!
+
+
+___________________________________________________________________________________________
+
+=============
+LEGAL NOTICE
+=============
+
+This document is Copyright to Tim "Phoenix-T" Wuyts. If you are unsure as to whether or not you may 
+distribute this document, contact the author.
+
+
+Terms of Use
+_____________
+
+It may be printed or copied for PERSONAL, PRIVATE use only, and it may NOT be placed on a CD, typed 
+up in a magazine, included in cheat databases or any other medium without the express permission of 
+the author.  If any of these rules are broken, you are in direct violation of the international 
+copyright laws.
+
+
+Webmasters
+___________
+
+You can put this guide on your website without explicit permission under the following conditions:
+
+* The guide is NOT to be altered
+* No fee is to be charged for viewing this document
+* Proper credit has to be given
+
+I've given permission to a few sites, which can put the guide up in the HTML Guide (not zipped). No 
+sites are going to be added to this list (so don't ask for permission)!  The sites are:
+
+The Cheat Empire - http://home.planetinternet.be/~twuyts
+The Spoiler Centre - http://www.the-spoiler.com/
+The Descent Chronicles - http://descent.gamestats.com/
+
+So basically, you get permission to post the guide.  Either the zipped HTML Guide or the text file 
+and only sites with permission can incorporate the HTML guide directly into their site.
+
+There's one exception to this: CNET is NOT ALLOWED to post this FAQ
+
+------------------------------------EOF----------------------------------------
+
+

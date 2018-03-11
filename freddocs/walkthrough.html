@@ -1,0 +1,1507 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<!-- Mirrored from fs2downloads.com/freddocs/walkthrough.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:47:51 GMT -->
+<head>
+<title>Using FRED2: Extended Walkthrough</title>
+<map name="menu">
+	<area shape="RECT" coords="5,12,106,24" href="index.html">
+	<area shape="RECT" coords="5,24,106,36" href="quickstart.html">
+	<area shape="RECT" coords="5,36,106,48" href="concepts.html">
+	<area shape="RECT" coords="5,48,106,60" href="toolbar.html">
+	<area shape="RECT" coords="5,60,106,72" href="menus.html">
+	<area shape="RECT" coords="5,72,106,84" href="walkthrough.html">
+	<area shape="RECT" coords="5,84,106,96" href="editors.html">
+	<area shape="RECT" coords="5,96,106,108" href="sexp.html">
+	<area shape="RECT" coords="5,108,106,120" href="internet.html">
+	<area shape="RECT" coords="5,120,106,132" href="index-no-really.html">
+</map>	
+<link href="fred2.css" rel="STYLESHEET" type="text/css">
+</head>
+
+<body bgcolor=white background="nacbkg1.gif">
+<table width="672" cellpadding=0 cellspacing=0>
+	<tr>
+		<td width="80">&nbsp;</td>
+		<td width="580"><img src="nactitle1.jpg" width=580 height=95 alt="" border="0"><br></td>
+	</tr>
+</table>
+<table width="672" cellpadding=0 cellspacing=0>	
+	<tr>
+		<td width="111" valign="top"><img src="nacmenu1.gif" width=111 height=142 alt="" border="0" usemap="#menu"></td>
+		<td width="561" valign="top">
+		
+<!--- START DRAKE STUFF --->
+					<table width = 100% cellpadding=10>
+					  <tr>
+					    <td colspan=2>
+					    <h1>Extended Walkthrough</h1>
+					    </td>
+					  </tr>
+					  <tr>
+					    <td width=5%>&nbsp;</td>
+					    <td valign=top>
+						<div class="copy">
+					    This file will walk you through the process of creating a large,
+					    polished mission.  It assumes you've already read the <a
+					    href=quickstart.html>Quick Start</a> and the sections on <a
+					    href=concepts.html>Basic Concepts</a>, <a href=toolbar.html>The
+					    Toolbar</a>, and <a href=menu.html>Menu Commands</a>.  This may
+					    take a couple of hours, so pour yourself a beverage.
+					    <p>
+					    If you want to play the mission before we reveal the plot, run
+					    FreeSpace 2.  Go into the <b>Tech Room</b>, select <b>Mission
+					    Simulator</b> and pick 
+					    <b>Single Missions</b>.  This is the mission "Shipyard
+					    (completed)".  If you get confused about something in the
+					    walkthrough, you can open the file
+					    <code>shipyard-completed.fs2</code> in FRED2.
+					    <p>
+					    The sections of this file are:
+					    <ul>
+					      <li> <a href=#planning>Planning the Mission</a>
+					      <li> <a href=#stationary>Stationary Objects</a>
+					      <li> <a href=#large>Large Ship Movements</a>
+					      <li> <a href=#directives>Directives and Objectives</a>
+					      <li> <a href=#messages>Messages</a>
+					      <li> <a href=#background>Background</a>
+					      <li> <a href=#fighters>Fighters and Bombers</a>
+					      <li> <a href=#specs>Team Loadout and Mission Specs</a>
+					      <li> <a href=#debriefing>Debriefing</a>
+					      <li> <a href=#briefing>Briefing</a>
+					    </ul>
+						</div>
+					</td>
+					</tr>
+					<tr>
+					  <td colspan=2>
+					  <a name=planning></a>
+					  <h2>Planning the Mission</h2>
+					  </td>
+					</tr>
+					
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  Before opening FRED2 to build a mission, it is worth spending some
+					  time with a pencil and paper planning the mission.  What forces are
+					  involved, and what are they trying to accomplish?  What events will
+					  happen over the course of the mission?
+					  <p>
+					  On the other hand, you will inevitably make some changes as you
+					  build the mission.  Perhaps you will discover that it is unbalanced
+					  (the same side always wins), or that it takes too long.  These
+					  things can usually be fixed by changing the exact number and type of
+					  ships involved.
+					  <p>
+					  In this mission, the (single) player is defending a GTVA shipyard.
+					  The shipyard consists of a GTI Arcadia and two GTI Ganymede
+					  installations.  There is a GTD Orion destroyer docked in one of the
+					  rings.  There are also some cargo containers and transports
+					  scattered about.
+					  <p>
+					  The shipyard is attacked by the Neo-Terran Front.  There are
+					  two parts to the attack.
+					  <p>
+					  In the first part, a pair of cruisers (a
+					  GTC Leviathan and a GTC Aeolus) and some fighters come at the
+					  shipyard.  They player and the other friendly fighters engage the
+					  enemy fighters, while a GVCv Sobek corvette meets the cruisers in
+					  beam combat.
+					  <p>
+					  This is just a diversion for the second part of the attack.  Having
+					  drawn the GTVA forces to one end of the shipyard, the Neo-Terrans
+					  bring in some transports (GTT Argo) full of marines to steal the docked
+					  Orion-class destroyer.  The transports have their own escort
+					  fighters, of course.
+					  <p>
+					  A very skillful player (or one who knows what's going to happen)
+					  might be able destroy the transports quickly.  If this happens, the
+					  NTF abandons the attack.
+					  <p>
+					  If the NTF marines manage to take over the destroyer, they bring its
+					  engines on line and head for the local jump node.  They player must
+					  disable and disarm it before it jumps out.
+					  </div>
+					  </td>
+					</tr>
+					
+					<tr>
+					  <td colspan=2>
+					  <a name=stationary></a>
+					  <h2>Stationary Objects</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  You'll begin by placing large, stationary objects like
+					  installations.  Laying out the "terrain" for the mission will help
+					  you decide where to place other things later.
+					  <p>
+					  Before starting, read about the <a href=editors.html#objects>Objects
+					  Editor</a> and the <a href=editors.html#ships>Ships Editor</a>.
+					  <p>
+					  Now, open FRED2.  The Arcadia installation is at the center of the
+					  action, to it makes sense to put this at location (0, 0, 0).  You'll
+					  need to get the player away from that area, so drag the player's
+					  ship a few kilometers away, to someplace like (0, 0, -3000).  While
+					  you're at it, form a wing containing that ship and call it Alpha.
+					  <p>
+					  Place the objects listed in the table below.  Use the <a
+					  href=editors.html#objects>Objects Editor</a> to make their positions
+					  exact.
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>GTI Vulcan's Forge</td>
+					      <td valign=top>GTI Arcadia</td>
+					      <td valign=top>0, 0, 0</td>
+					      <td valign=top>Escort ship, priority 80</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Ring 1</td>
+					      <td valign=top>GTI Ganymede</td>
+					      <td valign=top>3000, 0, 0</td>
+					      <td valign=top>&nbsp;</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Ring 2</td>
+					      <td valign=top>GTI Ganymede</td>
+					      <td valign=top>-3000, 0, 0</td>
+					      <td valign=top>Protect ship</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>GTD Relentless</td>
+					      <td valign=top>GTD Orion</td>
+					      <td valign=top>-3000, 0, 0</td>
+					      <td valign=top>Protect ship<br>
+					      Escort ship, priority 80<br>
+					      Velocity: 0<br>
+					      Engine subsystem strength: 0<br>
+					      Initial orders: <code>play dead</code>, priority 50<br>
+					      Hotkey: F12
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  Ring 2 and the Relentless are protected so that the NTF won't shoot
+					  at them.  (Shots at Ring 2 might hit the Relentless.)  If the
+					  Relentless is taken over, GTVA ships shouldn't try to destroy it; the
+					  protection will be helpful there, too.  Vulcan's Forge and the
+					  Relentless are both escort ships, so their hull strength will show
+					  up on the right side of the player's HUD.  The Relentless is
+					  supposed to be off-line with just a skeleton crew, so it has
+					  velocity zero, disabled engines (and hence no engine glow), and
+					  orders to play dead.
+					  Finally, we let the player target the Relentless by pressing F12.
+					  <p>
+					  Depending on your camera angle, the shipyard should now look
+					  something like this:
+					  <img src=shipyard.gif vspace=10 align=left>
+					  <br clear=all>
+					  This is a good time to save the mission and test it out in FreeSpace
+					  2.  Save early and often!
+					  <p>
+					  Read about the <a href=editors.html#waypoint-paths>Waypoint Path
+					  Editor</a>;  you'll need it to rename a jump node in a moment.
+					  <p>
+					  Here are some more objects to place:
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>TC-TRI 5</td>
+					      <td valign=top>TC-TRI</td>
+					      <td valign=top>1000, -1500, 3000</td>
+					      <td valign=top>Cargo: Hull Plating</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>TC-TRI 6</td>
+					      <td valign=top>TC-TRI</td>
+					      <td valign=top>1500, -1500, 3000</td>
+					      <td valign=top>Cargo: Beam Weapons</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>TC-TRI 7</td>
+					      <td valign=top>TC-TRI</td>
+					      <td valign=top>2000, -1500, 3000</td>
+					      <td valign=top>Cargo: Warp Coils</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>TC-TRI 8</td>
+					      <td valign=top>TC-TRI</td>
+					      <td valign=top>2500, -1500, 3000</td>
+					      <td valign=top>Cargo: Scrap Metal</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>TC-TRI 9</td>
+					      <td valign=top>TC-TRI</td>
+					      <td valign=top>3000, -1500, 3000</td>
+					      <td valign=top>Cargo: Missiles</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>TAC 1 10</td>
+					      <td valign=top>TAC 1</td>
+					      <td valign=top>4000, 0, -1000</td>
+					      <td valign=top>Cargo: Inertial Dampeners</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>TAC 1 11</td>
+					      <td valign=top>TAC 1</td>
+					      <td valign=top>4000, 250, -1000</td>
+					      <td valign=top>Cargo: Subach HL-99</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>TAC 1 12</td>
+					      <td valign=top>TAC 1</td>
+					      <td valign=top>4000, 500, -1000</td>
+					      <td valign=top>Cargo: Cables</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>GTD Triumphant (1)</td>
+					      <td valign=top>TC-TRI</td>
+					      <td valign=top>3000, 0, -500</td>
+					      <td valign=top>Alt name: (under construction)</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>GTD Triumphant (2)</td>
+					      <td valign=top>TC-TRI</td>
+					      <td valign=top>3000, 0, 0</td>
+					      <td valign=top>Alt name: (under construction)</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>GTD Triumphant (3)</td>
+					      <td valign=top>TC-TRI</td>
+					      <td valign=top>3000, 0, 500</td>
+					      <td valign=top>Alt name: (under construction)</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>GTD Triumphant (4)</td>
+					      <td valign=top>TC-TRI</td>
+					      <td valign=top>3000, 0, 1000</td>
+					      <td valign=top>Alt name: (under construction)</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>GVCv Pomotep</td>
+					      <td valign=top>GVCv Sobek</td>
+					      <td valign=top>Approximately<br>
+					      -2000, 2000, 4000,<br>
+					      pointing toward<br>
+					      GTI Vulcan's Forge</td>
+					      <td valign=top>Escort ship, priority 80<br>
+					      Player orders: none
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Jump Node</td>
+					      <td valign=top>Jump Node</td>
+					      <td valign=top>-3000, 0, 10000</td>
+					      <td valign=top>&nbsp;</td>
+					    </tr>
+					  </table>
+					  <p>
+					  Save the mission again, and try it out if you wish.
+					  </div>
+					  </td>
+					</tr>
+					
+					<tr>
+					  <td colspan=2>
+					  <a name=large></a>
+					  <h2>Large Ship Movements</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  While FreeSpace 2 is really about fighters and bombers, it would
+					  just be a series of isolated dogfights if it were not for transports
+					  and capital ships.  These larger ships provide obstacles, visual
+					  variety, and plot points.  With FRED2, you can make these ships behave
+					  intelligently (or at least appear to do so).
+					  <p>
+					  The shipyard mission will have four sequences of large ship
+					  movement.  They are described below, in order of increasing
+					  complexity.
+					  <h3>Orbiting Transport</h3>
+					  The first scripted sequence is a transport repeatedly flying
+					  around a series of waypoints.
+					  <p>
+					  Place the objects listed below.
+					  Remember that, to add a waypoint to a
+					  path, the previous waypoint in the path has to be selected.
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Waypoint 1:1</td>
+					      <td valign=top>Waypoint</td>
+					      <td valign=top>Approximately 500, 0, -1000</td>
+					      <td valign=top>&nbsp;</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Waypoint 1:2</td>
+					      <td valign=top>Waypoint</td>
+					      <td valign=top>Approximately 1500, 1000, -1000</td>
+					      <td valign=top>&nbsp;</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Waypoint 1:3</td>
+					      <td valign=top>Waypoint</td>
+					      <td valign=top>Approximately 2500, 0, -1000</td>
+					      <td valign=top>&nbsp;</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Waypoint 1:4</td>
+					      <td valign=top>Waypoint</td>
+					      <td valign=top>Approximately 1500, -1000, -1000</td>
+					      <td valign=top>&nbsp;</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>GVT Amazonia</td>
+					      <td valign=top>GVT Isis</td>
+					      <td valign=top>Approximately -300, 0, -1500,<br>
+					      pointing to Waypoint 1:1</td>
+					      </td>
+					      <td valign=top>
+					      Initial orders: <code>waypoints</code>, Waypoint path 1,
+					      priority 50
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  Save the mission and go watch the transport do its thing.  Notice
+					  that it will keep travelling around the waypoints over and over;
+					  this is the difference between <code>waypoints</code> and
+					  <code>waypoints-once</code>.
+					  <p>
+					  If you get impatient while watching the GVT Amazonia, remember that
+					  you can change the time scale during the mission;  the default keys
+					  for this are &lt; and &gt; (don't forget to hold down Shift).  This
+					  is very useful when scripting large ship movements.
+					  
+					  <h3>Freighter Grabbing Cargo and Jumping Out</h3>
+					  The next bit of traffic in the shipyard is a freighter that docks
+					  with one of the cargo containers and then jumps out.  Here is the
+					  freighter:
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>GTFR Pelican</td>
+					      <td valign=top>GTFR Triton</td>
+					      <td valign=top>Approximately 2000, -1000, 200,<br>
+					      pointing toward TC-TRI 9
+					      </td>
+					      <td valign=top>Initial orders: <code>dock</code>, TC-TRI 9,
+					      cargo dock 01, cargo dockpoint, 50</td>
+					    </tr>
+					  </table>
+					  <p>
+					  We also need to tell the Pelican to warp out after it picks up the
+					  cargo container.  To do this, we'll need a SEXP.  Go read about <a
+					  href=SEXP-2.html>SEXPs</a> now.
+					  <p>
+					  Use this SEXP for the Pelican's <b>Departure Cue</b>:
+					  <img src=pelican-departure.gif vspace=10 align=left>
+					  <br clear=all>
+					  Save the mission and go experience the unbridled excitement of
+					  interstellar commerce.
+					  
+					  <h3>NTF Attack: Part 1</h3>
+					  You're probably about ready for some combat now.  Never fear, you're
+					  about to bring in the big guns.
+					  <p>
+					  Two NTF cruisers are going to warp in and attack Ring 1.  First,
+					  just place these ships and give them attack orders.  (FRED2
+					  may incorrectly claim that you're telling them to attack their own
+					  team.  Ignore this;  it happens because some details don't get
+					  updated until you close the <b>Ships Editor</b>.)
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>NTC Hugin</td>
+					      <td valign=top>GTC Leviathan</td>
+					      <td valign=top>5100, 2900, 4600
+					      </td>
+					      <td valign=top>Hostile<br>
+					      Initial orders: <code>attack</code> Ring 1,
+					      priority 50<br>
+					      Escort ship, priority 50<br>
+					      Hotkey: F9
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>NTC Munin</td>
+					      <td valign=top>GTC Aeolus</td>
+					      <td valign=top>5100, 2800, 4200
+					      </td>
+					      <td valign=top>Hostile<br>
+					      Initial orders: <code>attack</code> Ring 1,
+					      priority 50<br>
+					      Escort ship, priority 50<br>
+					      Hotkey: F10
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  Save the mission.  If you try it out, you will notice several things
+					  wrong:
+					  <ul>
+					    <li>The attacking ships are present right at the beginning of the
+						mission.
+					    <li>They don't stay together;  the Munin moves much faster than
+						the Hugin.
+					    <li>They don't use their beam weapons.
+					  </ul>
+					  To fix these problems, you'll have to use events.  Go read about the
+					  <a href=editors.html#events>Events Editor</a> now.
+					  <p>
+					  First, you want the enemy ships to arrive a short while after the
+					  mission starts.  You could do this by directly adjusting their
+					  <b>Arrival Cues</b> in the <b>Ships Editor</b>.  It is a better idea
+					  to create an event for the arrival of the NTF, and have the ships
+					  arrive when this event occurs.  This way, if you decide to change
+					  the arrival time, you can do it in one place, rather than editing a
+					  bunch of different ships.  Also, you can have the event happen
+					  almost immediately
+					  when you're testing things out, then later move it back to a more
+					  reasonable time.
+					  <p>
+					  Create this event:
+					  <img src=force-1-arrival.gif vspace=10 align=left>
+					  <br clear=all>
+					  Use this SEXP for the <b>Arrival Cue</b> on each of the NTF
+					  cruisers:
+					  <img src=force-1-arrival-true.gif vspace=10 align=left>
+					  <br clear=all>
+					  Now for the speed problem.  You can limit a capital ship's speed
+					  when it is flying waypoints.
+					  <p>
+					  Create a couple of waypoints, making sure they're on different paths.
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Waypoint 2:1</td>
+					      <td valign=top>Waypoint</td>
+					      <td valign=top>3100, 900, 600
+					      </td>
+					      <td valign=top>&nbsp;</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Waypoint 3:1</td>
+					      <td valign=top>Waypoint</td>
+					      <td valign=top>3100, 800, 200
+					      </td>
+					      <td valign=top>&nbsp;</td>
+					    </tr>
+					  </table>
+					  <p>
+					  Change the Hugin's initial orders to <code>waypoints-once</code>,
+					  Waypoint path 2, priority 50.  Similarly, have the Munin head for
+					  Waypoint path 3.  For good measure, use the <b>Objects Editor</b> to
+					  point each of these ships at the waypoint to which it's going.
+					  <p>
+					  Now, you can create an event that will slow down the Munin and free
+					  the beam weapons on both cruisers.  (Beam weapons are locked off by
+					  default.)  You'll need to use <b>Add Operator</b> to do it:
+					  <img src=cruiser-adjustments.gif vspace=10 align=left>
+					  <br clear=all>
+					  Save the mission and test it.
+					  <p>
+					  This is a good time to make Alpha 1 <b>Invulnerable</b>, so you can
+					  watch the action without fear of being destroyed.
+					  <p>
+					  A one-sided capital ship battle isn't very interesting, so it's time
+					  to bring the GVCv Pomotep into the action.  Since the cruisers are
+					  faster, we can't just order the corvette to attack them.  However,
+					  we can have it head for a waypoint near theirs, which will look just
+					  as good to the player.
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Waypoint 4:1</td>
+					      <td valign=top>Waypoint</td>
+					      <td valign=top>3500, 500, 800
+					      </td>
+					      <td valign=top>&nbsp;</td>
+					    </tr>
+					  </table>
+					  <p>
+					  Add this event:
+					  <img src=pomotep-intercepting.gif vspace=10 align=left>
+					  <br clear=all>
+					  Now the Pomotep will move the "intercept" the cruisers 30 seconds
+					  after they arrive.
+					  <p>
+					  To make the story more interesting, let's say the Pomotep has
+					  recently returned from battle.  In the <b>Ships Editor</b>, set its
+					  hull strength to 82.  You could go through and damage each of
+					  the various subsystems, 
+					  but there's a better way.  Insert this event at the beginning of the
+					  event list:
+					  <img src=pomotep-initial-status.gif vspace=10 align=left>
+					  <br clear=all>
+					  This will randomly set the strength of each of the Pomotep's
+					  subsystems to somewhere between 25 and 100 percent.
+					  <p>
+					  Save the mission and go enjoy the fireworks.
+					  
+					  <h3>NTF Attack: Part 2</h3>
+					  The last (and most complicated) scripted sequence in this mission is
+					  the NTF transports responsible for capturing the GTD Relentless.
+					  <p>
+					  These transports will be in a wing, so you'll need to read about the
+					  <a href=editors.html#wings>Wings Editor</a>.
+					  <p>
+					  Place four GTT Argo transports around position (-2000, -2000, 1000)
+					  and group them into Sleipner wing.  You can set some things, such as
+					  the <b>Hotkey</b>, in the <b>Wings Editor</b>.  For other things,
+					  like cargo, you'll have to mark all four ships and then use the
+					  <b>Ships Editor</b>.
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Sleipner wing</td>
+					      <td valign=top>GTT Argo (x4)</td>
+					      <td valign=top>Approximately -2000, -2000, 1000,
+					      pointing to GTD Relentless
+					      </td>
+					      <td valign=top>
+					      Hostile<br>
+					      Hotkey: F11<br>
+					      Cargo: Marines<br>
+					      Cargo not known
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  Create an event called "NTF force 2 arrival cue".  Make the SEXP identical to "NTF
+					  force 1 arrival cue" by using <b>Copy</b> and <b>Paste</b>.  (We'll
+					  change the time on this event later.)  Set the
+					  <b>Arrival Cue</b> for Sleipner wing so that they arrive when this
+					  event becomes true.  Be sure to do this in the <b>Wings Editor</b>,
+					  not in the <b>Ships Editor</b>.
+					  <p>
+					  Give Sleipner 1 (but <em>not</em> the other Sleipner ships) initial
+					  orders to dock with the GTD Relentless.  Only one ship can dock with
+					  the Relentless at a time, so the others will have to take their
+					  turns.
+					  <p>
+					  The next bit of SEXP wrangling is a little complicated, so this is a
+					  good time to save the mission.
+					  <p>
+					  Suppose it takes two transports full of marines to take over the
+					  Relentless.  If this happens, there's no way to know in advance
+					  which two transports will be responsible;  perhaps the player will
+					  destroyer Sleipner 2, but Sleipner 1 and Sleipner 3 will
+					  successfully dock.  You need a way to keep track of <em>how many</em>
+					  transports have docked.
+					  <p>
+					  Fortunately, FRED2 lets you store values like this in variables.
+					  Right click on any event in the <b>Events Editor</b> and select
+					  <b>Add Variable</b>.  Call the new variable <code>DockCount</code>,
+					  and give it a default value of 0.
+					  <br clear=all>
+					  <img src=add-variable.gif vspace=10 align=left>
+					  <br clear=all>
+					  Now, when Sleipner 1 finishes its work (say, 10 seconds after it has
+					  docked), it should do the following:
+					  <ul>
+					    <li>Transfer its cargo to the GTD Relentless
+					    <li>Get new orders to undock and warp out
+					    <li>Add 1 to the value of <code>DockCount</code>
+					  </ul>
+					  Here's the event to do all that:
+					  <br clear=all>
+					  <img src=sleipner-1-done.gif vspace=10 align=left>
+					  <br clear=all>
+					  Sleipner 2 should move in as soon as Sleipner 1 either is destroyed
+					  or finishes its job:
+					  <br clear=all>
+					  <img src=sleipner-2-going-in.gif vspace=10 align=left>
+					  <br clear=all>
+					  Create two more events, "Sleipner 3 going in" and "Sleipner 4 going
+					  in".  These must appear right after "Sleipner 2 going in", and be
+					  <b>Chained</b> so that they will happen in order.  (Without
+					  chaining, Sleipner 4 would head in as soon as Sleipner 3 was
+					  destroyed, regardless of whether one of the other two transports was
+					  already docked with the GTD Relentless.)  Make liberal use of <b>Copy</b> and <b>Paste</b>, but don't forget to edit
+					  the SEXPs so that each one refers to the correct ships within
+					  Sleipner wing.
+					  <p>
+					  Create three more events:  "Sleipner 2 done",
+					  "Sleipner 3 done", and "Sleipner 4 done".  These are basically
+					  identical to "Sleipner 1 done", except that each refers to a
+					  different transport in the <code>has-docked-delay</code>,
+					  <code>transfer-cargo</code>, and <code>add-goal</code> sub-SEXPs.
+					  <p>
+					  Save the mission and test it.  You may want to fly a bomber so that
+					  you can blow up one of the transports and watch the next one go in.
+					  You might also try scanning one, and noticing that its cargo changes
+					  just before it undocks from the Relentless.
+					  <p>
+					  Okay:  the transports are doing their little dance now, but it's not
+					  having any effect on the GTD Relentless.  Time to change that.
+					  <p>
+					  After the first transport is done, the Relentless should change from
+					  Friendly to Unknown.  This will make it appear purple rather than
+					  green on the player's radar.  After a second load of marines, the
+					  destroyer should become Hostile.  Also, its <code>play dead</code>
+					  order should be cleared;  the NTF marines are using the Relentless'
+					  weapons to help with the space battle.  The Relentless' beams will
+					  stay locked;  the story is that they haven't been installed yet.
+					  <p>
+					  Two events will take care of all this:
+					  <br clear=all>
+					  <img src=relentless-boarded.gif vspace=10 align=left>
+					  <br clear=all>
+					  After another 45 seconds, the marines get the Relentless' engines
+					  back on line and head for the jump node.  To make the destroyer
+					  appear to jump out in the jump node, you'll need to add a waypoint
+					  on the near side.  (For a smaller ship, you could put the waypoint
+					  inside the jump node.)
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Waypoint 5:1</td>
+					      <td valign=top>Waypoint</td>
+					      <td valign=top>-3000, 0, 7000
+					      </td>
+					      <td valign=top>
+					      &nbsp;
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  Here's the event:
+					  <br clear=all>
+					  <img src=relentless-pulling-out.gif vspace=10 align=left>
+					  <br clear=all>
+					  Change the Relentless' <b>Departure Cue</b> to:
+					  <br clear=all>
+					  <img src=relentless-departure.gif vspace=10 align=left>
+					  <br clear=all>
+					  Save the mission and try it out again.  Target the GTD Relentless
+					  and use 'S' to cycle through subsystems until the engines are
+					  targeted.  Watch the Relentless change from Friendly to Unknown to
+					  Hostile.  If you're behind it, you'll be able to see the destroyer's
+					  engines fire up as it heads for the jump node.
+					  <p>
+					  Have a few GTVA personnel get off the Relentless in an escape pod:
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>GTEP Escape Pod</td>
+					      <td valign=top>GTEP Hermes</td>
+					      <td valign=top>(anywhere)
+					      </td>
+					      <td valign=top>
+					      Arrival cue:  Docking bay of GTD Relentless, 10 seconds after
+					      event "Relentless captured" becomes true<br>
+					      Initial orders:  <code>warp</code>, priority 50<br>
+					      Escort ship, priority 100
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  The escape pod will probably be shot down by the relentless, but it
+					  might escape if there are friendly fighters in the area distracting
+					  the destroyer.
+					  <p>
+					  Sleipner wing has no reason to stick around once the GTD Relentless
+					  is captured.  Change the <b>Departure Cue</b> for Sleipner wing to
+					  that they'll leave as soon as the event "Relentless pulling out"
+					  becomes true.  (This event is used, instead of "Relentless
+					  captured", so that none of the transports are docked with the
+					  destroyer when they jump out.  Otherwise, they'd carry the destroyer
+					  with them into hyperspace!  While the NTF might like this outcome,
+					  it's not realistic.)
+					  <p>
+					  There are several possible outcomes to the mission:
+					  <ul>
+					    <li>Sleipner wing might lose so many ships that they can't take
+						over the Relentless
+					    <li>The Relentless might be destroyed
+					    <li>The Relentless might be successfully stolen
+					    <li>The Relentless might be taken over, but then disabled and
+						disarmed
+					  </ul>
+					  As soon as any of these things happens, any other NTF ships should
+					  leave.
+					  <p>
+					  Here are events for the first three possibilities:
+					  <br clear=all>
+					  <img src=relentless-outcomes.gif vspace=10 align=left>
+					  <br clear=all>
+					  For reasons that will become clear when you add <a
+					  href=#directives>directives</a>, the last case should be handled by
+					  two separate, chained events.  Use <b>Insert Event</b> to add these
+					  two events right after "Relentless pulling out", and make sure they
+					  are <b>Chained</b>:
+					  <br clear=all>
+					  <img src=relentless-chained.gif vspace=10 align=left>
+					  <br clear=all>
+					  Add one more event, "Relentless out of picture", which becomes true
+					  as soon as <em>any</em> of "Sleipner thwarted", "Relentless
+					  destroyed", "Relentless escaped", or "Relentless disarmed" becomes
+					  true.  (Hint:  you'll need to use an <code>or</code> with four
+					  arguments.)  Make this the <b>Departure Cue</b> SEXP for each of the
+					  NTF cruisers.
+					  <p>
+					  Save and test the mission.  Notice that the cruisers jump out as
+					  soon as fate of the Relentless is decided.
+					  <p>
+					  Heave a sigh of relief that the hard part is over.  Take a break,
+					  give your eyes and hands a rest, and talk to another human if one is
+					  available.  When you're ready, come back and finish the walkthrough.
+					  </div>
+					  </td>
+					</tr>
+					
+					<tr>
+					  <td colspan=2>
+					  <a name=directives></a>
+					  <h2>Directives and Objectives</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  Directives are the instructions that appear on the left side of the
+					  player's HUD.  Objectives are the things that have to be
+					  accomplished for the mission to count as a success.
+					  <p>
+					  Directives are added in the <b>Events Editor</b>.  First, add some
+					  <b>Directive Text</b> to events you've already built:
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Event</th>
+					      <th align=left>Directive Text</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Relentless disabled</td>
+					      <td valign=top>Disable GTD Relentless (F12)</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Relentless disarmed</td>
+					      <td valign=top>Disarm GTD Relentless (F12)</td>
+					    </tr>
+					  </table>
+					  <p>
+					  Because of the chained events, the first directive won't appear
+					  until the Relentless pulls out, and the second won't appear until
+					  the Relentless is disabled.  (If the player Relentless is disarmed
+					  and <em>then</em> disabled, the second directive will be completed
+					  as soon as it appears.)
+					  <p>
+					  Add a new chained event "Player returned to base" right after
+					  "Relentless out of picture".  It should become true when Alpha 1
+					  departs.  Give the directive "Return to base".
+					  <p>
+					  Add these two events, chained after "NTF force 2 arrival cue":
+					  <br clear=all>
+					  <img src=sleipner-directives.gif vspace=10 align=left>
+					  <br clear=all>
+					  The first one should have the directive "Inspect any Sleipner
+					  (F11)", and the second one "Destroy Sleipner (F11)".
+					  <p>
+					  Go read about the <a href=editors.html#mission-objectives>Mission
+					  Objectives Editor</a>.
+					  <p>
+					  Create two objectives.  The first is a primary goal to protect the
+					  shipyard;  this is accomplished if either Sleipner is thwarted or
+					  the Relentless is disabled and disarmed.  It's worth 1000 points,
+					  and it should get a completion sound.
+					  <br clear=all>
+					  <img src=primary-goal.gif vspace=10 align=left>
+					  <br clear=all>
+					  The second objective is a bonus goal, "Protect escape pod".  It
+					  should have the text "Protect GTEP Escape Pod", and become true
+					  when that pod has departed.  Make it worth 50 points, and have a
+					  completion sound.
+					  <p>
+					  Save and test the mission.
+					  </div>
+					</td>
+					</tr>
+					
+					<tr>
+					  <td colspan=2>
+					  <a name=messages></a>
+					  <h2>Messages</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  In the heat of combat, it's very hard to tell what's going on
+					  without radio messages.  It's time to put those in.
+					  <p>
+					  Before adding the messages, this is a good time to make the NTF
+					  forces show up when they should.  Have the first NTF force arrive 23
+					  seconds into the mission, and the second one 137 seconds in.
+					  <p>
+					  The first message is the scramble order when the first NTF force
+					  arrives.  Create a message called "Incoming!", with the text
+					  "Incoming ... Neo-Terran Front!  Two cruisers and some fighters.
+					  Alpha and Beta wings, engage enemy."  Use the <b>ANI File</b>
+					  <code>Head-CM1</code> and the <b>Persona</b> <code>Terran
+					  Command</code>.
+					  <p>
+					  For now, use the <b>Wave File</b> <code>emptymsg.wav</code>.
+					  (You'll have to click on <b>Browse</b> to find this.)  If you have a
+					  microphone, you can record your own voice file later.
+					  <p>
+					  To actually send the message, change the <code>do-nothing</code>
+					  operator in the event "NTF force 1 arrival cue" to
+					  <code>send-message</code>.  It should now look like this:
+					  <br clear=all>
+					  <img src=send-message.gif vspace=10 align=left>
+					  <br clear=all>
+					  Save and test the mission.
+					  <p>
+					  In general, it will sometimes be necessary to create events just for
+					  sending messages.  As it happens, all of the messages for this
+					  mission will be attached to existing events.  (For each one, replace
+					  a <code>do-nothing</code> operator or use <b>Add Operator</b>.)  A
+					  couple of the messages can be triggered by any of several events.
+					  <p>
+					  Here are the messages:
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Message</th>
+					      <th align=left>Text</th>
+					      <th align=left>Source</th>
+					      <th align=left>Event(s)</th>
+					      <th align=left>Files & Persona</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Pomotep intercepting</td>
+					      <td valign=top>GVCv Pomotep moving to intercept.  All fighters,
+					      stand clear of the enemy cruisers.</td>
+					      <td valign=top>GVCv Pomotep</td>
+					      <td valign=top>Pomotep intercepting</td>
+					      <td valign=top><code>Head-VC</code><br>
+					      <code>vasudantalk.wav</code><br>
+					      <code>Large Ship Vasudan</code></td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Inspect Sleipner</td>
+					      <td valign=top>What are they up to?  Alpha 1, inspect one of
+					      those Sleipner transports that just jumped in.</td>
+					      <td valign=top>#Command</td>
+					      <td valign=top>NTF force 2 arrival cue</td>
+					      <td valign=top><code>Head-CM1</code><br>
+					      <code>emptymsg.wav</code><br>
+					      <code>Terran Command</code></td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Marines?</td>
+					      <td valign=top>Marines?  They're trying to steal the Relentless!
+					       Alpha, stop those transports!</td>
+					      <td valign=top>#Command</td>
+					      <td valign=top>Sleipner inspected</td>
+					      <td valign=top><code>Head-CM1</code><br>
+					      <code>emptymsg.wav</code><br>
+					      <code>Terran Command</code></td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Being boarded</td>
+					      <td valign=top>We're being boarded!</td>
+					      <td valign=top>GTD Relentless</td>
+					      <td valign=top>Relentless boarded</td>
+					      <td valign=top><code>Head-CM1</code><br>
+					      <code>emptymsg.wav</code><br>
+					      <code>Large Ship</code></td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Too many of them</td>
+					      <td valign=top>There's too many of them!  We're going to try to
+					      make it to the escape pods.</td>
+					      <td valign=top>GTD Relentless</td>
+					      <td valign=top>Relentless captured</td>
+					      <td valign=top><code>Head-CM1</code><br>
+					      <code>emptymsg.wav</code><br>
+					      <code>Large Ship</code></td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Relentless pulling out</td>
+					      <td valign=top>The Relentless is pulling out!  Alpha, disable it
+					      before it gets to the jump node.</td>
+					      <td valign=top>#Command</td>
+					      <td valign=top>Relentless pulling out</td>
+					      <td valign=top><code>Head-CM1</code><br>
+					      <code>emptymsg.wav</code><br>
+					      <code>Terran Command</code></td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Disarm it</td>
+					      <td valign=top>Good work, pilots.  Now disable it and we can
+					      send in our own marines later.</td>
+					      <td valign=top>#Command</td>
+					      <td valign=top>Relentless disabled</td>
+					      <td valign=top><code>Head-CM1</code><br>
+					      <code>emptymsg.wav</code><br>
+					      <code>Terran Command</code></td>
+					    </tr>
+					    <tr>
+					      <td valign=top>We won</td>
+					      <td valign=top>That did the trick!  The Neo-Terrans are bugging
+					      out.  Good work, pilots.  Return to base.</td>
+					      <td valign=top>#Command</td>
+					      <td valign=top>Sleipner thwarted,
+					      Relentless disarmed</td>
+					      <td valign=top><code>Head-CM1</code><br>
+					      <code>emptymsg.wav</code><br>
+					      <code>Terran Command</code></td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Lost Relentless</td>
+					      <td valign=top>I can't believe we lots a destroyer.  Damn!
+					      Okay, return to base.</td>
+					      <td valign=top>#Command</td>
+					      <td valign=top>Relentless escaped,
+					      Relentless destroyed</td>
+					      <td valign=top><code>Head-CM1</code><br>
+					      <code>emptymsg.wav</code><br>
+					      <code>Terran Command</code></td>
+					    </tr>
+					  </table>
+					  <p>
+					  Guess what:  it's time to save and test the mission.
+					  </div>
+					  </td>
+					</tr>
+					
+					<tr>
+					  <td colspan=2>
+					  <a name=background></a>
+					  <h2>Background</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  This mission needs a little scenery.  Go read about the <a
+					  href=editors.html#background>Background Editor</a> to see how to add
+					  it.  While this mission won't involve any asteroids, this is as good
+					  a time as any to read about the <a
+					  href=editors.html#asteroid-field>Asteroid Field Editor</a>.
+					  <p>
+					  Crank the number of stars up to 2000, and add the following
+					  backround elements:
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Item</th>
+					      <th align=left>Pitch</th>
+					      <th align=left>Bank</th>
+					      <th align=left>Heading</th>
+					      <th align=left>Scale</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Bitmap <code>planetf</code></td>
+					      <td valign=top>325</td>
+					      <td valign=top>0</td>
+					      <td valign=top>25</td>
+					      <td valign=top>5</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Bitmap <code>neb04</code></td>
+					      <td valign=top>0</td>
+					      <td valign=top>0</td>
+					      <td valign=top>180</td>
+					      <td valign=top>2</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Bitmap <code>neb05</code></td>
+					      <td valign=top>0</td>
+					      <td valign=top>100</td>
+					      <td valign=top>160</td>
+					      <td valign=top>3</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Bitmap <code>neb06</code></td>
+					      <td valign=top>20</td>
+					      <td valign=top>200</td>
+					      <td valign=top>200</td>
+					      <td valign=top>3</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Sun <code>SunRed</code></td>
+					      <td valign=top>0</td>
+					      <td valign=top>60</td>
+					      <td valign=top>90</td>
+					      <td valign=top>2</td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Sun <code>SunGold</code></td>
+					      <td valign=top>0</td>
+					      <td valign=top>65</td>
+					      <td valign=top>95</td>
+					      <td valign=top>0.3</td>
+					    </tr>
+					  </table>
+					  <p>
+					  Save the mission and enjoy the view.
+					  </div>
+					  </td>
+					</tr>
+					
+					<tr>
+					  <td colspan=2>
+					  <a name=fighters></a>
+					  <h2>Fighters and Bombers</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  Fighters and bombers are added at this late stage for two reasons:
+					  <ul>
+					    <li>It's important to make sure that any capital ship combat is
+						well-balanced first;  the fighters and bombers should be the
+						deciding factor.
+					    <li>It's very difficult to test other aspects of the mission while
+						dogfighting.
+					  </ul>
+					  The first wing to consider, of course, is Alpha wing.  Before
+					  placing the rest of them, move Alpha 1 to about (3400, 1600,
+					  -2000) and point it toward GTI Vulcan's Forge.  Using <b>Current Ship
+					  </b> viewpoint (in the <b>View Menu</b>), see what the shipyard looks like
+					  from Alpha 1's point of view.  Move the ship around a bit to set up
+					  a nice picture.
+					  <p>
+					  Now break up Alpha wing and add three more fighters behind it.
+					  Select them all and change them to GTF Erinyes.  Here's the full
+					  story on Alpha wing:
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Alpha wing</td>
+					      <td valign=top>GTF Erinyes (x4)</td>
+					      <td valign=top>Approximately 3400, 1600, -2000
+					      </td>
+					      <td valign=top>
+					      Initial orders: <code>guard</code> Alpha 1, priority 50<br>
+					      Hotkey: F5<br>
+					      Trebuchets in missile bank 2
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  The initial orders will make the other ships in Alpha wing stay near
+					  the player, provide protection, and attack any targets of
+					  opportunity.  Of course, the player can give other orders.
+					  <p>
+					  Read about the <a href=editors.html#reinforcements>Reinforcements
+					  Editor</a>.
+					  <p>
+					  It doesn't matter where you put the other two friendly wings,
+					  because their <b>Arrival Cues</b> will determine where they appear.
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Beta wing</td>
+					      <td valign=top>GVF Serapis (x4)</td>
+					      <td valign=top>(anywhere)
+					      </td>
+					      <td valign=top>
+					      Arrival: Near Ship GTD Relentless, distance 2450<br>
+					      Initial orders: <code>guard</code> GTI Vulcan's Forge, priority
+					      10;<br>
+					      <code>attack any ship</code>, priority 50
+					      Hotkey: F6
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Epsilon wing</td>
+					      <td valign=top>GTB Artemis (x4)</td>
+					      <td valign=top>(anywhere)
+					      </td>
+					      <td valign=top>
+					      Arrival: Docking bay, GTI Vulcan's Forge
+					      Initial orders: <code>attack any ship</code>, priority 50<br>
+					      Hotkey: F7<br>
+					      Stiletto IIs in missile banks 2 and 3<br>
+					      Reinforcement
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  Save and test the mission.  Don't forget to call in the
+					  reinforcements!
+					  <p>
+					  Now for the bad guys:
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Object</th>
+					      <th align=left>Class</th>
+					      <th align=left>Position</th>
+					      <th align=left>Notes</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>Scorpio wing</td>
+					      <td valign=top>GTF Hercules (x4)</td>
+					      <td valign=top>(anywhere)
+					      </td>
+					      <td valign=top>
+					      Hostile<br>
+					      Arrival: In front of ship NTC Munin, distance 312, when event
+					      "NTF force 1 arrival cue" is true<br>
+					      Departure: When event "Relentless out of picture" is true<br>
+					      Initial orders: <code>attack any ship</code>, priority 50
+					      Waves: 3, 15-30 second delay between waves
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>Pisces wing</td>
+					      <td valign=top>GTF Ulysses (x3)</td>
+					      <td valign=top>(anywhere)
+					      </td>
+					      <td valign=top>
+					      Hosile<br>
+					      Arrival: Near Ship GTD Relentless, distance 2450, when event
+					      "NTF force 2 arrival cue" is true<br>
+					      Departure: When event "Relentless out of picture" is true<br>
+					      Initial orders: <code>guard</code> Sleipner wing, priority
+					      50<br>
+					      Waves: 2, 15-60 second delay between waves
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  Add an event "Scorpio destroyed" which becomes true when Scorpio wing is
+					  destroyed, with directive "Destroy Scorpio".  Make a similar event for
+					  Pisces wing.  Finally, modify the event "Relentless captured" so that
+					  it also adds a priority 60 order for Pisces wing to guard the
+					  Relentless.
+					  <p>
+					  Save and test the mission.
+					  <p>
+					  The remaining changes to the mission will not affect balance.  Now
+					  is the time to make sure it's not too hard or too easy.  You might try
+					  setting the difficulty one notch higher than you normally do;  after
+					  all, you have the unfair advantage of knowing what's going to
+					  happen.  Also, don't forget to turn off Alpha 1's invulnerability!
+					  <p>
+					  If the mission seems out of balance, try adding or removing some fighters.
+					  </div>
+					  </td>
+					</tr>
+					
+					<tr>
+					  <td colspan=2>
+					  <a name=specs></a>
+					  <h2>Team Loadout and Mission Specs</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  Read about the <a href=editors.html#team-loadout>Team Loadout Editor</a>
+					  and the <a href=editors.html#mission-specs>Mission Specs
+					  Editor</a>.
+					  <p>
+					  In the <b>Team Loadout Editor</b>, uncheck the Myrmidon fighter,
+					  making it unavailable for this mission.
+					  <p>
+					  In the <b>Mission Specs Editor</b>,
+					  entitle the mission "Shipyard".  Choose "Genesis" for the music.
+					  Enter any <b>Mission Description</b> and <b>Designer's Notes</b> you
+					  feel are appropriate.
+					  <p>
+					  Save and test the mission.
+					  </div>
+					  </td>
+					</tr>
+					
+					<tr>
+					  <td colspan=2>
+					  <a name=debriefing></a>
+					  <h2>Debriefing</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  Read about the <a href=editors.html#breifing>Briefing
+					  Editor</a> and the <a href=editors.html#debriefing>Debriefing
+					  Editor</a>.  If you do the debriefing first, you won't have to sit
+					  through the briefing to test it.
+					  <p>
+					  The debriefing has 5 stages:
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Stage</th>
+					      <th align=left>Usage</th>
+					      <th align=left>Text</th>
+					      <th align=left>Recommendation Text</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>1</td>
+					      <td valign=top>event "Sleipner thwarted" true</td>
+					      <td valign=top>
+					      Your reaction to the Neo-Terran marine transports was amazingly
+					      quick and effective.  We shudder to imagine what might have
+					      happened had the NTF taken over the GTD Relentless.
+					      </td>
+					      <td valign=top>
+					      &nbsp;
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>2</td>
+					      <td valign=top>event "Relentless disarmed" true</td>
+					      <td valign=top>
+					      GTVA marines were able to board the GTD Relentless and capture
+					      the NTF terrorists.  We commend you on your quick work disabling
+					      and disarming the destroyer.
+					      </td>
+					      <td valign=top>
+					      &nbsp;
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>3</td>
+					      <td valign=top>event "Relentless destroyed" true</td>
+					      <td valign=top>
+					      The loss of the GTD Relentless will cost the alliance a great
+					      deal.  We can take some solace in the fact that the NTF did not
+					      get ahold of the destroyer.
+					      </td>
+					      <td valign=top>
+					      Use 'S' to target the Relentless' engines.  After it is
+					      disabled, use 'K' to cycle through individual turrets.  Don't
+					      forget about your reinforcements!
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>4</td>
+					      <td valign=top>event "Relentless escaped" true</td>
+					      <td valign=top>
+					      Not only do we have one less destroyer today, the NTF has one
+					      more.  This is a crushing blow to the alliance.
+					      </td>
+					      <td valign=top>
+					      Rush over to Sleipner wing as soon as it arrives.  Also,
+					      consider giving orders to some of the armed transports in the area.
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>5</td>
+					      <td valign=top>event "Protect escape pod" true</td>
+					      <td valign=top>
+					      Fortunately, some of our people on board the GTD Relentless got
+					      away.  Without your efforts, that escape pod probably would not
+					      have made it.
+					      </td>
+					      <td valign=top>
+					      &nbsp;
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  Save and test the mission.  If you wish, you can record
+					  <code>.wav</code> files for the debriefing stages.
+					  </div>
+					  </td>
+					</tr>
+					
+					<tr>
+					  <td colspan=2>
+					  <a name=briefing></a>
+					  <h2>Briefing</h2>
+					  </td>
+					</tr>
+					<tr>
+					  <td width=5%>&nbsp;</td>
+					  <td valign=top>
+					  <div class="copy">
+					  The last step is the construction of the briefing.  Before doing
+					  this, read about the remaining editors:
+					  <a href=editors.html#shield-system>Shield System</a>,
+					  <a href=editors.html#command-briefing>Command Briefing</a>, and
+					  <a href=editors.html#campaign>Campaign</a>.
+					  <p>
+					  The briefing will use music <code>Brief1</code> and have 5 stages.
+					  Enter the text for each stage:
+					  <p>
+					  <table border=1 cellspacing=0 cellpadding=5>
+					    <tr>
+					      <th align=left>Stage</th>
+					      <th align=left>Text</th>
+					    </tr>
+					    <tr>
+					      <td valign=top>1</td>
+					      <td valign=top>
+					      Today you're on patrol near the $f Vulcan's $f Forge shipyard.
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>2</td>
+					      <td valign=top>
+					      In addition to the main installation, there are two docking
+					      rings.  In Ring 1, we've just begun construction on the $f GTD
+					      $f Triumphant.
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>3</td>
+					      <td valign=top>
+					      In Ring 2, we've nearly completed work on the $f GTD $f Relentless.
+					      The $f GVCv $f Pomotep, which has taken some heavy damage recently, is
+					      next in line.
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>4</td>
+					      <td valign=top>
+					      The largest thread is currently the $h Neo-Terran $h Front.  Raiders
+					      may come from in-system or through the local jump node.
+					      </td>
+					    </tr>
+					    <tr>
+					      <td valign=top>5</td>
+					      <td valign=top>
+					      If we get hit by something big, you can call on $f Epsilon $f wing for
+					      reinforcement.
+					      </td>
+					    </tr>
+					  </table>
+					  <p>
+					  Before installing the pictures, it may help to watch the briefing from
+					  the completed version of this mission.
+					  <p>
+					  Go back to stage 1.  In the main view, move the camera so that you
+					  can see GTI Vulcan's Forge and both docking rings.  Zoom in so that
+					  you can just see the center installation. Create an icon
+					  for it (making sure it has <b>Icon Image</b>
+					  <code>Installation</code>), highlight the icon, and save the view.
+					  <p>
+					  In stage 2, zoom out until both docking rings are in view.  Create
+					  an icon for Ring 1.  Change the <b>Label</b> to "GTD Triumphant" and
+					  the <b>Ship Type</b> to <code>GTD Orion</code>.  Highlight the icon
+					  and save the view.
+					  <p>
+					  In stage 3, create an icon for the GTD Relentless and highlight it.
+					  Also, create an icon for the GVCv Pomotep.  (It may be easier to
+					  create an icon for some other object, then modify its <b>Label</b>,
+					  <b>Icon Image</b>, and so forth to correspond to the Pomotep.)
+					  Place the Pomotep icon near the icon for the Relentless.  Save the
+					  view.
+					  <p>
+					  For stage 4, move the camera so that you can see the jump node.
+					  Create an icon for it.  Create another icon nearby, labeled
+					  "Neo-Terran Front", with <b>Icon Image</b> <code>Unknown Wing</code>
+					  and <b>Team</b> Hostile.  Save the view.
+					  <p>
+					  For stage 5, move back to where you can see GTI Vulcan's Forge.  If
+					  necessary, delete any other icons.  Place an icon for Epsilon wing
+					  nearby ("Epsilon", <code>Bomber Wing</code>, GTB Artemis).  Mark
+					  both icons (by shift clicking) and check <b>Draw Lines Between
+					  Marked Icons</b>.  Save the view.
+					  <p>
+					  Save and test the mission.  Record <code>.wav</code> files if you wish.
+					  <p>
+					  Congratulations, you're done!  Check out the <a
+					  href=internet.html>Internet Links</a>, then start writing up your
+					  plans for the greatest FreeSpace 2 missions ever....
+					  </div>
+					  </td>
+					</tr>
+					
+					</table>
+
+
+<!--- END DRAKE STUFF --->
+		</td>
+	</tr>
+</table>
+
+</body> 
+<!-- Mirrored from fs2downloads.com/freddocs/walkthrough.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:47:55 GMT -->
+</html>

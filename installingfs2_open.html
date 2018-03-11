@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<title>The FreeSpace Oracle</title>
+</head>
+<body alink="LIMEGREEN" bgcolor="LIGHTSTEELBLUE" link="DARKBLUE"
+vlink="DARKRED">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td><img src="FAQ-Images/Oracle.gif"></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr valign="top">
+<td>
+<table width="200">
+<tbody>
+<tr>
+<td>
+<ul>
+<li><a href="intro.html">Home</a></li>
+<li><a href="general.html">General Questions</a></li>
+<li><a href="fred.html">FRED Questions</a></li>
+<ul><font size="-1">
+<li><a href="fredretail.html">Retail
+Help</a></li>
+<li><a href="fredretailtech.html">Retail Tech Help</a></li>
+<li><a href="fredopen.html">FRED_Open Help</a></li>
+<li><a href="fredopentech.html">FRED_Open Tech Help</a></li>
+<li><a href="fredcommonmistakes.html">Common Mistakes</a></li>
+<li><a href="fredcookbook.html">FRED Cookbook</a></li>
+</font></ul>
+</li>
+<li><a href="gameplay.html">Gameplay Questions</a></li>
+<li><a href="installing.html">Installing FreeSpace</a></li>
+<ul><font size="-1">
+<li><a href="installingfs2.html">Installing
+FS2</a></li>
+<li><a href="installingfs2_open.html">Installing
+FS2_Open</a></li>
+<li><a href="installingmods.html">Installing Mods</a></li>
+</font></ul>
+</li>
+<li><a href="technical.html">Technical Problems</a></li>
+<ul><font size="-1">
+<li><a href="fs1-technical.html">FreeSpace
+1</a></li>
+<li><a href="fs2-technical.html">FreeSpace 2</a></li>
+<li><a href="fs2_open-technical.html">SCP</a></li>
+<li><a href="movies.html">Cutscenes</a></li>
+</font></ul>
+</li>
+<li><a href="storyline.html">Storyline Questions</a></li>
+<li><a href="modding.html">Modding Questions</a></li>
+<li><a href="shipmods.html">Turreting Tutorial</a></li>
+<li><a href="glossary.html">Glossary</a></li>
+<li><a href="downloads.html">Downloads</a></li>
+<li><a href="tools.html">FreeSpace Tools</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+
+      <a name="Top"></a>
+<H1>Installing FS2_Open</H1> 
+
+<P><A HREF="#upgrade">I've got a previously installed copy of FS2 and I want to install FS2_Open.</A><BR>
+<A HREF="#clean">I've just installed FS2 and I want to install FS2_Open.</A>
+<ul type="disc">
+	<li><A HREF="#launcher">Installing the Launcher.</A></li>
+	<li><A HREF="#build">Installing the Build.</A></li>
+	<li><A HREF="#mediavps">Installing the Media VPs.</A></li>
+	<li><A HREF="#cutscenes">Installing the Cutscenes.</A></li>
+	<li><A HREF="#config">Configuring the Launcher.</A></li>
+</ul>
+
+<P><A Name="upgrade"></A>
+<H2>I've got a previously installed copy of FS2 and I want to install FS2_Open.</H2>	  
+
+Possibly the worst position to be coming at this from. First thing to do is to check that your FS2 install is in a suitable place to follow the rest of this guide. If your Freespace2 folder is on a path that contains a space or a hyphen in it (like <i>C:\Program Files\Games</i> for instance) you should drag the entire Freespace2 folder to somewhere that doesn't have either.<br>
+
+<P>If you've never installed any mods of any kind you can proceed to the FS2_Open installation section <A HREF="#clean">below</A>. If you have installed any mods you need to stop now and remove them right now. Installing FS2_Open on top of a modded install is probably one of the biggest sources of user-created problems when installing FS2_Open. You can be saved from the hassle if you follow these steps. 
+   
+<P><div style="text-align: center"><img src="FAQ-Images/Installing/CleanInstall.jpg" border="0" align="middle"></div>
+
+<ol>
+	<li>Delete or remove any file from your Freespace2 folder which you don't see in this picture. (Don't worry if you don't have them all)</li>
+	<li>Rename your <i>Data</i> folder to <i>DataOld</i></li>
+	<li>Make a new folder called <i>Data</i></li>
+	<li>Move <i>DataOld\Players</i> to <i>Data</i></li>
+	<li>Move <i>DataOld\Freddocs</i> to <i>Data</i></li>
+</ol>
+ 
+These steps will remove any files that were installed by the mods you were using.<br> 
+
+<P>Finally <br>
+
+<P>You can now follow the instructions below.   
+
+
+<P><A Name="clean"></A>
+<H2>I've just installed FS2 and I want to install FS2_Open.</H2>	 
+
+If you haven't already run the FS launcher and click the update button. Ensure you have the 1.2 patch installed before going any further. If you've just installed FS2 following the guide on the <a href="installingfs2.html">previous page</A> you'll have already done this.<BR>
+
+<H3>What do I need?</H3>									   
+
+There are four main components that you need to get the most out of FS2_Open. <br>
+<ul type="disc">
+	<li><b>The Launcher</b> - The Launcher allows you to configure the FS2_Open executable for your particular system, in much the same way the original FreeSpace 2 launcher is used to configure it. The launcher is also a convenient way of picking and choosing which mod you want to run.</li>	 
+	<li><b>The Build</b> - This is the actual FS2_Open executable, the game engine itself. </li>
+	<li><b>The Media VPs</b> - Although completely optional these are the things that make FS2_Open look and feel different from retail. Without them you can experience the changes in gameplay etc but the game will look very much like the original. 
+	<li><b>The Cutscenes</b> - What would FS2 be without the wonderful cutscenes? If you're only playing mods you can skip this section but if you're playing FS2 for the first time you'll definitely be missing out if you don't have these.</li>
+</ul>
+ 
+
+<P><A Name="launcher"></A>
+<H3>Getting the launcher</H3>
+
+In general you will want the latest version of the launcher. The launcher should be extracted to your <i>main FreeSpace 2 folder</i>. The launcher is available from the <a href="http://scp.indiegames.us/downloads.php" TARGET="_blank">SCP website</a>. The launcher is only absolutely required the first time you run FS2_Open, however its features make it advisable that you put a shortcut to the launcher on your desktop rather than to the build itself and always run via the launcher.
+  
+<P><A Name="build"></A>
+<H3>Choosing a build</H3>
+ 
+<B>Official Releases</B><br>  
+The SCP release official builds a few times a year. You can recognise these by the version number 3.5, 3.6.1, 3.6.7 etc. Historically the official builds have been released following a period of bug fixing and are supposed to be stable. In practice minor bugs have had a habit of creeping in and spoiling that.<br>  
+As with the launcher check the official <a href="http://scp.indiegames.us/bnr_fs2open.php" TARGET="_blank">SCP website</a><br>
+  
+<P><B>Recent\CVS Builds</B><br>
+When one of the coders has a feature he wants tested he'll release a build of the game for people to play with and bug-test. These builds can be found in the <a href="https://www.hard-light.net/forums/index.php/board,97.0.html" TARGET="_blank">recent builds forum</a> on HLP. <br>
+ In addition to this CVS builds are also posted there on a regular basis. The purpose of the CVS builds is to combine all the work that the coders have done and make sure that it all works well when put together. <br>
+ In general CVS builds are very stable. Often more so than the official builds. The general response to someone posting a problem with an official build is to tell them to check the most recent CVS build to see if the problem goes away. However on occasion CVS builds can be very unstable if someone has just checked in a piece of code which is incompatible with something else in CVS. For this reason people new to the SCP are generally advised to try out an official build first and only move on to CVS if there is a problem or once they are a little more comfortable with the way the SCP works. <br>
+ Other recent builds on the other hand make a very poor choice for your first build. This is hardly surprising as they generally released when a coder has a feature he has just finished writing. Often the feature just doesn't work plain and simple and crashes the game the first few tries. For this reason you should steer clear of these at first unless you actively want to help bug-test. 
+			  
+<P><B>Debug vs Release builds</B><br>	
+Whether you choose a recent build or an official one either way the package you download will probably contain two executable files (filenames ending in .exe). One of these will have "_dbg" or "_d" in the name. Use the other one (which will most likely have "_r" in the name). This is the release build and is the one you should use most of the time. If you encounter a problem you may be asked to use the debug build. That's when you use the other exe. <br>
+
+<P>All builds should be extracted to your <i>main FreeSpace 2 folder</i>.<br>
+				  
+	
+<P><A Name="mediavps"></A>
+<H3>Selecting your Media VPs</H3>
+
+The media VP files are a set of package files (similar to .zip or .rar files but uncompressed) containing data which can be used by FS2_Open. The filenames always start with "mv_" making them easy to recognise.<br>
+
+<P>The first thing to realise about them is that all media VP files are optional. FS2_Open should work without the presence of any of them. Since the VPs are mostly graphical enhancements they will slow the speed FS2 runs at. The point of the media VPs is to make FS2_Open look like a modern game. If your PC is slow when running modern games it will most likely be slow when using all the media VPs. Most reported problems with choppy gameplay are generally due to people expecting too much from their computers and installing all the VPs. By all means try the game with all of them at first. Just be prepared to have to remove the more graphically intensive ones if you have a problem. <br>   
+
+<p> Like the official builds the media VPs are also version numbered. This makes it easier to make sure you get the right ones. When using the official releases the golden rule is to always use the media VPs with the same version number (i.e 3.6.7 VPs with the 3.6.7 build etc) unless the thread or site you are getting them from specifically states that they will work with your official build. Media VPs are usually backwards compatible but on a few occasions using say the 3.6.5 VPs might break the official 3.6.7 release build. Such cases are rare but why not eliminate them completely and get the most up to date (and therefore best looking) version that is compatible with your build? <br>
+ If you are using a CVS build then you may be able to get away with using the beta VPs for the next build up. For instance the builds released in early January 2006 which are based on 3.6.7 have all been compatible with the beta 3.6.8 VPs. However you must double check in the release thread for these builds. Lots of people tried using the CVS builds from mid December with that set of VPs and found that it promptly crashed back to the desktop. Again the golden rule with CVS builds is if the one you're using doesn't work with something check that you're using the most recent one. In general you should only report bugs with the most recent CVS builds because more often than not someone will have already spotted the bug and fixed it.<br>	
+
+<P>You can find the Media VPs on the <a href="http://scp.indiegames.us/bnr_mediavp.php" TARGET="_blank">SCP website</a>. <br>
+<i>NB - mv_zPack is a collection of all the other media VP files. Either pick and choose the VPs you want or download it to get them all. </i>
+
+<P>Once you've downloaded the VP files it's time to install them. Many guides will tell you to simply dump the media VPs in your FS2 folder but quite frankly this will most likely cause you problems in the long run. If you take a minute longer and follow the advice given here you can avoid a lot of problems.<br>
+
+<ol>
+	<li>Make a folder called <i>mediavps</i></li>
+	<li>Put the media VP files in it</li> 
+</ol> 									  
+
+Wasn't hard was it? There's one other thing you'll have to do but we'll come to that later. <br>
+
+<P>Whatever you do don't delete the original FreeSpace VPs. Quite often people assume that they are no longer needed and delete them only to find the game doesn't run as a result. <br>	 
+		   
+<P><A Name="cutscenes"></A>
+<H3>Getting hold of the cutscenes</H3>	   
+
+Due to unfortunate licensing agreements the code for playing the .mve movies that retail uses was ripped out of the source code before it was given to the community. You'll have to get hold of replacements (usually in .avi format). Information on how to do that is given in my <A HREF="movies.html">Cutscenes</A> section. <br>
+ Once you have them the cutscenes go anywhere that FS2 can find them. This can be in your <i>main folder, Data, Data\Movies</i>, or even the <i>mediavps</i> folder you created earlier. <i>Freespace2\Data</i> is probably a good choice. 
+					
+		
+<P><A Name="config"></A>			
+<H3>Running the launcher</H3> 
+
+At this point your Freespace2 folder should look something like this (The build you're using will probably be different though). <br clear="all"> 	
+<div style="text-align: center"><img src="FAQ-Images/Installing/CleanFSOInstall.jpg" border="0" width="474" height="161" alt="" align="middle"></div>  
+
+All that remains is to run the SCP launcher and configure. 
+
+<P><img src="FAQ-Images/Installing/Launcher01.jpg" border="0" width="338" height="469" align="left"> 
+
+<H4>Basic setup</H4>
+First thing to do is to click on the "Browse..." button at the top of the Launcher  and select the build you installed.<br>
+
+<P>Next, ensure that the "Audio/Joystick" and "Network" tabs have the proper settings. (If you have trouble with your joystick not working properly in FS2_Open, you may try the "Force 0" or "Force 1" options, which will force FS2_Open to use the first or second joysticks, respectively.<br>
+
+<H4>Speech setup</H4>
+
+If you are using Windows XP, or have the Speech API installed, FS2_Open will be able to read briefings, techroom descriptions, and even in game messages to you using computer-generated voices. Although no match for real voice acting, it is convenient when valid plot points are mentioned in the middle of combat. Speech in the various locations can be turned on and off by checking and unchecking the check boxes; you can choose which of the installed voices to use in FS2_Open by changing the drop-down menu.<br>
+
+<H4>Video setup</H4>
+
+On the "Video" tab, you can choose which API to use (OpenGL or Direct3D), what resolution to run in, and whether to use anti-aliasing (Multisampling) or not.<br>
+"Allow non standard modes" will let you choose resolutions other than 1024x768 and 640x480. There may be some small graphics alignment errors, but these are generally small and virtually unnoticeable.<br clear="all">	   
+  
+
+<p><img src="FAQ-Images/Installing/Launcher02.jpg" border="0" width="334" height="468" alt="" align="left">
+<H4>Features setup</H4>	
+					 
+This tab is where most of FS2_Open's options can be toggled on and off. At the top is a readout of your current command line. You should include this if you ever need to report an error wtih FS2_Open.<br>
+													
+<P>"Easy setup" basically allows you to turn lots of features on or off at once. Generally most people use it and then fine tune the settings immediately afterwards. 
+
+<P>"Custom flags" allows you to add any command line flags that don't show up in the Launcher. This may be because they require additional arguments, as is the case with the "-fov" command line argument (for more information, you can see the <a href="http://wiki.hard-light.net/index.php/Command-Line_Reference" target="_blank">Command Line Flags</a> page of the wiki). For now though we'll just leave this bit blank.<br>
+
+Finally, the two boxes below this let you toggle the various new features in FS2_Open individually. The list type option lets you choose between graphics, sound etc and the tickboxes let you turn the feature on or off. A list of recommended settings for PCs is given <a href="http://wiki.hard-light.net/index.php/Sample_Lighting_Settings" target="_blank">here</a><br>
+
+<H4>Mod Settings</H4> 			 
+
+Now you might be thinking you haven't got any mods installed so you don't need to fiddle with this. You'd be wrong however. We installed the media VPs in such a way that FS2 will treat them as a mod. So click on Select Mod and choose the mediavps folder that you picked earlier.<br> 
+ The reason that we installed the media VPs as a mod is that if FS2_Open doesn't work you can click the no MOD button and run without them and check whether the problem is with the build or the media VPs. It also means that you can still run retail FS2 if you want to.<br clear="all"> 
+
+<P>Now you're done. Click run and have fun playing on FS2_Open. <br>
+
+ 
+<div style="text-align: center"><P><font size="+1"><a href="installingfs2.html">Previous:FS2</a></font>
+<font size="+2"><a href="installing.html">Home</a></font> 
+<font size="+1"><a href="installingmods.html">Next:Mods</a></font> </div>
+   
+   
+
+</TD></TR>
+
+</TABLE>
+</body>
+</html>
+
+
+
+

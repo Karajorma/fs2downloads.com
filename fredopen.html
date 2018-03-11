@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<title>The FreeSpace Oracle</title>
+</head>
+<body alink="LIMEGREEN" bgcolor="LIGHTSTEELBLUE" link="DARKBLUE"
+vlink="DARKRED">
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td><img src="FAQ-Images/Oracle.gif"></td>
+</tr>
+</tbody>
+</table>
+<table cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr valign="top">
+<td>
+<table width="200">
+<tbody>
+<tr>
+<td>
+<ul>
+<li><a href="intro.html">Home</a></li>
+<li><a href="general.html">General Questions</a></li>
+<li><a href="fred.html">FRED Questions</a></li>
+<ul><font size="-1">
+<li><a href="fredretail.html">Retail
+Help</a></li>
+<li><a href="fredretailtech.html">Retail Tech Help</a></li>
+<li><a href="fredopen.html">FRED_Open Help</a></li>
+<li><a href="fredopentech.html">FRED_Open Tech Help</a></li>
+<li><a href="fredcommonmistakes.html">Common Mistakes</a></li>
+<li><a href="fredcookbook.html">FRED Cookbook</a></li>
+</font></ul>
+</li>
+<li><a href="gameplay.html">Gameplay Questions</a></li>
+<li><a href="installing.html">Installing FreeSpace</a></li>
+<ul><font size="-1">
+<li><a href="installingfs2.html">Installing
+FS2</a></li>
+<li><a href="installingfs2_open.html">Installing
+FS2_Open</a></li>
+<li><a href="installingmods.html">Installing Mods</a></li>
+</font></ul>
+</li>
+<li><a href="technical.html">Technical Problems</a></li>
+<ul><font size="-1">
+<li><a href="fs1-technical.html">FreeSpace
+1</a></li>
+<li><a href="fs2-technical.html">FreeSpace 2</a></li>
+<li><a href="fs2_open-technical.html">SCP</a></li>
+<li><a href="movies.html">Cutscenes</a></li>
+</font></ul>
+</li>
+<li><a href="storyline.html">Storyline Questions</a></li>
+<li><a href="modding.html">Modding Questions</a></li>
+<li><a href="shipmods.html">Turreting Tutorial</a></li>
+<li><a href="glossary.html">Glossary</a></li>
+<li><a href="downloads.html">Downloads</a></li>
+<li><a href="tools.html">FreeSpace Tools</a></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td>
+		
+<A NAME="top"></A>
+<H1>Advanced FRED2_Open Help </H1>		 
+
+
+<A HREF="#conditionals">Conditionals</A><BR>	 
+<A HREF="#variables">Variables</A><BR>	  
+<A HREF="#Cutscenes">Cutscenes</A><BR>	
+	   
+<A NAME="conditionals"></A>					 
+<H2>New Conditionals</H2>
+						   
+<p><I><b>What are the new conditionals?</I></b>   
+
+<P> In the retail version of FRED2 all events began with the plain old boring <i>when</i> SEXP. You can do a lot with <i>when</i>. In fact until mid-2004 that was all you had. However there are some times when <i>when</i> just isn't enough. FS2_Open has added several new conditionals that fill in some of the gaps.  	
+
+<P><i><b>Every-Time</b></i>   
+
+<P>Every-Time is a version of when which continuously repeats itself for the entire duration of the mission. Unlike when an event using every-time can't ever become true or false. It is always incomplete regardless of however many times it has executed. Every-Time can basically be thought of as being the similar to a repeating event using When with a delay of 0. Due to the fact that events using Every-Time are never marked as true or false it can be used to solve problems with SEXPs like Key-Reset in repeating events. On the other hand you should never chain an event to one with every-time or use the event-true/event-false SEXPs with it as due to the fact it is always incomplete those events will never trigger. <br> 
+
+<p><I><b>When-Argument / Every-Time-Argument</I></b>   				
+
+<P>Probably the two most confusing of the new SEXPs for most people, these two SEXPs are also amongst the most powerful. Both SEXPs allow you to do things that previously would have required a lot of tiresome fiddling with variables. In addition they also allow you to do things in one event that previously could have required hundreds. <br>	 
+
+<P><img src="FAQ-Images/Fred-Tips/Argument-01.jpg" border="0" width="162" height="130" alt="" align="left">
+ You use these SEXPs like this. Suppose I had a scenario where I wanted something to happen if ever Alpha 1 got within 2000m of any of Cancer, Leo or Libra wings. What you could do is make an event like the one to the left for each wing. Then in a fourth event I'd check if any of the events had come true and then do whatever I wanted to happen. That works reasonably well but what if there were nine wings instead of three? I'd need ten events in total. Nine events checking to see if Alpha was close and one with an enormous or SEXP checking if any of those events had occurred. As you can see this would take a long time to make, uses up a large number of the SEXPs you're allowed in a mission and would be a pain in the neck to change if you wanted to add something to when the nine events trigger (suppose you later decide that it only matters where Alpha is after a certain capship arrives. You've now got to go back and edit all nine events). 	<br clear="all">
+ 
+<P>	<img src="FAQ-Images/Fred-Tips/Argument-02.jpg" border="0" width="182" height="192" alt="" align="right">
+When-Argument gives you a way to do this more simply. The SEXP allows you to declare a list of objects that the rest of the event will apply to. The event to the right replaces the four events I needed to check the distance from Leo, Cancer and Libra wings with a single event. If I wanted to do the same thing for nine enemy wings I wouldn't need any more events. I'd just add the names of the six extra wings below Libra. <br>
+ The event works quite simply. When the mission is running FS2 looks at the list of ships this event applies to. Wherever it sees the word <i>argument</i> it sticks in the name of the wing at the top of the list. If condition is true (i.e Alpha 1 is less than 2000m of Cancer wing) then the event triggers and whatever you've replaced do-nothing with will happen. If not FS2 goes back this time substituting the second name on the list wherever it sees <i>argument</i>. FS2 continues down the list until it reaches the end or finds something that triggers the event. 
+
+<P> It's worth noting that there is no requirement for the argument to be a ship or wing name. It can be anything, subsystem name, message name, event name, whatever you want. 
+
+<br clear="all">		
+
+<!-- <P>As you can see from the above example Every-Time-Argument (And When-Argument) both take a second conditional operator. For these you have 4 pretty self explanatory choices. 
+ <table border="0" summary="">
+	<tr>
+		<td>Any-Of</td>
+		<td>As in the above example this event will trigger as soon as the conditional part of the event evaluates to true for any of the arguments (e.g any of the enemy wings were close to alpha). </td>
+	</tr>
+	<tr>
+		<td>Every-Of</td>
+		<td>This time the conditional part of the event must be true for all the arguments. (e.g alpha must be close to all 3 enemy wings) </td>
+	</tr>
+	<tr>
+		<td>Number-Of</td>
+		<td>Allows you to specify the number of conditions which must come true for the event to trigger.</td>
+	</tr>
+	<tr>
+		<td>Random-Of</td>
+		<td>Picks a random argument. The conditional part of the event must be true for that particular argument. Be warned that if this is used with every-time-argument the game will pick a different random argument more than 20 times a second resulting in the event triggering for every single condition that can trigger it.</td>
+	</tr>
+</table> 
+
+<P> In addition to the 4 conditionals there is the Invalidate-Argument SEXP. Unlike the others this is an action operator so it replaces Do-Nothing not When. Invalidate-Argument removes the argument from the list meaning that the next time the event is checked that particular argument is ignored. If this isn't done certain SEXPs would trigger continuously.   -->
+
+<A NAME="variables"></A>					 
+<H2>Variables</H2>
+						   
+<P>One of the biggest changes in FS2_Open FREDding is that the ways you can use variables has been hugely improved. Support has been improved for string variables and a whole new class called persistent variables has been added. The problem is that if normal variables were confusing some people these ones confuse people even more. This section explains how to use the new variable features. You will need to be familiar with standard variables so if you haven't already read the variables section of the Advanced Retail FRED Help you should do so before reading this. <br>
+	  
+<p><I><b>What is a persistent variable?</I></b>    
+
+<P>Standard variables can only be used in the mission they appear in. At the end of the mission FS2 cleans up by wiping the variable completely.	<BR>
+Persistent variables on the other hand are recorded in the campaign file (or pilot file). As a result once you have declared a persistent variable you can use it in any later point in the campaign where it will remember the value it was set to earlier.  <BR>
+
+There are actually two kinds of persistent variables. Campaign Specific and Player Specific depending on where they are saved. The way they work is subtly different. <br>
+
+<P>The player specific variable is actually the simpler one of the two. Suppose in mission 2 of a campaign I set a player specific variable to 5. On loading mission 7 of the campaign the variable will still equal 5. Suppose I now set the value to 10. Shortly after this (while still in mission 7) the player gets killed. This time when the mission starts the variable equals 10. In other words PS variables always equal whatever they were last set to. <br>
+
+<P>The campaign specific variable works slightly differently. Taking the above example suppose in mission 2 of a campaign I set a player specific variable to 5. On loading mission 7 of the campaign the variable will still equal 5. Suppose I now set the value to 10. Shortly after this (while still in mission 7) the player gets killed again. On restarting the mission the variable is reset to 5 again. CS variables only permanently change when you move on to the next mission in the campaign. This makes them the more commonly used one of the two as persistent variables are generally used for recording hull percentages and other similar things which you don't wish to change should the mission require a restart. <br>	 
+<div style="text-align: right"><A HREF="http://dynamic.gamespy.com/~freespace/fsdoc/index.php?pagename=Persistent%20Variables" TARGET="_blank">Wiki Entry</A></div>		
+								  	  
+<p><I><b>What is a string variable?</I></b> 
+
+<P>While number variables store information string variables store one or more letters. You can store the names of ships, wings or even the argument used by one of the new conditionals and retrieve it later. Just in case that has you scratching your head let me give you an example of how powerful this could be. <br>
+ Suppose you were creating a mission where one of Alpha 1's wingmen was a traitor and you wanted the game to pick one of them at random to stop the player lining his gunsights up on them and waiting for them to turn red. While this was possible previously it would have been very tedious to set up. You'd have to get the game to pick a random number, assign it to a variable and then check what the value of the variable was (using one event for every possible traitor) every time you wanted to refer to the traitor. This is fine if the only check you'll be doing is whether or not the traitor has been destroyed but if you had 7 possible traitors and wanted something different to occur depending on whether or not they managed to jump out you'd need 15 events just to do that. <br>
+ With string variables you can do it in 3. <br>
+<P><img src="FAQ-Images/Fred-Tips/StringVariables01.jpg" border="0" width="186" height="233" alt="" align="left"> 
+This first event simply picks one of the 7 ships to be the traitor and records who it is in a variable called traitor. The True SEXP would be replaced by whatever conditions cause the traitor to be revealed. Because we are going to be using this variable in SEXPs like Has-Departed-Delay the default value must be the name of a ship that actually exists in the mission. I've used Alpha 1 cause we already know he's not the traitor so there is no possibility of confusion.<br clear="all"> 	
+
+<P><img src="FAQ-Images/Fred-Tips/StringVariables02.jpg" border="0" width="225" height="179" alt="" align="left">
+<img src="FAQ-Images/Fred-Tips/StringVariables03.jpg" border="0" width="226" height="182" alt="" align="right">
+The second and third events are similar. They check that a traitor has been revealed (i.e that the variable is no longer Alpha 1) and then check to see what has happened to the traitor ship. If the check was omitted these events could be triggered by Alpha 1 jumping out early or being killed before the traitor is revealed.<br>
+
+<p>So there we have something that would have been incredibly tedious to set up otherwise which now works in 3 events thanks to string variables and the new conditionals. 
+ <br clear="all">
+
+										   
+<A NAME="Cutscenes"></A>
+<p><H2>Cutscenes</H2>
+
+<p><I><b>How can I have an intro movie in my campaign?</I></b>
+		 
+<P> On startup FS2_Open looks for a file called intro. An avi or mpg with that name will be played on start up. A movie in moddir or moddir\data\movies will take precedence over the standard FS2 intro avi (assuming that you placed this in Freespace2\ or Freespace2\Data\Movies\)   <br>
+
+<P><i><b>How can I play a movie before the start of a mission/before the start of my campaign?</b></i>
+
+<P>Movies other than the intro are specified in the campaign editor. Open FRED. Open the campaign editor and load\create the campaign file you want. Select the mission you want the cutscene to be played before and type in the name of the movie into the briefing cutscene box. <br>
+If you want to play a cutscene before the campaign starts simply choose the first mission.	<br>
+
+<P><i><b>How can I play a cutscene after my campaign ends?</b></i>
+
+<p>The FS2 ending cutscenes are hard-coded. They are triggered only when the campaign is called Freespace2 and the special End-Campaign SEXP is triggered in the mission (Not the end-campaign SEXP in the campaign editor BTW). The game then triggers a file called endpart1 and then decides between endprt2a and endprt2b depending on how the mission went  <BR>
+There is currently no way to directly trigger an ending cutscene except by doing this and I have no idea what would happen if you tried it with any mission other than Apocalypse. <BR>
+What you can do however is to create a blank mission with no briefing which also ends the second it starts (using the end-mission SEXP) and stick the outro cutscene in front of that. Apart from a very brief appearance of the mission loading screen you probably wouldn't notice the difference. <br>	
+
+<i>NB. Work is in progress to remove this restriction and allow the mission designer to specify an outro without the need for a hack the one above. This will only be appearing in versions after 3.6.7 though. </i>
+   
+<P><A HREF="#top">Back To The Top</A> 
+</TD></TR>
+
+</TABLE>
+
+</body>
+</html>
+

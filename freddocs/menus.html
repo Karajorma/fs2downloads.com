@@ -1,0 +1,416 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> 
+<!-- Mirrored from fs2downloads.com/freddocs/menus.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:47:49 GMT -->
+<head>
+<title>Using FRED2: Menu Commands</title>
+<map name="menu">
+	<area shape="RECT" coords="5,12,106,24" href="index.html">
+	<area shape="RECT" coords="5,24,106,36" href="quickstart.html">
+	<area shape="RECT" coords="5,36,106,48" href="concepts.html">
+	<area shape="RECT" coords="5,48,106,60" href="toolbar.html">
+	<area shape="RECT" coords="5,60,106,72" href="menus.html">
+	<area shape="RECT" coords="5,72,106,84" href="walkthrough.html">
+	<area shape="RECT" coords="5,84,106,96" href="editors.html">
+	<area shape="RECT" coords="5,96,106,108" href="sexp.html">
+	<area shape="RECT" coords="5,108,106,120" href="internet.html">
+	<area shape="RECT" coords="5,120,106,132" href="index-no-really.html">
+</map>	
+<link href="fred2.css" rel="STYLESHEET" type="text/css">
+</head>
+
+<body bgcolor=white background="nacbkg1.gif">
+<table width="672" cellpadding=0 cellspacing=0>
+	<tr>
+		<td width="80">&nbsp;</td>
+		<td width="580"><img src="nactitle1.jpg" width=580 height=95 alt="" border="0"><br></td>
+	</tr>
+</table>
+<table width="672" cellpadding=0 cellspacing=0>	
+	<tr>
+		<td width="111" valign="top"><img src="nacmenu1.gif" width=111 height=142 alt="" border="0" usemap="#menu"></td>
+		<td width="561" valign="top">
+		
+<!--- START DRAKE STUFF --->
+<table width = 100% cellpadding=10>
+  <tr>
+    <td colspan=2>
+    <h1>Menu Commands</h1>
+    </td>
+  </tr>
+  <tr>
+    <td width=5%>&nbsp;</td>
+    <td valign=top>
+	<div class="copy">
+    This file describes the various items on the menubar at the top
+    of the FRED2 screen.  The <a href=editors.html>Editors Menu</a>
+    is not described here;  it's complicated enough to justify its own
+    file.
+    <p>
+    Many of the menu items have hotkeys, which are listed in the menus.
+    <p>
+    The sections of this file are:
+    <ul>
+      <li> <a href=#file>File Menu</a>
+      <li> <a href=#edit>Edit Menu</a>
+      <li> <a href=#view>View Menu</a>
+      <li> <a href=#speed>Speed Menu</a>
+      <li> <a href=#groups>Groups Menu</a>
+      <li> <a href=#misc>Misc Menu</a>
+      <li> <a href=#help>Help Menu</a>
+    </ul>
+	</div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+    <a name=file></a>
+    <h2>File Menu</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width=5%>&nbsp;</td>
+    <td valign=top>
+	<div class="copy">
+    <img src=file-menu.gif align=right hspace=10>
+    This is a typical <b>File</b> menu, as found in most
+    applications.  <b>New</b> creates a new, empty mission file.  <b>Open</b>
+    opens a previously saved mission.  <b>Save</b> saves the current
+    mission and <b>Save As</b> saves it with a new name.
+    <p>
+    <i>
+    The most important thing to remember in FRED2, as in any other
+    editor, is <b>SAVE EARLY AND OFTEN!</b>  There are few things more
+    frustrating than losing hours of work to a crash, power failure,
+    or editing error.
+    </i>
+    <p>
+    Missions must be saved in the <code>data/missions</code>
+    subdirectory of your main FreeSpace 2 directory; otherwise the game will
+    not be able to find them.
+    </font></i>
+    <p>
+    <b>Revert</b> cancels any changes made since you last saved the
+    mission.  If you're not confident in your ability to do something,
+    save the mission first and then <b>Revert</b> if you mess up.
+    <p>
+    <b>Run FreeSpace</b> runs the FreeSpace 2 game.  This is useful
+    for testing your missions.
+    <p>
+    A list of recently-edited missions also appears on the <b>File</b>
+    menu.  Clicking on one of these will load that mission.  (Clicking
+    on the name of the current mission has no effect.)
+    <p>
+    Finally, <b>Exit</b> quits FRED2.
+    <p>
+    If a mission file becomes corrupted, you might be able to recover
+    some of your lost work.  In Windows, open the
+    <code>data\missions</code> subdirectory of your main
+	  FreeSpace 2 directory.  You will see files named
+	  <code>Backup.001</code> (most recent) through
+	  <code>Backup.009</code>.  Try renaming these (with
+	  <code>.fs2</code> extensions) and opening them in the
+    FRED2.
+    	  <p>
+    These backup files only get updated when you <b>Save</b>.  If you
+    started a fresh mission, worked for two hours without
+    saving, and then had your computer crash, there's no hope of
+	  recovery;  you'll have to start over.
+	</div>
+    </td>
+</tr>
+  <tr>
+    <td colspan=2>
+    <a name=edit></a>
+    <h2>Edit Menu</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width=5%>&nbsp;</td>
+    <td valign=top>
+	<div class="copy">
+    <img src=edit-menu.gif align=right hspace=10>
+    The first item on this menu is the ability to <b>Undo</b> your most
+    recent action.  This action will be named;  in the picture at
+    right, the most recent action was the creation of a new object.
+    <p>
+    If you <b>Undo</b>, you can then <b>Undo</b> your second most recent action, and
+    so on.  (There is no redo.)
+    <p>
+    There are many actions that cannot be undone.  If you're going to
+    do something tricky, save first!
+    <p>
+    <b>Delete</b> deletes all currently marked objects.  The hotkey
+    for this (<code>Del</code>, reasonably enough) is probably worth
+    remembering.
+    <p>
+    <b>Delete Wing</b> deletes the selected ship and any others in the
+    same wing.
+    <p>
+    <b>Disable Undo</b> makes it impossible to <b>Undo</b>.  This may seem
+    like a rather strange option.  It is there because <b>Undo</b> has
+    to keep track of a "stack" of previous actions, which takes up
+    memory.  When editing a complicated mission on a slow machine,
+    disabling <b>Undo</b> may make FRED2 run faster.
+	</div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+    <a name=view></a>
+    <h2>View Menu</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width=5%>&nbsp;</td>
+    <td valign=top>
+	<div class="copy">
+    <img src=view-menu.gif align=right hspace=10>
+    This menu contains many options for controlling what you see in
+    the main FRED2 window.  If something is checked, you can see the
+    specified information.  There are three reasons for turning
+    anything off:
+    <ul>
+      <li>Some information is useful so rarely that it's not worth the
+	  clutter.
+      <li>Not displaying some objects can make it easier to manipulate
+	  others.
+      <li>On a slow machine, turning off some options (especially
+	  <b>Show Ship Models</b>) can make FRED2 run faster.
+    </ul>
+    <p>
+    You can show or hide the <a href=toolbar.html>Toolbar</a> and the
+    <a href=concepts.html#status>Status bar</a>.
+    <p>
+    <b>Display Filter</b> is a submenu that lets you show or hide
+    various types of objects.  (<b>Show Player Starts</b> shows ships
+    which are flown by players.)
+    <p>
+    <b>Hide Marked Objects</b> makes all marked objects invisible.  To
+    see them again, click on <b>Show Hidden Objects</b>.
+    <p>
+    <b>Show Ship Models</b> renders ships in all their 3D
+    texture-mapped glory.  This is a great way to get a close,
+    detailed look at FreeSpace 2's gorgeous models.
+    <p>
+    <b>Show Outlines</b> shows colored wire-frame outlines of ships.
+    <br clear=all>
+    <p>
+	</div>
+    <table border=1 cellspacing=0 cellpadding=5>
+      <tr>
+	<th align=left>Color</th>
+	<th align=left>Meaning</th>
+      </tr>
+      <tr>
+	<td>Green</td>
+	<td>Player</td>
+      </tr>
+      <tr>
+	<td>Dark Blue</td>
+	<td>Friendly</td>
+      </tr>
+      <tr>
+	<td>Red</td>
+	<td>Hostile</td>
+      </tr>
+      <tr>
+	<td>Light Blue</td>
+	<td>Neutral</td>
+      </tr>
+      <tr>
+	<td>Orange</td>
+	<td>Unknown</td>
+      </tr>
+      <tr>
+	<td>White</td>
+	<td>Selected</td>
+      </tr>
+      <tr>
+	<td>Gold</td>
+	<td>Marked</td>
+      </tr>
+</table>
+<div class="copy">
+<p>
+If you have <b>Show Ship Models</b> selected, ships which are
+marked or selected will have wire frames even if this option is turned
+off.
+<p>
+If both <b>Show Ship Models</b> and <b>Show Ship Outlines</b>
+are turned off, each ship will appear as a large, colored dot.
+The dot indicates the center of the ship.  FRED2 still "imagines" that
+the model is there, though, so you may have trouble clicking on a
+nearby object;  the invisible ship model is "in the way".
+<p>
+<b>Show Ship Info</b> displays the name of each object, as well as a
+code indicating its type.
+<p>
+<b>Show Coordinates</b> displays the <b>X</b>, <b>Y</b>, and <b>Z</b>
+coordinates of each object.
+<p>
+If <b>Show Grid Positions</b> is checked, a line will be drawn between
+each object and the grid.  This makes it easier to tell where objects
+are located in three-dimensional space.
+<p>
+<b>Show Distances</b> is just like the <a href=toolbar.html#show-distances>Show Distances</a> button on the
+<a href=toolbar.html>Toolbar</a>.
+<p>
+<b>Show Model Paths</b> displays the paths used by ships which are
+approaching a ship to dock with it or attack a particular turret.
+<p>
+<b>Show Model Dock Points</b> displays the locations on a ship where
+another ship can dock with it.
+<p>
+<b>Show Grid</b> displays a lattice of white lines that makes it easier
+to "eyeball" coordinates.  There is an item in the <a href=#misc>Misc
+Menu</a> for adjusting the grid.
+<p>
+<b>Show Horizon</b> displays a line all the way around the sky.  This
+will be invisible if the grid is on in its default position.
+<p>
+<b>Double Fine Gridlines</b> and <b>Anti-Aliased Gridlines</b> make
+the grid lines look a bit nicer.
+<p>
+<img src=3d-compass.gif align=right hspace=10>
+<b>Show 3D Compass</b> displays red, green, and blue lines in the
+upper right corner of the screen, below the camera position.  The red
+line shows the direction of increasing <b>X</b> values, green
+<b>Y</b>, and blue <b>Z</b>.
+<p>
+<b>Show Backround</b> displays the starfield and anything that has
+been added with the <a href=editors.html#background>Background
+Editor</a>.  This feature is a little flaky;  if it fails to update
+properly, try saving your mission, restarting FRED2, and reloading the
+mission.  Also, most background features (such as <a
+href=editors.html#background>planets</a>) look better during the
+mission than they do in FRED2.
+<p>
+<b>Viewpoint</b> lets you view the mission from the point of view of a
+particular ship.  This is nice if you want to set up a majestic
+opening view for the player.
+<p>
+In <b>Current Ship</b> view, the camera movement keys will move the ship.
+Also if you have <b>Show Ship Models</b> on, your view may be
+partially obstructed by parts of the ship you're "in".
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+    <a name=speed></a>
+    <h2>Speed Menu</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width=5%>&nbsp;</td>
+    <td valign=top>
+	<div class="copy">
+    <img src=speed-menu.gif align=right hspace=10>
+    This controls how fast the camera (or selected ship, if using the <a
+    href=#view>Current Ship</a> viewpoint) moves.  Turn it
+    up when you have 
+    to cover a lot of ground, down when you need precision.
+    <br clear=all>
+	</div>
+    </td>
+</tr>
+  <tr>
+    <td colspan=2>
+    <a name=groups>
+    <h2>Groups Menu</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width=5%>&nbsp;</td>
+    <td valign=top>
+	<div class="copy">
+    <img src=groups-menu.gif align=right hspace=10>
+    This menu lets you define a group consisting of the currently
+    marked objects, or mark a previously-set group.  These groups
+    exist only within FRED2, and have no effect when playing the mission.
+    <br clear=all>
+	</div>
+    </td>
+</tr>
+  <tr>
+    <td colspan=2>
+    <a name=misc></a>
+    <h2>Misc Menu</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width=5%>&nbsp;</td>
+    <td valign=top>
+	<div class="copy">
+    <img src=misc-menu.gif align=right hspace=10>
+    This menu contains a collection of miscellaneous items.
+    <p>
+    <b>Level Object</b> makes the camera (or object if in <a
+    href=#view>Current Ship</a> view) level with the grid.  <b>Align
+    Object</b> makes it parallel to the grid axes with as little
+    rotation as possible.
+    <p>
+    <b>Mark Wing</b> marks all ships in the same wing with the
+    currently selected ship, and selects the leader of that wing.
+    <p>
+    <b>Control Object</b> makes the camera controls move the marked
+    object(s) instead of the camera.
+    <p>
+    <b>Next Object</b> and <b>Previous Object</b> cycle the selection
+    through all objects in the mission.
+    <p>
+    <br clear=all>
+    <img src=adjust-grid-dialog.gif align=right hspace=10>
+    <b>Adjust Grid</b> brings up a dialog box for changing the
+    orientation of the grid.  Newly placed ships will appear on the
+    grid.  (With the setting shown at right, all newly placed ships
+    will have an <b>X</b> value of 1000.)
+    <p>
+    <b>Next Subsystem</B> and <b>Prev Subsystem</b> cycle through the
+    turrets on a ship;  this is a very good way to figure out which
+    turret is which.  Pick <b>Cancel Subsystem</b> when you no longer
+    need this option.
+    <p>
+    <b>Mission Statistics</b> shows some useful information about your
+    mission as a whole.
+    <p>
+    The <b>Error Checker</b> checks the mission for various problems,
+    such as wings with too many ships in them.  Ths is run
+    automatically when you <a href=#file>Save</a> the mission, so you
+    might as well just do that.
+    <br clear=all>
+	</div>
+    </td>
+</tr>
+  <tr>
+    <td colspan=2>
+    <a name=help></a>
+    <h2>Help Menu</h2>
+    </td>
+  </tr>
+  <tr>
+    <td width=5%>&nbsp;</td>
+    <td valign=top>
+	<div class="copy">
+    <img src=help-menu.gif align=right hspace=10>
+    <b>Help Topics</b> opens this file.  <b>About FRED</b> displays
+    the current version number.
+    <p>
+    <b>Show Sexp Help</b> describes (within the <a
+    href=editors.html>Editors</a>) any currently highlighted
+    <b>SEXP</b>.  This should almost certainly be checked.
+    <br clear=all>
+	</div>
+    </td>
+</tr>
+</table>
+
+
+<!--- END DRAKE STUFF --->
+		</td>
+	</tr>
+</table>
+
+</body> 
+<!-- Mirrored from fs2downloads.com/freddocs/menus.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 08 Mar 2018 15:47:51 GMT -->
+</html>
